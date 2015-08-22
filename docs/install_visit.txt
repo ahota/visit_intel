@@ -1,0 +1,138 @@
+Installing VisIt 2.8.1 on Blackrock
+
+0. Notes and pre-requisites
+1. Install VisIt on host Xeon
+2. Patch host VisIt with OSPRay for Phi
+3. Cross-compile VisIt for Phi
+
+-------------------------------------------------------------------------------
+
+0. Notes and pre-requisites
+
+  - You should have the steps in setup.txt completed BEFORE continuing! This 
+    means you have:
+      - The Phi set up and accessible
+      - An NFS mount for the Phi on the local disk
+      - Intel compilers working with flexLM server running
+      - OSPRay built for Phi
+  - It's a good idea to have /opt/intel/lib/intel64 in LD_LIBRARY_PATH before
+    installing. I have
+    export LD_LIBRARY_PATH=/opt/intel/lib/intel64:$LD_LIBRARY_PATH
+    in my .bashrc file
+  - Make sure that icc/icpc and the flexLM server are working
+  - I have
+    export PATH=/opt/intel/bin:$PATH
+    in my .bashrc as well so that icc/icpc are easier to call
+
+-------------------------------------------------------------------------------
+
+1. Install VisIt on host Xeon
+
+Get the build_visit script from here:
+https://wci.llnl.gov/simulation/computer-codes/visit/source
+These steps are for 2.8.1, but may/should work for 2.8
+
+Build command:
+./build_visit2_8_1 --console --vtk --cmake --python --szip --hdf5 --netcdf --silo --cc icc --cxx icpc --manta --makeflags '-j4'
+
+1.1 Problems encountered and Solutions:
+
+  P: CMake won't build--
+     Error when bootstrapping CMake:
+     Cannot find appropriate C compiler on this system.
+     Please specify one using environment variable CC.
+     See cmake_bootstrap.log for compilers attempted.
+  S: icc/icpc aren't being found. Add /opt/intel/bin/ to $PATH
+
+  P: Python won't build--
+     ld: final link failed: Nonrepresentable section on output
+  S: Intel's libimf.so (among other things) isn't linked. Add 
+     /opt/intel/lib/intel64 to $LD_LIBRARY_PATH
+
+  P: VTK won't build--
+     CMake Error at cmake_install.cmake:36 (FILE):
+       file cannot create directory: /usr/local/lib/cmake/vtk-6.1.  Maybe need
+       administrative privileges.
+  S: VTK's installation directory is not set correctly. VTK needs to be 
+     installed manually. In VTK-6.1.0-build, run 'ccmake .' and change 
+     CMAKE_INSTALL_PREFIX to
+     <base_visit_dir>/visit/vtk/6.1.0/linux-x86_64_icc/
+     Configure and generate.
+     Run 'make -j 4' and then 'make install'
+
+  P: Manta won't build--
+     make: *** No targets specified and no makefile found.  Stop.
+  S: cmake is never called on Manta. Manta needs to be installed manually
+     using steps similar to VTK:
+     In manta-2540/, run 'ccmake .'
+     Change CMAKE_C_COMPILER and CMAKE_CXX_COMPILER to
+     '/opt/intel/bin/icc' and
+     '/opt/intel/bin/icpc' respectively 
+     Configure
+     Change CMAKE_INSTALL_PREFIX to
+     '/export/ahota/visit/visit/manta/2540/linux-x86_64_icc/'
+     Configure and generate
+     Run 'make -j 4' and 'make install'
+
+  P: VisIt won't build--
+     CMake Error at CMake/FindVisItQt4.cmake:94 (MESSAGE):
+       Invalid Qt4 Binary Path
+  S: Qt wasn't properly built with icc/icpc. The easiest solution is to use
+     the system Qt 4 installation by adding '--system-qt' to the build_visit
+     command. You may have to add /usr/lib64/qt4/bin to the beginning of $PATH
+     to use Qt 4.
+     To try using the downloaded version of Qt:
+     In qt-everywhere-opensource-src-4.8.3/, run
+     './configure -prefix <base_visit_dir>/visit/qt/4.8.3/linux-x86_64_icc/
+     -platform linux-icc-64'
+     Select 'o' for open source and say yes to license
+     Run gmake (it takes a LONG time)
+     At the end, it might present an error relating to gstreamer-app-0.10. It 
+     seems that this can be safely ignored.
+     Run gmake install
+
+  P: VisIt won't build--
+     Python can't find libpython2.7.so
+  S: Add /export/ahota/visit/visit/python/2.7/linux-x86_64_icc/lib to
+     LD_LIBRARY_PATH
+
+-------------------------------------------------------------------------------
+
+2. Patch host VisIt with OSPRay for Phi
+
+Git clone the dev branch of https://github.com/TACC/visitOSPRay
+This will contain a src/avt/Plotter directory. Copy the contents of Plotter/
+into <base_visit_dir>/visit2.8.1/src/avt/Plotter.
+
+Return to <visit_dir>/src and run 'ccmake .'
+The follow options need to be set:
+  - OSPRAY_BUILD_DIR   = location of an OSPRay build. I built out-of-source
+  - OSPRAY_DIR         = location of the original OSPRay source
+  - OSPRAY_CMAKE       = the cmake/ directory inside the original OSPRay source
+  - OSPRAY_CC          = ICC
+  - OSPRAY_MIC         = ON or OFF depending on your build
+  - OSPRAY_MPI         = ON or OFF depending on your build
+  - OSPRAY_XEON_TARGET = AVX or AVX2 depending on your CPU
+
+For example, I set these to:
+  - OSPRAY_BUILD_DIR   = /export/ahota/ospray/phi
+  - OSPRAY_DIR         = /export/ahota/ospray/src
+  - OSPRAY_CMAKE       = /export/ahota/ospray/src/cmake
+  - OSPRAY_CC          = ICC
+  - OSPRAY_MIC         = ON
+  - OSPRAY_MPI         = OFF
+  - OSPRAY_XEON_TARGET = AVX2
+
+Configure and generate the makefile, then run 'make -j 4'
+
+-------------------------------------------------------------------------------
+
+3. Cross-compile VisIt for Phi
+
+I used the visit2.8.1 tar provided here:
+https://wci.llnl.gov/simulation/computer-codes/visit/source
+
+My Phi-mounted directory is /export/phi, so I extracted the tar to 
+/export/phi/visit/
+
+

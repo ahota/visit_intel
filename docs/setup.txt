@@ -1,0 +1,98 @@
+Blackrock setup log
+
+MPSS
+  - Current version is 3.4.3
+    - http://registrationcenter.intel.com/irc_nas/6253/mpss-3.4.3-linux.tar
+    - Blackrock/Thar both have 3.4.1
+  - sudo vim /etc/selinux/config, edit:
+	SELINUX=enforcing -> SELINUX=disabled
+  - Reboot
+  - cd mpss-3.4.1-linux.tar
+  - cp ./modules/*`uname -r`*.rpm .
+  - sudo yum install *.rpm (may need to use --nogpgcheck)
+  - sudo modprobe mic
+  - sudo micctrl --initdefaults
+  - Confirm the Phis are ready with micctrl -s
+    - If they're not ready, micctrl -rw, try again
+  - sudo /usr/bin/micflash -update -device all
+  - sudo chkconfig mpss on
+  - Reboot
+
+NFS mount for Phi
+The following instructions are from
+System Administration for the Intel Xeon Phi Coprocessor
+MPSS 3.4
+
+  - Allow ports 2049 and 111 in iptables. This allows NFS mounting.
+    iptables -I INPUT -m state --state NEW -p tcp -m multiport --dport
+111,892,2049,32803 -s 172.31.1.1/24 --j ACCEPT
+    iptables -I INPUT -m state --state NEW -p udp -m multiport --dport
+111,892,2049,32769 -s 171.31.1.1/24 --j ACCEPT
+  - Make these changes persistent:
+    service iptables save
+  - Create a directory to be mounted, e.g. /export/phi, on the host
+  - Edit /etc/exports on the host, and add:
+    /export/phi 172.31.1.1/24(rw,no_root_squash)
+  - Edit /etc/hosts.allow on the host, and add:
+    ALL: 172.31.1.1
+  - Run 'exportfs -a' to notify NFS of changes
+  - Run micctrl to update the Phi's /etc/fstab:
+    micctrl --addnfs=172.31.1.254:/export/phi --dir=/phi
+  - Restart MPSS:
+    service mpss restart
+  - SSH to the Phi and run:
+    mkdir /phi
+    mount -a
+
+FLEXlm License Server
+  - Extremely annoying
+  - registrationcenter.intel.com to modify host information in the license
+    - Must do this! It adds unique signatures
+  - Double check that /bin/hostname gives the expected hostname
+  - "Unknown Hostname" error:
+    - sudo vim /etc/hosts
+    - Add a line that says:
+      127.0.0.1   <hostname>
+  - "Not a valid server hostname":
+    - The name it says is 'valid' is actually just the one in the file
+    - The first name is what it should be
+    - That makes no sense, but it's true
+
+Parallel Studio XE 2015
+  - Install these packages on CentOS (available through yum):
+    - libstdc++.i686
+    - glibc.i686
+    - libgcc.i686
+  - Note: Install as root with sudo, otherwise installer complains that there
+          is another instance of the installer running for some reason
+  - Add /opt/intel/bin to PATH (either in .bashrc/.zshrc or export manually)
+  - Run icc/icpc to check if the license server is running
+
+OSPRay
+  - yum install freeglut-devel (if not already installed)
+  - Good directory structure:
+    ospray/
+     |--src/
+     |--xeon/
+     |--phi/
+     |--examples/
+     `--ispc-v1.8.1-linux <-- unpacked ispc tar
+  - OSPRay source: git clone https://github.com/ospray/ospray src
+  - ISPC: https://ispc.github.io/downloads.html (get binaries)
+  - OSPRay cmake/ispc.cmake (as of v0.7.1) requires ISPC v1.8.0
+    - Change to 1.8.1 or current version
+  - ccmake options for Xeon build:
+    - OSPRAY_APPS_VOLUMEVIEWER ON (some of the examples use it)
+    - OSPRAY_COMPILER ICC
+    - OSPRAY_XEON_TARGET AVX2 (Blackrock has a Haswell Xeon with AVX2)
+  - Test OSPRay with examples, instructions in ospray_tests.txt
+  - ccmake options for Phi build:
+    - OSPRAY_APPS_VOLUMEVIEWER ON
+    - OSPRAY_COMPILER ICC
+    - OSPRAY_BUILD_MIC_SUPPORT ON
+      - OSPRAY_BUILD_COI_DEVICE ON (this only shows after configuring the
+        above)
+    - OSPRAY_XEON_TARGET AVX2
+  - Test OSPRay as before with --osp:coi
+
+

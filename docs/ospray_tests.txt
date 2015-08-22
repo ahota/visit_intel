@@ -1,0 +1,54 @@
+Testing OSPRay with example datasets
+Details from http://ospray.github.io/demos.html
+
+Note: Ingo has stated the GLUT-based viewers (ospModelViewer, etc.) may be
+      deprecated soon.
+
+Download all examples:
+  - Copy osp_examples.tar and expand it in examples/
+    - Contains the 8 examples from the demos website in structured folders 
+
+Environment variables:
+  - 
+
+Running:
+  - The following are for Xeon. To run on Phi:
+    - Append --osp:coi to all commands
+    - export OSPRAY_COI_WORKER=<ospray_build_dir>/ospray_coi_worker.mic
+    - export SINK_LD_LIBRARY_PATH=<ospray_build_dir>
+
+  - magnetic-1024-iso
+    - ./ospModelViewer ../examples/m1024/magnetic-1024-iso.x3d --renderer ao4
+
+  - magnetic-512-volume
+    - ./ospVolumeViewer ../examples/m512/magnetic-512-volume.osp
+
+  - llnl-2048-iso
+    - ./ospModelViewer ../examples/llnl/llnl-2048-iso.xml --renderer ao4
+
+  - csafe-heptane-302-volume
+    - ./ospVolumeViewer ../examples/csafe/csafe-heptane-302-volume.osp
+
+  - tacc-turbulence-256-volume
+    - ./ospVolumeViewer ../examples/tt256/tacc-turbulence-256-volume.osp
+
+  - fiu-groundwater
+    - ./ospModelViewer ../examples/fiu/fiu-groundwater.xml --renderer ao
+    - ./ospModelViewer ../examples/fiu/fiu-groundwater.xml --renderer obj --sun-dir -1.5 -1 -1
+
+  - xfrog-forest
+    - ./ospModelViewer ../examples/xfrog/xfrog-forest.xml --renderer obj
+
+  - NASA-B-field-sun
+    - ./ospStreamLineViewer ../examples/nasa/NASA-B-field-sun.osx --renderer ao4
+
+Note: XFrog forest is known to cause a long delay before rendering. This is due
+      to the high number of triangles in the model.
+
+Known controls:
+  - WASD, camera tilt/rotate
+  - F, fullscreen
+  - R, reset view
+  - Left mouse click & drag, tilt/rotate
+  - Right mouse click & drag, zoom
+  - Middle mouse click & drag, pan
