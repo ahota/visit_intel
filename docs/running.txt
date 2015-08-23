@@ -1,0 +1,68 @@
+Running VisIt with OSPRay rendering
+
+VisIt works with a client-server pattern. The local machine is the client, and
+runs the viewing window in GUI mode or the CLI in CLI mode.
+
+The server can exist on either the local machine, or some other accessible 
+machine, and the VisIt engine runs here. If the server is on your local
+machine, the server is a separate process. If the server is a remote machine,
+then VisIt uses RPC to control the engine on the remote machine.
+
+If you are running completely locally, one installation of VisIt is enough.
+However if you plan to use a Phi to run a VisIt server, you will need to
+cross-compile the VisIt engine for the Phi. Instructions for this are in
+install_visit.txt.
+
+Current limitations:
+ - OSPRay rendering only occurs on the engine
+ - Pseudocolor plots are the only type of plot supported
+
+-------------------------------------------------------------------------------
+
+To run VisIt locally with OSPRay
+
+GUI mode:
+  - Change directories to VisIt bin directory
+    - e.g. for me this is /export/ahota/visit/visit2.8.1/src/bin
+  - Run ./visit -gui -ospray
+    - Optionally add "-debug <1-5>" and/or "-verbose"
+  - Go to Options->Rendering...->Advanced tab, and select "Always" for
+    Scalable Rendering. This will force rendering to happen on the engine. Hit
+    Apply and Dismiss
+  - Open any obj file
+  - Add a Pseudocolor plot
+    - e.g. mesh_quality->area
+  - Click Draw
+  - The viewing window should show the image rendered with OSPRay along with
+    all correct annotations, including legend/colormap, and axes
+
+CLI mode:
+  - 
+
+-------------------------------------------------------------------------------
+
+To run VisIt + remote engine with OSPRay
+(assuming remote engine is on a Phi)
+
+GUI mode:
+  - Change directories to VisIt bin directory
+    - e.g. for me this is /export/ahota/visit/visit2.8.1/src/bin
+  - Run ./visit -gui -ospray
+    - Optionally add "-debug <1-5>" and/or "-verbose"
+  - Go to Options->Rendering...->Advanced tab, and select "Always" for
+    Scalable Rendering. This will force rendering to happen on the engine. Hit
+    Apply and Dismiss
+  - Go to Options->Host Profiles..., and click New Profile
+  - Fill in the hostname, location of VisIt installation, and any special SSH
+    command required
+  - Under the Launch Profile tab, create a new profile, make any name, and add
+    "-ospray" to Additional Parameters
+  - Apply and dismiss
+  - Open any obj file
+  - Add a Pseudocolor plot
+    - e.g. mesh_quality->area
+  - Click Draw
+  - The viewing window should show the image rendered with OSPRay on the Phi
+
+CLI mode:
+  - 
