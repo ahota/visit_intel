@@ -1,3 +1,9 @@
+######################################################################
+# NOTE:                                                              #
+#   For instructions on running VisIt with OSPRay, read running.txt  #
+#   These instructions are for installing VisIt                      # 
+######################################################################
+
 Installing VisIt 2.8.1 on Blackrock
 
 0. Notes and pre-requisites
@@ -129,10 +135,22 @@ Configure and generate the makefile, then run 'make -j 4'
 
 3. Cross-compile VisIt for Phi
 
+VisIt requires VTK, which further requires OSMesa (since the Phi does not have
+graphics hardware). VTK and OSMesa must be cross-compiled for the Phi before
+installing VisIt. Instructions for cross-compiling these two are taken from
+this site:
+http://www.paraview.org/Wiki/ParaView_and_VTK_on_Xeon_Phi_(KNC)
+
+NEED TO CC HDF5 AS WELL
+http://linux4hippos.blogspot.com/2013/05/cross-compile-hdf5-for-intel-xeon-phi.html
+
+3.1 Cross-compile Mesa for Phi
+
+
+
 I used the visit2.8.1 tar provided here:
 https://wci.llnl.gov/simulation/computer-codes/visit/source
 
 My Phi-mounted directory is /export/phi, so I extracted the tar to 
 /export/phi/visit/
-
 

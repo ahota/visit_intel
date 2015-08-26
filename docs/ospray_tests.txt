@@ -1,3 +1,9 @@
+######################################################################
+# NOTE:                                                              #
+#   For instructions on running VisIt with OSPRay, read running.txt  #
+#   These instructions are for testing an OSPRay installation.       # 
+######################################################################
+
 Testing OSPRay with example datasets
 Details from http://ospray.github.io/demos.html
 

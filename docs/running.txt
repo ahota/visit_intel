@@ -1,3 +1,15 @@
+Using this repo
+
+A source build of VisIt is required for the files in this repo to work. For
+instructions on building VisIt, read install_visit.txt.
+
+The gist is to download the build_visit script for VisIt 2.8.1 from
+https://wci.llnl.gov/simulation/computer-codes/visit/source
+with the following flags:
+--console --vtk --cmake --python --szip --hdf5 --netcdf --silo --cc icc --cxx icpc --manta --makeflags '-j4'
+
+-------------------------------------------------------------------------------
+
 Running VisIt with OSPRay rendering
 
 VisIt works with a client-server pattern. The local machine is the client, and
@@ -19,7 +31,7 @@ Current limitations:
 
 -------------------------------------------------------------------------------
 
-To run VisIt locally with OSPRay
+To run VisIt locally (i.e. on Xeon only) with OSPRay
 
 GUI mode:
   - Change directories to VisIt bin directory

@@ -1,3 +1,9 @@
+######################################################################
+# NOTE:                                                              #
+#   For instructions on running VisIt with OSPRay, read running.txt  #
+#   These instructions are for setting up a machine from a bare OS.  #
+######################################################################
+
 Blackrock setup log
 
 MPSS
