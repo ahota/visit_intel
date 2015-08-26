@@ -8,6 +8,13 @@ https://wci.llnl.gov/simulation/computer-codes/visit/source
 with the following flags:
 --console --vtk --cmake --python --szip --hdf5 --netcdf --silo --cc icc --cxx icpc --manta --makeflags '-j4'
 
+The src/ directory in this repo can then overwrite the src/ directory in the
+VisIt build (not the install directory). Some files in this repo's src/ 
+directory will overwrite source files in the original VisIt build.
+
+Once you have copied these files over, run make again in the VisIt build
+directory.
+
 -------------------------------------------------------------------------------
 
 Running VisIt with OSPRay rendering
