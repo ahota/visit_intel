@@ -1,0 +1,27 @@
+If you have a SWR shared object library, you'll need to add it to the
+LD_LIBRARY_PATH environment variable so that it can be loaded by VisIt.
+The following command will update the variable:
+
+$ export LD_LIBRARY_PATH=/path/to/SWR:$LD_LIBRARY_PATH
+
+The reason I have put the library file location first is that this should
+prevent VisIt from loading GL/Mesa before SWR.
+
+Once done, cd to the VisIt test directory. For example, I go to:
+
+$ cd /export/ahota/visit/visit2.8.1/test
+
+The test directory is alongside the src and data directories in a source build.
+To run the tests, use this command:
+
+$ ./visit_test_suite -n 1 --pixdiff=8 --avgdiff=5
+
+The '-n 1' option makes the tests run serially in a single thread. I chose this
+to make sure there were no errors caused by multi-threaded performance.
+However the downside is that the full test suite will take a few hours to
+complete.
+
+The pixdiff and avgdiff options allow for some differences between the
+rendered and baseline images without marking the images as failed. These values
+are somewhat arbitrary, but provide a reasonably low false-positive rate in
+the results

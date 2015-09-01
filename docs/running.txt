@@ -12,8 +12,24 @@ The src/ directory in this repo can then overwrite the src/ directory in the
 VisIt build (not the install directory). Some files in this repo's src/ 
 directory will overwrite source files in the original VisIt build.
 
-Once you have copied these files over, run make again in the VisIt build
-directory.
+Once you have copied these files over, you will need to run CMake again to
+update the makefile:
+
+$ cmake -DVISIT_OSPRAY=ON -DOSPRAY_DIR=/path/to/ospray/src                \
+    -DOSPRAY_CMAKE_DIR=/path/to/ospray/src/cmake                          \
+    -DOSPRAY_BUILD_DIR=/path/to/ospray/phi/build                          \
+    -DLIB_OSPRAY=/path/to/ospray/phi/build/libospray_mic.so               \
+    -DLIB_OSPRAY_EMBREE=/path/to/ospray/phi/build/libospray_embree_mic.so \
+    -DCMAKE_INSTALL_PREFIX=/path/to/install
+
+Note that the install location should be a path available to the Phi!
+
+After CMake, run:
+
+$ make //optionally with -j 8
+$ make install
+
+If make ran successfully, you should now be able to test VisIt + OSPRay
 
 -------------------------------------------------------------------------------
 
