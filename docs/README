@@ -1,3 +1,11 @@
-The documents in this directory list instruction on various phases of the
+#Documentation
+
+The documents in this directory list instructions on various phases of the
 process of going from a bare computer to running VisIt with OSPRay on the Phi, 
 or SWR on Xeon.
+
+install_visit.txt - How to install VisIt from source
+ospray_tests.txt  - Testing an OSPRay installation
+running.txt       - Running VisIt with OSPRay
+setup.txt         - Preliminary setup (MPSS, FlexLM, Parallel Studio, etc)
+swr_tests.txt     - Running VisIt with SWR
