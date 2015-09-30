@@ -20,6 +20,12 @@
 // .SECTION see also
 // vtkVolumeMapper
 
+ //
+ // Carson: 6/18/2015: note that for Paraview 4.3 I had to modify 
+ //   ParaViewCore/VTKExtensions/Rendering/vtkPVLODVolume.h to not check
+ //  for valid scalars before rendering volumetric data.
+ //
+
 #ifndef __vtkOSPRayVolumeRayCastMapper_h
 #define __vtkOSPRayVolumeRayCastMapper_h
 
@@ -27,9 +33,17 @@
 #include "vtkVolumeMapper.h"
 #include "vtkVolumeRayCastFunction.h" // For vtkVolumeRayCastStaticInfo
                                       // and vtkVolumeRayCastDynamicInfo
-#include "vtkOSPRayModule.h"
+//#include "vtkOSPRayModule.h"
+#include <vector>
 
 
+
+namespace osp
+{
+  class Volume;
+  class Model;
+  class TransferFunction;
+}
 
 class vtkEncodedGradientEstimator;
 class vtkEncodedGradientShader;
@@ -272,6 +286,14 @@ protected:
 
 
   vtkOSPRayManager *OSPRayManager;
+  osp::Volume* volume;
+  osp::Model* model;
+  vtkTimeStamp  BuildTime,PropertyTime;
+  osp::TransferFunction* transferFunction;
+  int NumColors;
+  std::vector<float> TFVals, TFOVals;
+  bool SharedData;
+  bool VolumeAdded;
 
 
 private:

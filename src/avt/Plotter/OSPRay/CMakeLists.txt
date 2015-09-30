@@ -38,6 +38,7 @@ SET ( OSPRAY_CLASSES
   vtkOSPRayManager.cxx
   vtkOSPRayPolyDataMapper.cxx
   vtkOSPRayProperty.cxx
+  vtkOSPRayRenderable.cxx
   vtkOSPRayRenderer.cxx
   vtkOSPRayTestSource.cxx
   vtkOSPRayTexture.cxx

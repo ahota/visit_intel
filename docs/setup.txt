@@ -78,22 +78,26 @@ OSPRay
   - yum install freeglut-devel (if not already installed)
   - Good directory structure:
     ospray/
-     |--src/
+     |--src/ <-- OSPRay git repo
      |--xeon/
      |--phi/
      |--examples/
      `--ispc-v1.8.1-linux <-- unpacked ispc tar
   - OSPRay source: git clone https://github.com/ospray/ospray src
+    - OSPRay v0.8.2 is required for the vtkOSPRay plugin
   - ISPC: https://ispc.github.io/downloads.html (get binaries)
-  - OSPRay cmake/ispc.cmake (as of v0.7.1) requires ISPC v1.8.0
-    - Change to 1.8.1 or current version
+    - Use ISPC v1.8.1
+    - The current version (1.8.2) has an issue that can cause segfaults on Phi
+    - OSPRay 0.8.2 requires ISPC 1.8.2 in its CMakeLists. Change this to 1.8.1
   - ccmake options for Xeon build:
     - OSPRAY_APPS_VOLUMEVIEWER ON (some of the examples use it)
+        - This and other viewers can be left OFF if you won't be testing
     - OSPRAY_COMPILER ICC
     - OSPRAY_XEON_TARGET AVX2 (Blackrock has a Haswell Xeon with AVX2)
   - Test OSPRay with examples, instructions in ospray_tests.txt
   - ccmake options for Phi build:
     - OSPRAY_APPS_VOLUMEVIEWER ON
+        - This and other viewers can be left OFF if you won't be testing
     - OSPRAY_COMPILER ICC
     - OSPRAY_BUILD_MIC_SUPPORT ON
       - OSPRAY_BUILD_COI_DEVICE ON (this only shows after configuring the

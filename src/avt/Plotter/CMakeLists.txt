@@ -76,18 +76,20 @@ find_package(OSPRay REQUIRED)
 
 SET(VISIT_VTK_OSPRAY_SOURCES
 
-OSPRay/vtkOSPRay/vtkOSPRayActor.cxx
-OSPRay/vtkOSPRay/vtkOSPRayCamera.cxx
-#OSPRay/vtkOSPRayCompositeMapper.cxx
-OSPRay/vtkOSPRay/vtkOSPRayLight.cxx
-#OSPRay/vtkOSPRayLODActor.cxx
-OSPRay/vtkOSPRay/vtkOSPRayManager.cxx
-OSPRay/vtkOSPRayObjectFactory.cxx
-OSPRay/vtkOSPRayObjectFactory.h
-OSPRay/vtkOSPRay/vtkOSPRayPolyDataMapper.cxx
-OSPRay/vtkOSPRay/vtkOSPRayProperty.cxx
-OSPRay/vtkOSPRay/vtkOSPRayRenderer.cxx
-OSPRay/vtkOSPRay/vtkOSPRayTexture.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayActor.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayCamera.cxx
+    #OSPRay/vtkOSPRayCompositeMapper.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayLight.cxx
+    #OSPRay/vtkOSPRayLODActor.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayManager.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayObjectFactory.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayObjectFactory.h
+    OSPRay/vtkOSPRay/vtkOSPRayPolyDataMapper.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayProperty.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayRenderable.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayRenderer.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayTexture.cxx
+    OSPRay/vtkOSPRay/vtkOSPRayVolumeRayCastMapper.cxx
 
 )
 
@@ -177,6 +179,8 @@ ${AVTPLOTTER_OPENGL_SOURCES}
 
 IF(VISIT_OSPRAY)
   SET(AVTPLOTTER_SOURCES ${AVTPLOTTER_SOURCES} ${VISIT_VTK_OSPRAY_SOURCES} )
+  SET(VTK_INCLUDE_DIRS ${VTK_INCLUDE_DIRS}
+      /export/ahota/visit/VTK-6.1.0/Rendering/Volume/)
 ENDIF(VISIT_OSPRAY)
 
 
@@ -204,6 +208,9 @@ ${VTK_INCLUDE_DIRS}
 ${GRAPHICS_INCLUDES}
 )
 
+MESSAGE("VTK includes: " ${VTK_INCLUDE_DIRS})
+MESSAGE("VTK libraries: " ${VTK_LIBRARIES})
+
 # Add link directories
 LINK_DIRECTORIES(${LIBRARY_OUTPUT_DIRECTORY} ${EAVL_LIBRARY_DIR} ${VTK_LIBRARY_DIRS} ${MESA_LIBRARY_DIR} ${GLEW_LIBRARY_DIR} )
 
@@ -219,7 +226,7 @@ ENDIF(HAVE_LIB_R)
 ADD_TARGET_DEFINITIONS(avtplotter_ser "${VTK_DEFINITIONS}")
 IF(VISIT_OSPRAY)
   TARGET_LINK_LIBRARIES(avtplotter_ser ${OSPRAY_TARGET_LINK_LIBRARIES}
-    ${OSPRAY_LIBRARIES})
+    ${OSPRAY_LIBRARIES} ${VTK_LIBRARIES})
    INCLUDE_DIRECTORIES(${OSPRAY_INCLUDE_DIRS})
 ENDIF(VISIT_OSPRAY)
 VISIT_INSTALL_TARGETS(avtplotter_ser)
