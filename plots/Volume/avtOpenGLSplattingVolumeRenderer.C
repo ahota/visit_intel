@@ -754,18 +754,6 @@ void setup() {
     debug5 << "\tCreating volume property" << endl;
     //vtkVolumeProperty *prop = vtkVolumeProperty::New();
 
-    debug5 << "\tCreating transfer function" << endl;
-    debug5 << "color index " << trans_func->AddRGBPoint(0.0, 1.0, 0.0, 0.0)
-        << endl;
-    debug5 << "color index " << trans_func->AddRGBPoint(255.0, 0.0, 1.0, 0.0)
-        << endl;
-    debug5 << "ALOK: n points in color tf: " << trans_func->GetSize() << endl;
-    prop->SetColor(trans_func);
-    debug5 << "opacity index " << opacity->AddPoint(0.0, 0.0) << endl;
-    debug5 << "opacity index " << opacity->AddPoint(255.0, 1.0) << endl;
-    debug5 << "ALOK: n points in opac tf: " << opacity->GetSize() << endl;
-    prop->SetScalarOpacity(opacity);
-
     //Override the camera
     debug5 << "\tCreating camera" << endl;
     vtkCamera *camera = vtkOSPRayCamera::New();
@@ -897,16 +885,6 @@ avtOSPRayVolumeRenderer::Render(
     ((vtkRectilinearGrid *)volume.grid)->GetExtent(extent);
     vtkDataArray *da = ((vtkRectilinearGrid *)volume.grid)->GetPointData()->GetScalars();
 
-/*
-vtkUnsignedCharArray *uca = vtkUnsignedCharArray::New();
-int ntuples = da->GetNumberOfTuples();
-uca->SetNumberOfTuples(ntuples);
-for (int i = 0 ; i < ntuples ; i++)
-{
-     uca->SetTuple(i, da->GetTuple1(i)*255);
-}
-uca->SetName(da->GetName());
- */
     vtkImageData *image = vtkImageData::New();
 
     image->SetDimensions(dims);
@@ -925,6 +903,36 @@ uca->SetName(da->GetName());
     for(int i = 0; i < limit; i++)
         *p++ = i;
         */
+
+    debug5 << "\tCreating transfer function" << endl;
+    /*
+    trans_func->AddRGBPoint( -47.4543685913086, 0.278431372549, 0.278431372549, 0.858823529412);
+    trans_func->AddRGBPoint(-30.1122528457642, 0, 0, 0.360784313725);
+    trans_func->AddRGBPoint(-12.8914106369019, 0, 1, 1);
+    trans_func->AddRGBPoint(4.5719786453247, 0, 0.501960784314, 0);
+    trans_func->AddRGBPoint(21.792820854187, 1, 1, 0);
+    trans_func->AddRGBPoint(39.1349365997314, 1, 0.380392156863, 0);
+    trans_func->AddRGBPoint(56.4770523452759, 0.419607843137, 0, 0);
+    trans_func->AddRGBPoint(73.8191680908203, 0.8784313725489999, 0.301960784314, 0.301960784314);
+    */
+    float min = volume.data.min;
+    float max = volume.data.max;
+    float range = max - min;
+    
+    trans_func->AddRGBPoint(min, 0.25, 0.25, 0.75); //purple at min
+    trans_func->AddRGBPoint(min + range/6, 0, 0, 0.5); //deep blue at min + 1/6
+    trans_func->AddRGBPoint(min + range/3, 0, 1, 1); //cyan at min + 1/3
+    trans_func->AddRGBPoint(min + range/2, 0, 0.5, 0); //deep green at min + 1/2
+    trans_func->AddRGBPoint(min + 2*range/3, 1, 1, 0); //yellow at min + 2/3
+    trans_func->AddRGBPoint(min + 5*range/6, 1, 0.25, 0); //orange at min + 5/6
+    trans_func->AddRGBPoint(max, 0.5, 0, 0);
+    prop->SetColor(trans_func);
+
+    //opacity transfer function with strong emphasis on maximum values
+    opacity->AddPoint(min, 0.0);
+    //opacity->AddPoint(min + 3*range/4, 0.2);
+    opacity->AddPoint(max, 1.0);
+    prop->SetScalarOpacity(opacity);
 
     //image->Print(cout);
     debug5 << "\tAdding image data" << endl;
