@@ -890,13 +890,13 @@ avtOSPRayVolumeRenderer::Render(
     image->SetDimensions(dims);
     image->SetExtent(extent);
     //image->SetSpacing(0.f, 0.f, 0.f);
-    image->AllocateScalars(VTK_UNSIGNED_CHAR, 1);
+    image->AllocateScalars(VTK_FLOAT, 1);
     //image->GetPointData()->SetScalars(da);
     int limit = dims[0] * dims[1] * dims[2];
-    unsigned char *p = (unsigned char *)image->GetScalarPointer();
+    float *p = (float *)image->GetScalarPointer();
     for (int i = 0 ; i < limit ; i++)
     {
-        p[i] = da->GetTuple1(i)*255;
+        p[i] = da->GetTuple1(i);
     }
 
     /*
@@ -905,16 +905,6 @@ avtOSPRayVolumeRenderer::Render(
         */
 
     debug5 << "\tCreating transfer function" << endl;
-    /*
-    trans_func->AddRGBPoint( -47.4543685913086, 0.278431372549, 0.278431372549, 0.858823529412);
-    trans_func->AddRGBPoint(-30.1122528457642, 0, 0, 0.360784313725);
-    trans_func->AddRGBPoint(-12.8914106369019, 0, 1, 1);
-    trans_func->AddRGBPoint(4.5719786453247, 0, 0.501960784314, 0);
-    trans_func->AddRGBPoint(21.792820854187, 1, 1, 0);
-    trans_func->AddRGBPoint(39.1349365997314, 1, 0.380392156863, 0);
-    trans_func->AddRGBPoint(56.4770523452759, 0.419607843137, 0, 0);
-    trans_func->AddRGBPoint(73.8191680908203, 0.8784313725489999, 0.301960784314, 0.301960784314);
-    */
     float min = volume.data.min;
     float max = volume.data.max;
     float range = max - min;
@@ -930,7 +920,7 @@ avtOSPRayVolumeRenderer::Render(
 
     //opacity transfer function with strong emphasis on maximum values
     opacity->AddPoint(min, 0.0);
-    //opacity->AddPoint(min + 3*range/4, 0.2);
+    opacity->AddPoint(min + 0.9*range, 0.1);
     opacity->AddPoint(max, 1.0);
     prop->SetScalarOpacity(opacity);
 
