@@ -1,0 +1,388 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3624229868/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3624229868.dir/build.make CMakeFiles/cmTryCompileExec3624229868.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3624229868.dir/TestEndianess.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3624229868.dir/TestEndianess.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec3624229868
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3624229868.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3624229868.dir/TestEndianess.c.o  -o cmTryCompileExec3624229868 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1085176647/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1085176647.dir/build.make CMakeFiles/cmTryCompileExec1085176647.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1085176647.dir/CheckSymbolExists.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1085176647.dir/CheckSymbolExists.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1085176647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1085176647.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1085176647.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1085176647 -rdynamic 
+CMakeFiles/cmTryCompileExec1085176647.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x23): undefined reference to `pthread_create'
+gmake[1]: *** [cmTryCompileExec1085176647] Error 1
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1085176647/fast] Error 2
+
+File /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec835356513/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec835356513.dir/build.make CMakeFiles/cmTryCompileExec835356513.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec835356513.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec835356513.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec835356513
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec835356513.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec835356513.dir/CheckFunctionExists.c.o  -o cmTryCompileExec835356513 -rdynamic -lpthreads 
+ld: cannot find -lpthreads
+gmake[1]: *** [cmTryCompileExec835356513] Error 1
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec835356513/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3604027645/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3604027645.dir/build.make CMakeFiles/cmTryCompileExec3604027645.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3604027645.dir/CheckSymbolExists.cxx.o
+/opt/intel/bin/icpc    -I/export/ahota/visit/visitOSPRay/visit/qt/4.8.3/linux-x86_64_icc/include    -o CMakeFiles/cmTryCompileExec3604027645.dir/CheckSymbolExists.cxx.o -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx(8): error: identifier "Q_WS_WIN" is undefined
+    return ((int*)(&Q_WS_WIN))[argc];
+                    ^
+
+compilation aborted for /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx (code 2)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3604027645.dir/CheckSymbolExists.cxx.o] Error 2
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3604027645/fast] Error 2
+
+File /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2433519580/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2433519580.dir/build.make CMakeFiles/cmTryCompileExec2433519580.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2433519580.dir/CheckSymbolExists.cxx.o
+/opt/intel/bin/icpc    -I/export/ahota/visit/visitOSPRay/visit/qt/4.8.3/linux-x86_64_icc/include    -o CMakeFiles/cmTryCompileExec2433519580.dir/CheckSymbolExists.cxx.o -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx(8): error: identifier "Q_WS_QWS" is undefined
+    return ((int*)(&Q_WS_QWS))[argc];
+                    ^
+
+compilation aborted for /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx (code 2)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2433519580.dir/CheckSymbolExists.cxx.o] Error 2
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2433519580/fast] Error 2
+
+File /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec17418426/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec17418426.dir/build.make CMakeFiles/cmTryCompileExec17418426.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec17418426.dir/CheckSymbolExists.cxx.o
+/opt/intel/bin/icpc    -I/export/ahota/visit/visitOSPRay/visit/qt/4.8.3/linux-x86_64_icc/include    -o CMakeFiles/cmTryCompileExec17418426.dir/CheckSymbolExists.cxx.o -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx(8): error: identifier "Q_WS_MAC" is undefined
+    return ((int*)(&Q_WS_MAC))[argc];
+                    ^
+
+compilation aborted for /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx (code 2)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec17418426.dir/CheckSymbolExists.cxx.o] Error 2
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec17418426/fast] Error 2
+
+File /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of bool failed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1443650764/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1443650764.dir/build.make CMakeFiles/cmTryCompileExec1443650764.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1443650764.dir/SIZEOF_BOOLEAN.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1443650764.dir/SIZEOF_BOOLEAN.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_BOOLEAN.c
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_BOOLEAN.c(19): error: identifier "bool" is undefined
+    ('0' + ((SIZE / 10000)%10)),
+             ^
+
+compilation aborted for /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_BOOLEAN.c (code 2)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1443650764.dir/SIZEOF_BOOLEAN.c.o] Error 2
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1443650764/fast] Error 2
+
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_BOOLEAN.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of long float failed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec805209216/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec805209216.dir/build.make CMakeFiles/cmTryCompileExec805209216.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec805209216.dir/SIZEOF_LONG_FLOAT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec805209216.dir/SIZEOF_LONG_FLOAT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_FLOAT.c
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_FLOAT.c(19): error #84: invalid combination of type specifiers
+    ('0' + ((SIZE / 10000)%10)),
+             ^
+
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_FLOAT.c(20): error #84: invalid combination of type specifiers
+    ('0' + ((SIZE / 1000)%10)),
+             ^
+
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_FLOAT.c(21): error #84: invalid combination of type specifiers
+    ('0' + ((SIZE / 100)%10)),
+             ^
+
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_FLOAT.c(22): error #84: invalid combination of type specifiers
+    ('0' + ((SIZE / 10)%10)),
+             ^
+
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_FLOAT.c(23): error #84: invalid combination of type specifiers
+    ('0' +  (SIZE    % 10)),
+             ^
+
+compilation aborted for /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_FLOAT.c (code 2)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec805209216.dir/SIZEOF_LONG_FLOAT.c.o] Error 2
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec805209216/fast] Error 2
+
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_FLOAT.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(long float))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4011711436/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4011711436.dir/build.make CMakeFiles/cmTryCompileExec4011711436.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4011711436.dir/TestEndianess.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec4011711436.dir/TestEndianess.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec4011711436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4011711436.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec4011711436.dir/TestEndianess.c.o  -o cmTryCompileExec4011711436 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function div exists failed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2928980420/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2928980420.dir/build.make CMakeFiles/cmTryCompileExec2928980420.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2928980420.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc  -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=div   -o CMakeFiles/cmTryCompileExec2928980420.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c(11): internal error: assertion failed: Invalid dtype (shared/cfe/edgglue/edg_type.c, line 1510)
+
+    CHECK_FUNCTION_EXISTS();
+    ^
+
+compilation aborted for /usr/share/cmake/Modules/CheckFunctionExists.c (code 4)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2928980420.dir/CheckFunctionExists.c.o] Error 4
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2928980420/fast] Error 2
+
+

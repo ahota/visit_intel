@@ -1,0 +1,1 @@
+/opt/intel/bin/icpc     -g     CMakeFiles/genpolycases.dir/genpolycases.C.o  -o ../../exe/genpolycases  -L/export/ahota/visit/visitOSPRay/visit/manta/2540/linux-x86_64_icc/lib -rdynamic 

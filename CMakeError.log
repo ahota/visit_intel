@@ -1,0 +1,16 @@
+Value of the 22nd bit of a 32-bit quiet-NaN is 1TestQnanhibit.c produced following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3766999309/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3766999309.dir/build.make CMakeFiles/cmTryCompileExec3766999309.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3766999309.dir/TestQnanhibit.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3766999309.dir/TestQnanhibit.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/third_party_builtin/slivr/teem-1.9.0-src/CMake/TestQnanhibit.c
+Linking C executable cmTryCompileExec3766999309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3766999309.dir/link.txt --verbose=1
+/opt/intel/bin/icc        CMakeFiles/cmTryCompileExec3766999309.dir/TestQnanhibit.c.o  -o cmTryCompileExec3766999309 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+-DTEEM_QNANHIBIT=1
+
+

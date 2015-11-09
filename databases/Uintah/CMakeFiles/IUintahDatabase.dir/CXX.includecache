@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/work/01336/carson/VisIt/VisItDave/visit2.8.1/src/databases/Uintah/UintahPluginInfo.C
+UintahPluginInfo.h
+-
+visit-config.h
+-
+
+common/plugin/DatabasePluginInfo.h
+plugin_exports.h
+-
+stdio.h
+-
+string
+-
+vector
+-
+
+common/plugin/database_plugin_exports.h
+
+common/plugin/plugin_exports.h
+
+databases/Uintah/UintahPluginInfo.h
+DatabasePluginInfo.h
+-
+database_plugin_exports.h
+-
+
+include/visit-config.h
+

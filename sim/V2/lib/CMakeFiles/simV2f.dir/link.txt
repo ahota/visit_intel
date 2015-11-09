@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libsimV2f.a  CMakeFiles/simV2f.dir/visitfortransimV2interface.c.o
+/usr/bin/ranlib ../../../lib/libsimV2f.a

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -m64 -fPIC -fvisibility=hidden -O3 -DNDEBUG   -shared -Wl,-soname,libvclrpc.so -o CMakeFiles/CMakeRelink.dir/libvclrpc.so CMakeFiles/vclrpc.dir/ConnectSimRPC.C.o CMakeFiles/vclrpc.dir/LauncherMethods.C.o CMakeFiles/vclrpc.dir/LauncherState.C.o  -L/export/ahota/visit/visitOSPRay/visit/manta/2540/linux-x86_64_icc/lib ../../lib/libvisitcommon.so -lpthread -ldl 

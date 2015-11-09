@@ -1,0 +1,1270 @@
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/gui -debug 5 -manta -dv 
+QvisApplication::QvisApplication: -font Helvetica,12,-1,5,50,0,0,0,0,0
+Trying to load translator file: /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/translationsvisit_en_US
+Could not load translation.
+GetAppearance: Default System Style is: cleanlooks
+GetAppearance: Default system font is:Sans Serif,9,-1,5,50,0,0,0,0,0
+GetAppearance: Default background color is:#efebe7
+GetAppearance: Default foreground color is:#000000
+GetAppearance: Default orientation:0
+GetAppearance: Default System Style is: cleanlooks
+GetAppearance: Default system font is:Sans Serif,9,-1,5,50,0,0,0,0,0
+GetAppearance: Default background color is:#efebe7
+GetAppearance: Default foreground color is:#000000
+GetAppearance: Default orientation:0
+Saved GUI geometry: w=514 h=975 x=0 y=25
+QvisGUIApplication::HeavyInitialization: heavyInitStage=1
+QvisGUIApplication::HeavyInitialization: heavyInitStage=2
+OpenFileInFileServer: no active source. Closing file in file server list. 
+In QvisFilePanel::ExpandDatabases 
+In QvisFilePanel::ExpandDatabases 
+QvisGUIApplication::MoveAndResizeMainWindow: Vertical main window
+QvisGUIApplication::MoveAndResizeMainWindow: Resizing main window to: 514x975
+QvisGUIApplication::MoveAndResizeMainWindow: Moving main window to: 0x25
+QvisGUIApplication::HeavyInitialization: heavyInitStage=3
+QvisGUIApplication::HeavyInitialization: heavyInitStage=4
+QvisGUIApplication::CalculateViewerArea: Using saved geometry. Putting viewer windows to the right of the GUI windows at: 1402x980+518+50
+RemoteProcess::Open: Called with (profile, numRead=1, numWrite=1, createAsThoughLocal=false) where profile is:
+hostNickName=localhost
+host=localhost
+username=notset
+hostAliases=localhost
+directory=
+shareOneBatchJob=false
+tunnelSSH=false
+sshPortSpecified=false
+sshPort=22
+sshCommandSpecified=false
+sshCommand={ssh}
+useGateway=false
+gatewayHost=
+clientHostDetermination=MachineName
+manualClientHostName=
+maximumNodesValid=false
+maximumNodes=1
+maximumProcessorsValid=false
+maximumProcessors=1
+Using localhost for host
+RemoteProcess::StartMakingConnection: Called with args (numRead=1, numWrite=1)
+RemoteProcess::StartMakingConnection: Looking up the name of the local host: blackrock.engr.utk.edu
+RemoteProcess::StartMakingConnection: Looking up the host using gethostbyname("blackrock.engr.utk.edu"): blackrock.engr.utk.edu
+RemoteProcess::StartMakingConnection: Get the local user's login name: ahota
+RemoteProcess::StartMakingConnection: Calling GetSocketAndPort
+RemoteProcess::GetSocketAndPort: Opened listen socket: 14
+RemoteProcess::GetSocketAndPort: Looking for available port starting with: 5600
+RemoteProcess::GetSocketAndPort: Bind socket to port: 5600
+RemoteProcess::StartMakingConnection: Start listening for connections.
+RemoteProcess::Open: The command line to use: (
+	visit
+	-v
+	2.8
+	-viewer
+	-debug
+	5
+	-manta
+	-dv
+	-geometry
+	1402x980+518+50
+	-borders
+	23,4,2,2
+	-shift
+	2,25
+	-preshift
+	0,-2
+	-defer
+	-host
+	blackrock.engr.utk.edu
+	-port
+	5600
+	-key
+	ba536ba7652d52ad1716
+)
+RemoteProcess::Open: Calling LaunchLocal
+RemoteProcess::LaunchLocal: Starting child process using fork
+RemoteProcess::Open: Calling FinishMakingConnection
+RemoteProcess::FinishMakingConnection: Called with (1, 1)
+RemoteProcess::FinishMakingConnection: Call the progress callback(0)
+RemoteProcess::FinishMakingConnection: Creating read connections
+RemoteProcess::AcceptSocket: 0: Calling SingleThreadedAcceptSocket.
+RemoteProcess::SingleThreadedAcceptSocket: waiting for accept() to return
+RemoteProcess::SingleThreadedAcceptSocket: accept returned descriptor: 15
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::FinishMakingConnection: Creating write connections
+RemoteProcess::AcceptSocket: 0: Calling SingleThreadedAcceptSocket.
+RemoteProcess::SingleThreadedAcceptSocket: waiting for accept() to return
+RemoteProcess::SingleThreadedAcceptSocket: accept returned descriptor: 16
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::FinishMakingConnection: Exchanging type representations
+RemoteProcess::FinishMakingConnection: Call the progress callback(2)
+RemoteProcess::CloseListenSocket: closing listen socket
+RemoteProcess::Open: Returning true
+Xfer: Number of objects: 53
+Object[0] = ViewerRPC
+Object[1] = PostponedAction
+Object[2] = SyncAttributes
+Object[3] = MessageAttributes
+Object[4] = StatusAttributes
+Object[5] = avtDatabaseMetaData
+Object[6] = SILAttributes
+Object[7] = DBPluginInfoAttributes
+Object[8] = ConstructDataBinningAttributes
+Object[9] = ClientMethod
+Object[10] = ClientInformation
+Object[11] = ClientInformationList
+Object[12] = SimulationUIValues
+Object[13] = ExportDBAttributes
+Object[14] = PluginManagerAttributes
+Object[15] = AppearanceAttributes
+Object[16] = GlobalAttributes
+Object[17] = DatabaseCorrelationList
+Object[18] = PlotList
+Object[19] = HostProfileList
+Object[20] = SaveWindowAttributes
+Object[21] = EngineList
+Object[22] = ColorTableAttributes
+Object[23] = ExpressionList
+Object[24] = AnnotationAttributes
+Object[25] = SILRestrictionAttributes
+Object[26] = ViewAxisArrayAttributes
+Object[27] = ViewCurveAttributes
+Object[28] = View2DAttributes
+Object[29] = View3DAttributes
+Object[30] = LightList
+Object[31] = AnimationAttributes
+Object[32] = PickAttributes
+Object[33] = PrinterAttributes
+Object[34] = WindowInformation
+Object[35] = RenderingAttributes
+Object[36] = KeyframeAttributes
+Object[37] = QueryList
+Object[38] = QueryAttributes
+Object[39] = MaterialAttributes
+Object[40] = GlobalLineoutAttributes
+Object[41] = AnnotationObjectList
+Object[42] = QueryOverTimeAttributes
+Object[43] = InteractorAttributes
+Object[44] = ProcessAttributes
+Object[45] = MovieAttributes
+Object[46] = MeshManagementAttributes
+Object[47] = ViewerRPC
+Object[48] = FileOpenOptions
+Object[49] = SelectionProperties
+Object[50] = SelectionList
+Object[51] = ViewerClientAttributes
+Object[52] = ViewerClientInformation
+QvisGUIApplication::HeavyInitialization: heavyInitStage=5
+QvisGUIApplication::HeavyInitialization: heavyInitStage=6
+ExistingRemoteProcess::Open: Called with (profile, numRead=1, numWrite=1, createAsThoughLocal=false) where profile is:
+hostNickName=localhost
+host=localhost
+username=ahota
+hostAliases=localhost
+directory=
+shareOneBatchJob=false
+tunnelSSH=false
+sshPortSpecified=false
+sshPort=22
+sshCommandSpecified=false
+sshCommand={ssh}
+useGateway=false
+gatewayHost=
+clientHostDetermination=MachineName
+manualClientHostName=
+maximumNodesValid=false
+maximumNodes=1
+maximumProcessorsValid=false
+maximumProcessors=1
+RemoteProcess::StartMakingConnection: Called with args (numRead=1, numWrite=1)
+RemoteProcess::StartMakingConnection: Looking up the name of the local host: blackrock.engr.utk.edu
+RemoteProcess::StartMakingConnection: Looking up the host using gethostbyname("blackrock.engr.utk.edu"): blackrock.engr.utk.edu
+RemoteProcess::StartMakingConnection: Get the local user's login name: ahota
+RemoteProcess::StartMakingConnection: Calling GetSocketAndPort
+RemoteProcess::GetSocketAndPort: Opened listen socket: 14
+RemoteProcess::GetSocketAndPort: Looking for available port starting with: 5600
+RemoteProcess::GetSocketAndPort: Bind socket to port: 5600
+RemoteProcess::StartMakingConnection: Start listening for connections.
+ExistingRemoteProcess::Open: commandLine = {
+	visit
+	-v
+	2.8
+	-mdserver
+	-host
+	blackrock.engr.utk.edu
+	-port
+	5600
+	-key
+	ba536ba7652d52ad1716
+}
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+RemoteProcess::FinishMakingConnection: Called with (1, 1)
+RemoteProcess::FinishMakingConnection: Call the progress callback(0)
+RemoteProcess::FinishMakingConnection: Creating read connections
+RemoteProcess::AcceptSocket: 0: Calling SingleThreadedAcceptSocket.
+RemoteProcess::SingleThreadedAcceptSocket: waiting for accept() to return
+RemoteProcess::SingleThreadedAcceptSocket: accept returned descriptor: 17
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::FinishMakingConnection: Creating write connections
+RemoteProcess::AcceptSocket: 0: Calling SingleThreadedAcceptSocket.
+RemoteProcess::SingleThreadedAcceptSocket: waiting for accept() to return
+RemoteProcess::SingleThreadedAcceptSocket: accept returned descriptor: 18
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::FinishMakingConnection: Exchanging type representations
+RemoteProcess::FinishMakingConnection: Call the progress callback(2)
+RemoteProcess::CloseListenSocket: closing listen socket
+Executing GetDirectoryRPC RPC
+Xfer::Update: Sending: opcode=4, name=GetDirectoryRPC
+Xfer::Process: Opcode=5, len=60, type=GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Xfer: Number of objects: 30
+Object[0] = QuitRPC
+Object[1] = NonBlockingRPC::CompletionData (from QuitRPC)
+Object[2] = KeepAliveRPC
+Object[3] = VisItRPC::RPCReply (from KeepAliveRPC)
+Object[4] = GetDirectoryRPC
+Object[5] = GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Object[6] = ChangeDirectoryRPC
+Object[7] = VisItRPC::RPCReply (from ChangeDirectoryRPC)
+Object[8] = GetFileListRPC
+Object[9] = GetFileListRPC::FileList (from GetFileListRPC)
+Object[10] = GetMetaDataRPC
+Object[11] = avtDatabaseMetaData (from GetMetaDataRPC)
+Object[12] = GetSILRPC
+Object[13] = SILAttributes (from GetSILRPC)
+Object[14] = ConnectRPC
+Object[15] = NonBlockingRPC::CompletionData (from ConnectRPC)
+Object[16] = CreateGroupListRPC
+Object[17] = NonBlockingRPC::CompletionData (from CreateGroupListRPC)
+Object[18] = ExpandPathRPC
+Object[19] = ExpandPathRPC::PathName (from ExpandPathRPC)
+Object[20] = CloseDatabaseRPC
+Object[21] = VisItRPC::RPCReply (from CloseDatabaseRPC)
+Object[22] = LoadPluginsRPC
+Object[23] = NonBlockingRPC::CompletionData (from LoadPluginsRPC)
+Object[24] = GetPluginErrorsRPC
+Object[25] = GetPluginErrorsRPC::PluginErrors (from GetPluginErrorsRPC)
+Object[26] = GetDBPluginInfoRPC
+Object[27] = DBPluginInfoAttributes (from GetDBPluginInfoRPC)
+Object[28] = SetMFileOpenOptionsRPC
+Object[29] = VisItRPC::RPCReply (from SetMFileOpenOptionsRPC)
+Executing GetDirectoryRPC RPC
+Xfer::Update: Sending: opcode=4, name=GetDirectoryRPC
+Xfer::Process: Opcode=5, len=60, type=GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Executing GetFileList(*true, true, ) RPC
+Xfer::Update: Sending: opcode=8, name=GetFileListRPC
+Xfer::Process: Opcode=9, len=4759, type=GetFileListRPC::FileList (from GetFileListRPC)
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::HeavyInitialization: heavyInitStage=7
+QvisGUIApplication::HeavyInitialization: heavyInitStage=8
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::HeavyInitialization: heavyInitStage=9
+QvisGUIApplication::HeavyInitialization: heavyInitStage=10
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::HeavyInitialization: heavyInitStage=11
+QvisGUIApplication::HeavyInitialization: heavyInitStage=12
+Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/plots
+Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/plots
+Successfully loaded info about 21 plot plugins.
+Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/operators
+Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/operators
+Successfully loaded info about 62 operator plugins.
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::HeavyInitialization: heavyInitStage=13
+QvisGUIApplication::HeavyInitialization: heavyInitStage=14
+Executing GetFileList(*false, false, ) RPC
+Xfer::Update: Sending: opcode=8, name=GetFileListRPC
+Xfer::Process: Opcode=9, len=5628, type=GetFileListRPC::FileList (from GetFileListRPC)
+In QvisFilePanel::ExpandDatabases 
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::HeavyInitialization: heavyInitStage=15
+Xfer::Update: Sending: opcode=22, name=LoadPluginsRPC
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+QvisGUIApplication::HeavyInitialization: heavyInitStage=16
+Xfer::Update: Sending: opcode=2, name=SyncAttributes
+Xfer::Process: Opcode=47, len=167, type=ViewerRPC
+Xfer::Process: Opcode=47, len=265, type=ViewerRPC
+Xfer::Process: Opcode=7, len=16493, type=DBPluginInfoAttributes
+Xfer::Process: Opcode=48, len=10386, type=FileOpenOptions
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=14, len=4159, type=PluginManagerAttributes
+QvisGUIApplication::LoadPlugins()
+Loaded full plot plugin Boundary version 1.0
+Loaded full plot plugin Contour version 1.0
+Loaded full plot plugin Curve version 1.0
+Loaded full plot plugin FilledBoundary version 1.0
+Loaded full plot plugin Histogram version 1.0
+Loaded full plot plugin Label version 1.0
+Loaded full plot plugin Mesh version 1.0
+Loaded full plot plugin Molecule version 1.0
+Loaded full plot plugin MultiCurve version 1.0
+Loaded full plot plugin ParallelCoordinates version 1.0
+Loaded full plot plugin Pseudocolor version 1.0
+Loaded full plot plugin Scatter version 1.0
+Loaded full plot plugin Spreadsheet version 1.0
+Loaded full plot plugin Streamline version 1.0
+Loaded full plot plugin Subset version 1.0
+Skipping disabled plot plugin Surface version 1.0
+Loaded full plot plugin Tensor version 1.0
+Loaded full plot plugin Truecolor version 1.0
+Loaded full plot plugin Vector version 1.0
+Loaded full plot plugin Volume version 1.1
+Skipping disabled plot plugin WellBore version 1.0
+Loaded full operator plugin AMRStitchCell version 1.0
+Loaded full operator plugin BoundaryOp version 1.0
+Loaded full operator plugin Box version 1.0
+Loaded full operator plugin CartographicProjection version 1.0
+Loaded full operator plugin Clip version 1.0
+Loaded full operator plugin Cone version 1.0
+Loaded full operator plugin ConnectedComponents version 1.0
+Loaded full operator plugin CoordSwap version 1.0
+Skipping disabled operator plugin CracksClipper version 1.0
+Loaded full operator plugin CreateBonds version 1.0
+Loaded full operator plugin Cylinder version 1.0
+Loaded full operator plugin DataBinning version 1.0
+Skipping disabled operator plugin Decimate version 1.0
+Loaded full operator plugin DeferExpression version 1.0
+Skipping disabled operator plugin Delaunay version 1.0
+Loaded full operator plugin Displace version 1.0
+Loaded full operator plugin DualMesh version 1.0
+Loaded full operator plugin Edge version 1.0
+Loaded full operator plugin Elevate version 1.0
+Loaded full operator plugin EllipsoidSlice version 1.0
+Loaded full operator plugin ExternalSurface version 1.0
+Skipping disabled operator plugin ExtractPointFunction2D version 1.0
+Loaded full operator plugin Extrude version 1.0
+Loaded full operator plugin FFT version 1.0
+Skipping disabled operator plugin FiveFoldTetSubdivision version 1.0
+Loaded full operator plugin Flux version 1.0
+Loaded full operator plugin IndexSelect version 1.0
+Loaded full operator plugin IntegralCurve version 1.0
+Loaded full operator plugin InverseGhostZone version 1.0
+Loaded full operator plugin Isosurface version 1.0
+Loaded full operator plugin Isovolume version 1.0
+Loaded full operator plugin LCS version 1.0
+Loaded full operator plugin Lagrangian version 1.0
+Skipping disabled operator plugin LineSampler version 1.0
+Loaded full operator plugin Lineout version 1.0
+Skipping disabled operator plugin Merge version 1.0
+Loaded full operator plugin ModelFit version 1.0
+Loaded full operator plugin MultiresControl version 1.0
+Loaded full operator plugin OnionPeel version 1.0
+Skipping disabled operator plugin PDF version 1.0
+Loaded full operator plugin PersistentParticles version 2.0
+Loaded full operator plugin Poincare version 3.0
+Loaded full operator plugin Project version 1.0
+Loaded full operator plugin RadialResample version 1.0
+Skipping disabled operator plugin RectilinearProject2D version 1.0
+Loaded full operator plugin Reflect version 1.0
+Loaded full operator plugin Replicate version 1.0
+Loaded full operator plugin Resample version 1.0
+Loaded full operator plugin Revolve version 1.0
+Loaded full operator plugin Slice version 1.0
+Loaded full operator plugin Smooth version 1.0
+Loaded full operator plugin SphereSlice version 1.0
+Loaded full operator plugin Stagger version 1.0
+Loaded full operator plugin StatisticalTrends version 1.0
+Loaded full operator plugin SurfaceNormal version 1.0
+Loaded full operator plugin ThreeSlice version 1.0
+Loaded full operator plugin Threshold version 1.0
+Skipping disabled operator plugin ToroidalPoloidalProjection version 1.0
+Loaded full operator plugin Transform version 1.0
+Loaded full operator plugin TriangulateRegularPoints version 1.0
+Loaded full operator plugin Tube version 1.0
+Skipping disabled operator plugin ZoneDump version 1.0
+Xfer: Number of objects: 142
+Object[0] = ViewerRPC
+Object[1] = PostponedAction
+Object[2] = SyncAttributes
+Object[3] = MessageAttributes
+Object[4] = StatusAttributes
+Object[5] = avtDatabaseMetaData
+Object[6] = SILAttributes
+Object[7] = DBPluginInfoAttributes
+Object[8] = ConstructDataBinningAttributes
+Object[9] = ClientMethod
+Object[10] = ClientInformation
+Object[11] = ClientInformationList
+Object[12] = SimulationUIValues
+Object[13] = ExportDBAttributes
+Object[14] = PluginManagerAttributes
+Object[15] = AppearanceAttributes
+Object[16] = GlobalAttributes
+Object[17] = DatabaseCorrelationList
+Object[18] = PlotList
+Object[19] = HostProfileList
+Object[20] = SaveWindowAttributes
+Object[21] = EngineList
+Object[22] = ColorTableAttributes
+Object[23] = ExpressionList
+Object[24] = AnnotationAttributes
+Object[25] = SILRestrictionAttributes
+Object[26] = ViewAxisArrayAttributes
+Object[27] = ViewCurveAttributes
+Object[28] = View2DAttributes
+Object[29] = View3DAttributes
+Object[30] = LightList
+Object[31] = AnimationAttributes
+Object[32] = PickAttributes
+Object[33] = PrinterAttributes
+Object[34] = WindowInformation
+Object[35] = RenderingAttributes
+Object[36] = KeyframeAttributes
+Object[37] = QueryList
+Object[38] = QueryAttributes
+Object[39] = MaterialAttributes
+Object[40] = GlobalLineoutAttributes
+Object[41] = AnnotationObjectList
+Object[42] = QueryOverTimeAttributes
+Object[43] = InteractorAttributes
+Object[44] = ProcessAttributes
+Object[45] = MovieAttributes
+Object[46] = MeshManagementAttributes
+Object[47] = ViewerRPC
+Object[48] = FileOpenOptions
+Object[49] = SelectionProperties
+Object[50] = SelectionList
+Object[51] = ViewerClientAttributes
+Object[52] = ViewerClientInformation
+Object[53] = BoundaryAttributes
+Object[54] = PlotInfoAttributes
+Object[55] = ContourAttributes
+Object[56] = PlotInfoAttributes
+Object[57] = CurveAttributes
+Object[58] = PlotInfoAttributes
+Object[59] = FilledBoundaryAttributes
+Object[60] = PlotInfoAttributes
+Object[61] = HistogramAttributes
+Object[62] = PlotInfoAttributes
+Object[63] = LabelAttributes
+Object[64] = PlotInfoAttributes
+Object[65] = MeshAttributes
+Object[66] = PlotInfoAttributes
+Object[67] = MoleculeAttributes
+Object[68] = PlotInfoAttributes
+Object[69] = MultiCurveAttributes
+Object[70] = PlotInfoAttributes
+Object[71] = ParallelCoordinatesAttributes
+Object[72] = PlotInfoAttributes
+Object[73] = PseudocolorAttributes
+Object[74] = PlotInfoAttributes
+Object[75] = ScatterAttributes
+Object[76] = PlotInfoAttributes
+Object[77] = SpreadsheetAttributes
+Object[78] = PlotInfoAttributes
+Object[79] = StreamlineAttributes
+Object[80] = PlotInfoAttributes
+Object[81] = SubsetAttributes
+Object[82] = PlotInfoAttributes
+Object[83] = TensorAttributes
+Object[84] = PlotInfoAttributes
+Object[85] = TruecolorAttributes
+Object[86] = PlotInfoAttributes
+Object[87] = VectorAttributes
+Object[88] = PlotInfoAttributes
+Object[89] = VolumeAttributes
+Object[90] = PlotInfoAttributes
+Object[91] = AMRStitchCellAttributes
+Object[92] = BoundaryOpAttributes
+Object[93] = BoxAttributes
+Object[94] = CartographicProjectionAttributes
+Object[95] = ClipAttributes
+Object[96] = ConeAttributes
+Object[97] = ConnectedComponentsAttributes
+Object[98] = CoordSwapAttributes
+Object[99] = CreateBondsAttributes
+Object[100] = CylinderAttributes
+Object[101] = DataBinningAttributes
+Object[102] = DeferExpressionAttributes
+Object[103] = DisplaceAttributes
+Object[104] = DualMeshAttributes
+Object[105] = EdgeAttributes
+Object[106] = ElevateAttributes
+Object[107] = EllipsoidSliceAttributes
+Object[108] = ExternalSurfaceAttributes
+Object[109] = ExtrudeAttributes
+Object[110] = FFTAttributes
+Object[111] = FluxAttributes
+Object[112] = IndexSelectAttributes
+Object[113] = IntegralCurveAttributes
+Object[114] = InverseGhostZoneAttributes
+Object[115] = IsosurfaceAttributes
+Object[116] = IsovolumeAttributes
+Object[117] = LCSAttributes
+Object[118] = LagrangianAttributes
+Object[119] = LineoutAttributes
+Object[120] = ModelFitAtts
+Object[121] = MultiresControlAttributes
+Object[122] = OnionPeelAttributes
+Object[123] = PersistentParticlesAttributes
+Object[124] = PoincareAttributes
+Object[125] = ProjectAttributes
+Object[126] = RadialResampleAttributes
+Object[127] = ReflectAttributes
+Object[128] = ReplicateAttributes
+Object[129] = ResampleAttributes
+Object[130] = RevolveAttributes
+Object[131] = SliceAttributes
+Object[132] = SmoothOperatorAttributes
+Object[133] = SphereSliceAttributes
+Object[134] = StaggerAttributes
+Object[135] = StatisticalTrendsAttributes
+Object[136] = SurfaceNormalAttributes
+Object[137] = ThreeSliceAttributes
+Object[138] = ThresholdAttributes
+Object[139] = TransformAttributes
+Object[140] = TriangulateRegularPointsAttributes
+Object[141] = TubeAttributes
+Xfer::Process: Opcode=16, len=73, type=GlobalAttributes
+Xfer::Process: Opcode=20, len=767, type=SaveWindowAttributes
+Xfer::Process: Opcode=22, len=12126, type=ColorTableAttributes
+Xfer::Process: Opcode=23, len=7613, type=ExpressionList
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=27, len=38, type=ViewCurveAttributes
+Xfer::Process: Opcode=28, len=75, type=View2DAttributes
+Xfer::Process: Opcode=29, len=146, type=View3DAttributes
+Xfer::Process: Opcode=34, len=163, type=WindowInformation
+OpenFileInFileServer: no active source. Closing file in file server list. 
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=33, len=46, type=PrinterAttributes
+Xfer::Process: Opcode=35, len=17, type=RenderingAttributes
+Xfer::Process: Opcode=45, len=84, type=MovieAttributes
+Xfer::Process: Opcode=48, len=10372, type=FileOpenOptions
+Xfer::Process: Opcode=19, len=763, type=HostProfileList
+Xfer::Process: Opcode=39, len=43, type=MaterialAttributes
+Xfer::Process: Opcode=32, len=375, type=PickAttributes
+Xfer::Process: Opcode=42, len=478, type=QueryOverTimeAttributes
+Xfer::Process: Opcode=37, len=3533, type=QueryList
+Xfer::Process: Opcode=46, len=54, type=MeshManagementAttributes
+Xfer::Process: Opcode=16, len=25, type=GlobalAttributes
+Xfer::Process: Opcode=18, len=6, type=PlotList
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+In QvisFilePanel::ExpandDatabases 
+Xfer::Process: Opcode=53, len=105, type=BoundaryAttributes
+Xfer::Process: Opcode=55, len=679, type=ContourAttributes
+Xfer::Process: Opcode=57, len=156, type=CurveAttributes
+Xfer::Process: Opcode=59, len=120, type=FilledBoundaryAttributes
+Xfer::Process: Opcode=61, len=104, type=HistogramAttributes
+Xfer::Process: Opcode=63, len=84, type=LabelAttributes
+Xfer::Process: Opcode=65, len=109, type=MeshAttributes
+Xfer::Process: Opcode=67, len=135, type=MoleculeAttributes
+Xfer::Process: Opcode=69, len=730, type=MultiCurveAttributes
+Xfer::Process: Opcode=71, len=76, type=ParallelCoordinatesAttributes
+Xfer::Process: Opcode=73, len=244, type=PseudocolorAttributes
+Xfer::Process: Opcode=75, len=251, type=ScatterAttributes
+Xfer::Process: Opcode=77, len=107, type=SpreadsheetAttributes
+Xfer::Process: Opcode=79, len=916, type=StreamlineAttributes
+Xfer::Process: Opcode=81, len=107, type=SubsetAttributes
+Xfer::Process: Opcode=83, len=52, type=TensorAttributes
+Xfer::Process: Opcode=85, len=12, type=TruecolorAttributes
+Xfer::Process: Opcode=87, len=136, type=VectorAttributes
+Xfer::Process: Opcode=89, len=545, type=VolumeAttributes
+Xfer::Process: Opcode=54, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=56, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=58, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=60, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=62, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=64, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=66, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=68, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=70, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=72, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=74, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=76, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=78, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=80, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=82, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=84, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=86, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=88, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=90, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=91, len=6, type=AMRStitchCellAttributes
+Xfer::Process: Opcode=92, len=6, type=BoundaryOpAttributes
+Xfer::Process: Opcode=93, len=62, type=BoxAttributes
+Xfer::Process: Opcode=94, len=15, type=CartographicProjectionAttributes
+Xfer::Process: Opcode=95, len=238, type=ClipAttributes
+Xfer::Process: Opcode=96, len=113, type=ConeAttributes
+Xfer::Process: Opcode=97, len=3, type=ConnectedComponentsAttributes
+Xfer::Process: Opcode=98, len=16, type=CoordSwapAttributes
+Xfer::Process: Opcode=99, len=180, type=CreateBondsAttributes
+Xfer::Process: Opcode=100, len=70, type=CylinderAttributes
+Xfer::Process: Opcode=101, len=158, type=DataBinningAttributes
+Xfer::Process: Opcode=102, len=6, type=DeferExpressionAttributes
+Xfer::Process: Opcode=103, len=19, type=DisplaceAttributes
+Xfer::Process: Opcode=104, len=6, type=DualMeshAttributes
+Xfer::Process: Opcode=105, len=3, type=EdgeAttributes
+Xfer::Process: Opcode=106, len=55, type=ElevateAttributes
+Xfer::Process: Opcode=107, len=88, type=EllipsoidSliceAttributes
+Xfer::Process: Opcode=108, len=5, type=ExternalSurfaceAttributes
+Xfer::Process: Opcode=109, len=46, type=ExtrudeAttributes
+Xfer::Process: Opcode=110, len=6, type=FFTAttributes
+Xfer::Process: Opcode=111, len=21, type=FluxAttributes
+Xfer::Process: Opcode=112, len=93, type=IndexSelectAttributes
+Xfer::Process: Opcode=113, len=675, type=IntegralCurveAttributes
+Xfer::Process: Opcode=114, len=15, type=InverseGhostZoneAttributes
+Xfer::Process: Opcode=115, len=57, type=IsosurfaceAttributes
+Xfer::Process: Opcode=116, len=28, type=IsovolumeAttributes
+Xfer::Process: Opcode=117, len=315, type=LCSAttributes
+Xfer::Process: Opcode=118, len=54, type=LagrangianAttributes
+Xfer::Process: Opcode=119, len=74, type=LineoutAttributes
+Xfer::Process: Opcode=120, len=56, type=ModelFitAtts
+Xfer::Process: Opcode=121, len=13, type=MultiresControlAttributes
+Xfer::Process: Opcode=122, len=45, type=OnionPeelAttributes
+Xfer::Process: Opcode=123, len=66, type=PersistentParticlesAttributes
+Xfer::Process: Opcode=124, len=489, type=PoincareAttributes
+Xfer::Process: Opcode=125, len=11, type=ProjectAttributes
+Xfer::Process: Opcode=126, len=62, type=RadialResampleAttributes
+Xfer::Process: Opcode=127, len=76, type=ReflectAttributes
+Xfer::Process: Opcode=128, len=140, type=ReplicateAttributes
+Xfer::Process: Opcode=129, len=101, type=ResampleAttributes
+Xfer::Process: Opcode=130, len=60, type=RevolveAttributes
+Xfer::Process: Opcode=131, len=169, type=SliceAttributes
+Xfer::Process: Opcode=132, len=46, type=SmoothOperatorAttributes
+Xfer::Process: Opcode=133, len=39, type=SphereSliceAttributes
+Xfer::Process: Opcode=134, len=28, type=StaggerAttributes
+Xfer::Process: Opcode=135, len=41, type=StatisticalTrendsAttributes
+Xfer::Process: Opcode=136, len=6, type=SurfaceNormalAttributes
+Xfer::Process: Opcode=137, len=30, type=ThreeSliceAttributes
+Xfer::Process: Opcode=138, len=45, type=ThresholdAttributes
+Xfer::Process: Opcode=139, len=332, type=TransformAttributes
+Xfer::Process: Opcode=140, len=23, type=TriangulateRegularPointsAttributes
+Xfer::Process: Opcode=141, len=42, type=TubeAttributes
+Xfer::Process: Opcode=25, len=73, type=SILRestrictionAttributes
+Xfer::Process: Opcode=23, len=6, type=ExpressionList
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=36, len=10, type=KeyframeAttributes
+Xfer::Process: Opcode=41, len=6, type=AnnotationObjectList
+Xfer::Process: Opcode=27, len=90, type=ViewCurveAttributes
+Xfer::Process: Opcode=28, len=101, type=View2DAttributes
+Xfer::Process: Opcode=29, len=258, type=View3DAttributes
+Xfer::Process: Opcode=26, len=80, type=ViewAxisArrayAttributes
+Xfer::Process: Opcode=34, len=11, type=WindowInformation
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=24, len=1100, type=AnnotationAttributes
+Xfer::Process: Opcode=43, len=19, type=InteractorAttributes
+Xfer::Process: Opcode=30, len=481, type=LightList
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=34, len=160, type=WindowInformation
+OpenFileInFileServer: no active source. Closing file in file server list. 
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=6, type=WindowInformation
+Xfer::Process: Opcode=35, len=137, type=RenderingAttributes
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=265, type=ViewerRPC
+Xfer::Process: Opcode=7, len=16493, type=DBPluginInfoAttributes
+Xfer::Process: Opcode=48, len=10386, type=FileOpenOptions
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=2, len=6, type=SyncAttributes
+Xfer::Process: Opcode=17, len=18, type=DatabaseCorrelationList
+Xfer::Process: Opcode=50, len=13, type=SelectionList
+QvisGUIApplication::FinalInitialization: initStage=0
+QvisGUIApplication::CalculateViewerArea: Using saved geometry. Putting viewer windows to the right of the GUI windows at: 1402x980+518+50
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+QvisGUIApplication::FinalInitialization: initStage=1
+Initializing the "Information" window because it was in the config file.
+Initializing the "Output" window because it was in the config file.
+Creating the "Compute engines" window because it was in the config file.
+Creating the "Lighting" window because it was in the config file.
+Initializing the "Preferences" window because it was in the config file.
+Creating the "Rendering options" window because it was in the config file.
+Xfer::Update: Sending: opcode=35, name=RenderingAttributes
+Xfer::Update: Sending: opcode=35, name=RenderingAttributes
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::FinalInitialization: initStage=2
+Found "Boundary plot attributes" in the config so that window will be created.
+Found "Pseudocolor plot attributes" in the config so that window will be created.
+QvisMainWindow::SetFromNode: Initializing the main window because it was in the config file.
+QvisMainWindow::SetFromNode: Overriding geometry from config file.
+QvisMainWindow::SetFromNode: Using saved splitter values {, 0, 0.541176, 0.451765}
+QvisGUIApplication::FinalInitialization: initStage=3
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::FinalInitialization: initStage=4
+QvisGUIApplication::FinalInitialization: initStage=5
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::FinalInitialization: initStage=6
+QvisGUIApplication::FinalInitialization: initStage=7
+Reading from the viewer's socket is currently not allowed!
+QvisGUIApplication::FinalInitialization: initStage=8
+QvisGUIApplication::FinalInitialization: initStage=9
+Xfer::Process: Opcode=18, len=6, type=PlotList
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+In QvisFilePanel::ExpandDatabases 
+Xfer::Process: Opcode=16, len=25, type=GlobalAttributes
+Xfer::Process: Opcode=18, len=6, type=PlotList
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+In QvisFilePanel::ExpandDatabases 
+Xfer::Process: Opcode=53, len=105, type=BoundaryAttributes
+Xfer::Process: Opcode=55, len=679, type=ContourAttributes
+QvisGUIApplication::FinalInitialization: initStage=10
+QvisGUIApplication::FinalInitialization: initStage=11
+Xfer::Process: Opcode=57, len=156, type=CurveAttributes
+Xfer::Process: Opcode=59, len=120, type=FilledBoundaryAttributes
+Xfer::Process: Opcode=61, len=104, type=HistogramAttributes
+Xfer::Process: Opcode=63, len=84, type=LabelAttributes
+Xfer::Process: Opcode=65, len=109, type=MeshAttributes
+Xfer::Process: Opcode=67, len=135, type=MoleculeAttributes
+QvisGUIApplication::FinalInitialization: initStage=12
+QvisGUIApplication::FinalInitialization: initStage=13
+Xfer::Update: Sending: opcode=2, name=SyncAttributes
+Starting crash recovery file timer.
+Xfer::Process: Opcode=69, len=730, type=MultiCurveAttributes
+Xfer::Process: Opcode=71, len=76, type=ParallelCoordinatesAttributes
+Xfer::Process: Opcode=73, len=244, type=PseudocolorAttributes
+Xfer::Process: Opcode=75, len=251, type=ScatterAttributes
+QvisGUIApplication::FinalInitialization: initStage=14
+QvisGUIApplication::FinalInitialization: initStage=15
+Xfer::Process: Opcode=77, len=107, type=SpreadsheetAttributes
+Xfer::Process: Opcode=79, len=916, type=StreamlineAttributes
+Xfer::Process: Opcode=81, len=107, type=SubsetAttributes
+Xfer::Process: Opcode=83, len=52, type=TensorAttributes
+Xfer::Process: Opcode=85, len=12, type=TruecolorAttributes
+Xfer::Process: Opcode=87, len=136, type=VectorAttributes
+Xfer::Process: Opcode=89, len=545, type=VolumeAttributes
+Xfer::Process: Opcode=54, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=56, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=58, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=60, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=62, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=64, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=66, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=68, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=70, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=72, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=74, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=76, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=78, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=80, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=82, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=84, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=86, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=88, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=90, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=91, len=6, type=AMRStitchCellAttributes
+Xfer::Process: Opcode=92, len=6, type=BoundaryOpAttributes
+Xfer::Process: Opcode=93, len=62, type=BoxAttributes
+Xfer::Process: Opcode=94, len=15, type=CartographicProjectionAttributes
+Xfer::Process: Opcode=95, len=238, type=ClipAttributes
+Xfer::Process: Opcode=96, len=113, type=ConeAttributes
+Xfer::Process: Opcode=97, len=3, type=ConnectedComponentsAttributes
+Xfer::Process: Opcode=98, len=16, type=CoordSwapAttributes
+Xfer::Process: Opcode=99, len=180, type=CreateBondsAttributes
+Xfer::Process: Opcode=100, len=70, type=CylinderAttributes
+Xfer::Process: Opcode=101, len=158, type=DataBinningAttributes
+Xfer::Process: Opcode=102, len=6, type=DeferExpressionAttributes
+Xfer::Process: Opcode=103, len=19, type=DisplaceAttributes
+Xfer::Process: Opcode=104, len=6, type=DualMeshAttributes
+Xfer::Process: Opcode=105, len=3, type=EdgeAttributes
+Xfer::Process: Opcode=106, len=55, type=ElevateAttributes
+Xfer::Process: Opcode=107, len=88, type=EllipsoidSliceAttributes
+Xfer::Process: Opcode=108, len=5, type=ExternalSurfaceAttributes
+Xfer::Process: Opcode=109, len=46, type=ExtrudeAttributes
+Xfer::Process: Opcode=110, len=6, type=FFTAttributes
+Xfer::Process: Opcode=111, len=21, type=FluxAttributes
+Xfer::Process: Opcode=112, len=93, type=IndexSelectAttributes
+Xfer::Process: Opcode=113, len=675, type=IntegralCurveAttributes
+Xfer::Process: Opcode=114, len=15, type=InverseGhostZoneAttributes
+Xfer::Process: Opcode=115, len=57, type=IsosurfaceAttributes
+Xfer::Process: Opcode=116, len=28, type=IsovolumeAttributes
+Xfer::Process: Opcode=117, len=315, type=LCSAttributes
+Xfer::Process: Opcode=118, len=54, type=LagrangianAttributes
+Xfer::Process: Opcode=119, len=74, type=LineoutAttributes
+Xfer::Process: Opcode=120, len=56, type=ModelFitAtts
+Xfer::Process: Opcode=121, len=13, type=MultiresControlAttributes
+Xfer::Process: Opcode=122, len=45, type=OnionPeelAttributes
+Xfer::Process: Opcode=123, len=66, type=PersistentParticlesAttributes
+Xfer::Process: Opcode=124, len=489, type=PoincareAttributes
+Xfer::Process: Opcode=125, len=11, type=ProjectAttributes
+Xfer::Process: Opcode=126, len=62, type=RadialResampleAttributes
+Xfer::Process: Opcode=127, len=76, type=ReflectAttributes
+Xfer::Process: Opcode=128, len=140, type=ReplicateAttributes
+Xfer::Process: Opcode=129, len=101, type=ResampleAttributes
+Xfer::Process: Opcode=130, len=60, type=RevolveAttributes
+Xfer::Process: Opcode=131, len=169, type=SliceAttributes
+Xfer::Process: Opcode=132, len=46, type=SmoothOperatorAttributes
+Xfer::Process: Opcode=133, len=39, type=SphereSliceAttributes
+Xfer::Process: Opcode=134, len=28, type=StaggerAttributes
+Xfer::Process: Opcode=135, len=41, type=StatisticalTrendsAttributes
+Xfer::Process: Opcode=136, len=6, type=SurfaceNormalAttributes
+Xfer::Process: Opcode=137, len=30, type=ThreeSliceAttributes
+Xfer::Process: Opcode=138, len=45, type=ThresholdAttributes
+Xfer::Process: Opcode=139, len=332, type=TransformAttributes
+Xfer::Process: Opcode=140, len=23, type=TriangulateRegularPointsAttributes
+Xfer::Process: Opcode=141, len=42, type=TubeAttributes
+Xfer::Process: Opcode=25, len=73, type=SILRestrictionAttributes
+Xfer::Process: Opcode=36, len=10, type=KeyframeAttributes
+Xfer::Process: Opcode=41, len=6, type=AnnotationObjectList
+Xfer::Process: Opcode=27, len=90, type=ViewCurveAttributes
+Xfer::Process: Opcode=28, len=101, type=View2DAttributes
+Xfer::Process: Opcode=29, len=258, type=View3DAttributes
+Xfer::Process: Opcode=26, len=80, type=ViewAxisArrayAttributes
+Xfer::Process: Opcode=34, len=11, type=WindowInformation
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=24, len=1100, type=AnnotationAttributes
+Xfer::Process: Opcode=43, len=19, type=InteractorAttributes
+Xfer::Process: Opcode=30, len=481, type=LightList
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=34, len=160, type=WindowInformation
+OpenFileInFileServer: no active source. Closing file in file server list. 
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=6, type=WindowInformation
+Xfer::Process: Opcode=35, len=137, type=RenderingAttributes
+Xfer::Process: Opcode=39, len=43, type=MaterialAttributes
+Xfer::Process: Opcode=46, len=54, type=MeshManagementAttributes
+Xfer::Process: Opcode=13, len=85, type=ExportDBAttributes
+Xfer::Process: Opcode=41, len=6, type=AnnotationObjectList
+Xfer::Process: Opcode=9, len=41, type=ClientMethod
+GUI received _QueryClientInformation method. Tell the viewer which client methods the GUI supports.
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=280, type=ViewerRPC
+Xfer::Process: Opcode=16, len=25, type=GlobalAttributes
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=280, type=ViewerRPC
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Update: Sending: opcode=10, name=ClientInformation
+GUI info: gui
+methods:
+	Quit()
+	DeIconify()
+	Hide()
+	Iconify()
+	Show()
+	MessageBoxYesNo(s)
+	MessageBoxOkCancel(s)
+	MessageBoxOk(s)
+	MovieProgress(sii)
+	MovieProgressEnd()
+	AcceptRecordedMacro(s)
+	AddMacroButton(s)
+	ClearMacroButtons()
+
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=280, type=ViewerRPC
+Xfer::Process: Opcode=16, len=25, type=GlobalAttributes
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=11, len=208, type=ClientInformationList
+Xfer::Process: Opcode=2, len=6, type=SyncAttributes
+Session dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/bin/
+Executing ChangeDirectory RPC
+	 directory='/export/ahota/visit/visitOSPRay/visit2.8.1/src/bin'
+Xfer::Update: Sending: opcode=6, name=ChangeDirectoryRPC
+Xfer::Process: Opcode=23, len=18, type=NonBlockingRPC::CompletionData (from LoadPluginsRPC)
+Xfer::Process: Opcode=7, len=6, type=VisItRPC::RPCReply (from ChangeDirectoryRPC)
+Executing GetDirectoryRPC RPC
+Xfer::Update: Sending: opcode=4, name=GetDirectoryRPC
+Xfer::Process: Opcode=5, len=60, type=GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Executing GetFileList(*false, false, ) RPC
+Xfer::Update: Sending: opcode=8, name=GetFileListRPC
+Xfer::Process: Opcode=9, len=5628, type=GetFileListRPC::FileList (from GetFileListRPC)
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+ExistingRemoteProcess::Open: Called with (profile, numRead=1, numWrite=1, createAsThoughLocal=false) where profile is:
+hostNickName=blackrock.engr.utk.edu
+host=blackrock.engr.utk.edu
+username=ahota
+hostAliases=blackrock.engr.utk.edu
+directory=
+shareOneBatchJob=false
+tunnelSSH=false
+sshPortSpecified=false
+sshPort=22
+sshCommandSpecified=false
+sshCommand={ssh}
+useGateway=false
+gatewayHost=
+clientHostDetermination=MachineName
+manualClientHostName=
+maximumNodesValid=false
+maximumNodes=1
+maximumProcessorsValid=false
+maximumProcessors=1
+RemoteProcess::StartMakingConnection: Called with args (numRead=1, numWrite=1)
+RemoteProcess::StartMakingConnection: Looking up the name of the local host: blackrock.engr.utk.edu
+RemoteProcess::StartMakingConnection: Looking up the host using gethostbyname("blackrock.engr.utk.edu"): blackrock.engr.utk.edu
+RemoteProcess::StartMakingConnection: Get the local user's login name: ahota
+RemoteProcess::StartMakingConnection: Calling GetSocketAndPort
+RemoteProcess::GetSocketAndPort: Opened listen socket: 14
+RemoteProcess::GetSocketAndPort: Looking for available port starting with: 5600
+RemoteProcess::GetSocketAndPort: Bind socket to port: 5600
+RemoteProcess::StartMakingConnection: Start listening for connections.
+ExistingRemoteProcess::Open: commandLine = {
+	visit
+	-v
+	2.8
+	-mdserver
+	-host
+	blackrock.engr.utk.edu
+	-port
+	5600
+	-key
+	a52b9974770de8c1d17f
+}
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+RemoteProcess::FinishMakingConnection: Called with (1, 1)
+RemoteProcess::FinishMakingConnection: Call the progress callback(0)
+RemoteProcess::FinishMakingConnection: Creating read connections
+RemoteProcess::AcceptSocket: Calling MultiThreadedAcceptSocket.
+RemoteProcess::MultiThreadedAcceptSocket: Initializing thread callback data
+RemoteProcess::MultiThreadedAcceptSocket: Creating new accept thread
+RemoteProcess::MultiThreadedAcceptSocket: New accept thread created
+RemoteProcess::MultiThreadedAcceptSocket: Calling progress callback(1) .Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=293, type=ViewerRPC
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+RemoteProcess::MultiThreadedAcceptSocket: Returning: 19
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::FinishMakingConnection: Creating write connections
+RemoteProcess::AcceptSocket: Calling MultiThreadedAcceptSocket.
+RemoteProcess::MultiThreadedAcceptSocket: Initializing thread callback data
+RemoteProcess::MultiThreadedAcceptSocket: Creating new accept thread
+RemoteProcess::MultiThreadedAcceptSocket: New accept thread created
+RemoteProcess::MultiThreadedAcceptSocket: Calling progress callback(1) ..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+RemoteProcess::MultiThreadedAcceptSocket: Returning: 20
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::FinishMakingConnection: Exchanging type representations
+RemoteProcess::FinishMakingConnection: Call the progress callback(2)
+RemoteProcess::CloseListenSocket: closing listen socket
+Executing GetDirectoryRPC RPC
+Xfer::Update: Sending: opcode=4, name=GetDirectoryRPC
+Xfer::Process: Opcode=5, len=60, type=GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Xfer: Number of objects: 30
+Object[0] = QuitRPC
+Object[1] = NonBlockingRPC::CompletionData (from QuitRPC)
+Object[2] = KeepAliveRPC
+Object[3] = VisItRPC::RPCReply (from KeepAliveRPC)
+Object[4] = GetDirectoryRPC
+Object[5] = GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Object[6] = ChangeDirectoryRPC
+Object[7] = VisItRPC::RPCReply (from ChangeDirectoryRPC)
+Object[8] = GetFileListRPC
+Object[9] = GetFileListRPC::FileList (from GetFileListRPC)
+Object[10] = GetMetaDataRPC
+Object[11] = avtDatabaseMetaData (from GetMetaDataRPC)
+Object[12] = GetSILRPC
+Object[13] = SILAttributes (from GetSILRPC)
+Object[14] = ConnectRPC
+Object[15] = NonBlockingRPC::CompletionData (from ConnectRPC)
+Object[16] = CreateGroupListRPC
+Object[17] = NonBlockingRPC::CompletionData (from CreateGroupListRPC)
+Object[18] = ExpandPathRPC
+Object[19] = ExpandPathRPC::PathName (from ExpandPathRPC)
+Object[20] = CloseDatabaseRPC
+Object[21] = VisItRPC::RPCReply (from CloseDatabaseRPC)
+Object[22] = LoadPluginsRPC
+Object[23] = NonBlockingRPC::CompletionData (from LoadPluginsRPC)
+Object[24] = GetPluginErrorsRPC
+Object[25] = GetPluginErrorsRPC::PluginErrors (from GetPluginErrorsRPC)
+Object[26] = GetDBPluginInfoRPC
+Object[27] = DBPluginInfoAttributes (from GetDBPluginInfoRPC)
+Object[28] = SetMFileOpenOptionsRPC
+Object[29] = VisItRPC::RPCReply (from SetMFileOpenOptionsRPC)
+Executing GetDirectoryRPC RPC
+Xfer::Update: Sending: opcode=4, name=GetDirectoryRPC
+Xfer::Process: Opcode=5, len=60, type=GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Executing GetFileList(*false, false, ) RPC
+Xfer::Update: Sending: opcode=8, name=GetFileListRPC
+Xfer::Process: Opcode=9, len=5628, type=GetFileListRPC::FileList (from GetFileListRPC)
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Executing ChangeDirectory RPC
+	 directory='/export/ahota/vol/vtk'
+Xfer::Update: Sending: opcode=6, name=ChangeDirectoryRPC
+Xfer::Process: Opcode=7, len=6, type=VisItRPC::RPCReply (from ChangeDirectoryRPC)
+Executing GetDirectoryRPC RPC
+Xfer::Update: Sending: opcode=4, name=GetDirectoryRPC
+Xfer::Process: Opcode=5, len=31, type=GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Executing GetFileList(*false, false, ) RPC
+Xfer::Update: Sending: opcode=8, name=GetFileListRPC
+Xfer::Process: Opcode=9, len=331, type=GetFileListRPC::FileList (from GetFileListRPC)
+In QvisFilePanel::ExpandDatabases 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=7, len=16506, type=DBPluginInfoAttributes
+Xfer::Process: Opcode=48, len=10386, type=FileOpenOptions
+Xfer::Process: Opcode=7, len=16493, type=DBPluginInfoAttributes
+Xfer::Process: Opcode=48, len=10386, type=FileOpenOptions
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Executing GetMetaData RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Xfer::Update: Sending: opcode=10, name=GetMetaDataRPC
+Xfer::Process: Opcode=11, len=949, type=avtDatabaseMetaData (from GetMetaDataRPC)
+Caching metadata with key "blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk"
+Database: /export/ahota/vol/vtk/dataset2.vtk
+Simulation: No
+Database comment: 
+File format: VTK_1.0
+Num Time States: 1
+MetaData is NOT repopulated on state changes
+useCatchAllMesh: 0
+Format  cannot do its own domain decomposition
+The temporal extents are not set.
+All Times are ***NOT*** Accurate
+Times: 
+	0
+All Cycles are Accurate
+Cycles: 
+	2
+Meshes: 
+	Name = mesh
+	Number of blocks = 1
+	Block origin = 0
+	Cell origin = 0 (origin within one block of the cells).
+	Node origin = 0 (origin within one block of the nodes).
+	Group origin = 0
+	Title for domain hierarchy is domains
+	Title for individual piece in domain hierarchy is domain
+	Number of groups = 0
+	Title for group hierarchy is groups
+	Title for individual piece in group hierarchy is group
+	Mesh type is Rectilinear Mesh.
+	Spatial Dimension = 3
+	Spatial extents are: ((0, 63), (0, 63), (0, 63))
+	Topological Dimension = 3
+	The logical nodal bounds are not set.
+	The number of cells is not set.
+	There are no names set with the blocks.
+	Disjoint elements false
+	Contains ghost zones 0
+	Contains original cells 0
+	Contains original nodes 0
+	Units =  x: "", y: "", z: "".
+	Labels =  x: "X-Axis", y: "Y-Axis", z: "Z-Axis".
+	Mesh coord type is XY
+	Mesh is primarily cell-based
+	Unit cell vector #0 is 1 0 0
+	Unit cell vector #1 is 0 1 0
+	Unit cell vector #2 is 0 0 1
+	Rectilinear grids do not have an implicit transform.
+
+Scalars: 
+	Name = "data"
+	Mesh is = "mesh"
+	Centering = node centered.
+	The extents are not set.
+	This variable does not contain enumerated values.
+
+Executing GetSIL RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate = 0
+Xfer::Update: Sending: opcode=12, name=GetSILRPC
+Xfer::Process: Opcode=13, len=174, type=SILAttributes (from GetSILRPC)
+Caching SIL with key "blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk"
+Set0 
+	Set name = mesh, identifier = -1
+		Maps out 0, 
+Array 0 of size 1
+Array starting at 0 going through 0
+Printing out first set as example: 
+	Set name = domain0, identifier = 0
+		Maps in 0, 
+In QvisFilePanel::ExpandDatabases 
+GetOperatorCreatedExpressions: Adding operator-created expression operators/ConnectedComponents/mesh to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/DataBinning/1D/mesh to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/DataBinning/2D/mesh to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/DataBinning/3D/mesh to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/Flux/mesh to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/Lineout/data to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/ModelFit/model to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/ModelFit/distance to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/StatisticalTrends/Sum/data to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/StatisticalTrends/Mean/data to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/StatisticalTrends/Variance/data to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/StatisticalTrends/Std. Dev./data to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/StatisticalTrends/Slope/data to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/StatisticalTrends/Residuals/data to the global expression list.
+GetOperatorCreatedExpressions: Adding operator-created expression operators/SurfaceNormal/mesh to the global expression list.
+PopulateVariableLists: update required: true
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: true
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+In QvisFilePanel::ExpandDatabases 
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=350, type=ViewerRPC
+Xfer::Process: Opcode=16, len=83, type=GlobalAttributes
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=34, len=89, type=WindowInformation
+In QvisFilePanel::ExpandDatabases 
+PopulateVariableLists: early return. update required = false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=4, len=179, type=StatusAttributes
+Xfer::Process: Opcode=21, len=86, type=EngineList
+Xfer::Process: Opcode=4, len=173, type=StatusAttributes
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=354, type=ViewerRPC
+Xfer::Process: Opcode=7, len=16506, type=DBPluginInfoAttributes
+Xfer::Process: Opcode=48, len=10386, type=FileOpenOptions
+Xfer::Process: Opcode=18, len=159, type=PlotList
+PopulateVariableLists: update required: true
+PopulateVariableLists: early return. update required = false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=53, len=105, type=BoundaryAttributes
+Xfer::Process: Opcode=55, len=679, type=ContourAttributes
+Xfer::Process: Opcode=57, len=156, type=CurveAttributes
+Xfer::Process: Opcode=59, len=120, type=FilledBoundaryAttributes
+Xfer::Process: Opcode=61, len=104, type=HistogramAttributes
+Xfer::Process: Opcode=63, len=84, type=LabelAttributes
+Xfer::Process: Opcode=65, len=109, type=MeshAttributes
+Xfer::Process: Opcode=67, len=135, type=MoleculeAttributes
+Xfer::Process: Opcode=69, len=730, type=MultiCurveAttributes
+Xfer::Process: Opcode=71, len=76, type=ParallelCoordinatesAttributes
+Xfer::Process: Opcode=73, len=244, type=PseudocolorAttributes
+Xfer::Process: Opcode=75, len=251, type=ScatterAttributes
+Xfer::Process: Opcode=77, len=107, type=SpreadsheetAttributes
+Xfer::Process: Opcode=79, len=916, type=StreamlineAttributes
+Xfer::Process: Opcode=81, len=107, type=SubsetAttributes
+Xfer::Process: Opcode=83, len=52, type=TensorAttributes
+Xfer::Process: Opcode=85, len=12, type=TruecolorAttributes
+Xfer::Process: Opcode=87, len=136, type=VectorAttributes
+Xfer::Process: Opcode=89, len=545, type=VolumeAttributes
+Xfer::Process: Opcode=90, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=54, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=56, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=58, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=60, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=62, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=64, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=66, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=68, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=70, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=72, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=74, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=76, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=78, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=80, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=82, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=84, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=86, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=88, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=91, len=6, type=AMRStitchCellAttributes
+Xfer::Process: Opcode=92, len=6, type=BoundaryOpAttributes
+Xfer::Process: Opcode=93, len=62, type=BoxAttributes
+Xfer::Process: Opcode=94, len=15, type=CartographicProjectionAttributes
+Xfer::Process: Opcode=95, len=238, type=ClipAttributes
+Xfer::Process: Opcode=96, len=113, type=ConeAttributes
+Xfer::Process: Opcode=97, len=3, type=ConnectedComponentsAttributes
+Xfer::Process: Opcode=98, len=16, type=CoordSwapAttributes
+Xfer::Process: Opcode=99, len=180, type=CreateBondsAttributes
+Xfer::Process: Opcode=100, len=70, type=CylinderAttributes
+Xfer::Process: Opcode=101, len=158, type=DataBinningAttributes
+Xfer::Process: Opcode=102, len=6, type=DeferExpressionAttributes
+Xfer::Process: Opcode=103, len=19, type=DisplaceAttributes
+Xfer::Process: Opcode=104, len=6, type=DualMeshAttributes
+Xfer::Process: Opcode=105, len=3, type=EdgeAttributes
+Xfer::Process: Opcode=106, len=55, type=ElevateAttributes
+Xfer::Process: Opcode=107, len=88, type=EllipsoidSliceAttributes
+Xfer::Process: Opcode=108, len=5, type=ExternalSurfaceAttributes
+Xfer::Process: Opcode=109, len=46, type=ExtrudeAttributes
+Xfer::Process: Opcode=110, len=6, type=FFTAttributes
+Xfer::Process: Opcode=111, len=21, type=FluxAttributes
+Xfer::Process: Opcode=112, len=93, type=IndexSelectAttributes
+Xfer::Process: Opcode=113, len=675, type=IntegralCurveAttributes
+Xfer::Process: Opcode=114, len=15, type=InverseGhostZoneAttributes
+Xfer::Process: Opcode=115, len=57, type=IsosurfaceAttributes
+Xfer::Process: Opcode=116, len=28, type=IsovolumeAttributes
+Xfer::Process: Opcode=117, len=315, type=LCSAttributes
+Xfer::Process: Opcode=118, len=54, type=LagrangianAttributes
+Xfer::Process: Opcode=119, len=74, type=LineoutAttributes
+Xfer::Process: Opcode=120, len=56, type=ModelFitAtts
+Xfer::Process: Opcode=121, len=13, type=MultiresControlAttributes
+Xfer::Process: Opcode=122, len=45, type=OnionPeelAttributes
+Xfer::Process: Opcode=123, len=66, type=PersistentParticlesAttributes
+Xfer::Process: Opcode=124, len=489, type=PoincareAttributes
+Xfer::Process: Opcode=125, len=11, type=ProjectAttributes
+Xfer::Process: Opcode=126, len=62, type=RadialResampleAttributes
+Xfer::Process: Opcode=127, len=76, type=ReflectAttributes
+Xfer::Process: Opcode=128, len=140, type=ReplicateAttributes
+Xfer::Process: Opcode=129, len=101, type=ResampleAttributes
+Xfer::Process: Opcode=130, len=60, type=RevolveAttributes
+Xfer::Process: Opcode=131, len=169, type=SliceAttributes
+Xfer::Process: Opcode=132, len=46, type=SmoothOperatorAttributes
+Xfer::Process: Opcode=133, len=39, type=SphereSliceAttributes
+Xfer::Process: Opcode=134, len=28, type=StaggerAttributes
+Xfer::Process: Opcode=135, len=41, type=StatisticalTrendsAttributes
+Xfer::Process: Opcode=136, len=6, type=SurfaceNormalAttributes
+Xfer::Process: Opcode=137, len=30, type=ThreeSliceAttributes
+Xfer::Process: Opcode=138, len=45, type=ThresholdAttributes
+Xfer::Process: Opcode=139, len=332, type=TransformAttributes
+Xfer::Process: Opcode=140, len=23, type=TriangulateRegularPointsAttributes
+Xfer::Process: Opcode=141, len=42, type=TubeAttributes
+Xfer::Process: Opcode=25, len=181, type=SILRestrictionAttributes
+Xfer::Process: Opcode=23, len=6, type=ExpressionList
+PopulateVariableLists: early return. update required = false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+PopulateVariableLists: early return. update required = false
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=34, len=26, type=WindowInformation
+In QvisFilePanel::ExpandDatabases 
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=18, len=159, type=PlotList
+PopulateVariableLists: early return. update required = false
+PopulateVariableLists: early return. update required = false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=90, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=41, len=183, type=AnnotationObjectList
+Xfer::Process: Opcode=41, len=183, type=AnnotationObjectList
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=47, len=354, type=ViewerRPC
+Xfer::Process: Opcode=18, len=159, type=PlotList
+PopulateVariableLists: early return. update required = false
+PopulateVariableLists: early return. update required = false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=25, len=181, type=SILRestrictionAttributes
+Xfer::Process: Opcode=16, len=85, type=GlobalAttributes
+Xfer::Process: Opcode=4, len=120, type=StatusAttributes
+Xfer::Process: Opcode=4, len=138, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=140, type=StatusAttributes
+Xfer::Process: Opcode=4, len=140, type=StatusAttributes
+Xfer::Process: Opcode=4, len=140, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=148, type=StatusAttributes
+Xfer::Process: Opcode=4, len=140, type=StatusAttributes
+Xfer::Process: Opcode=4, len=140, type=StatusAttributes
+Xfer::Process: Opcode=4, len=140, type=StatusAttributes
+Xfer::Process: Opcode=4, len=153, type=StatusAttributes
+Xfer::Process: Opcode=4, len=153, type=StatusAttributes
+Xfer::Process: Opcode=4, len=153, type=StatusAttributes
+Xfer::Process: Opcode=4, len=147, type=StatusAttributes
+Xfer::Process: Opcode=4, len=147, type=StatusAttributes
+Xfer::Process: Opcode=4, len=147, type=StatusAttributes
+Xfer::Process: Opcode=4, len=141, type=StatusAttributes
+Xfer::Process: Opcode=4, len=141, type=StatusAttributes
+Xfer::Process: Opcode=4, len=150, type=StatusAttributes
+Xfer::Process: Opcode=4, len=129, type=StatusAttributes
+Xfer::Process: Opcode=16, len=85, type=GlobalAttributes
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=29, len=258, type=View3DAttributes
+Xfer::Process: Opcode=26, len=80, type=ViewAxisArrayAttributes
+Xfer::Process: Opcode=34, len=11, type=WindowInformation
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=18, len=159, type=PlotList
+PopulateVariableLists: early return. update required = false
+PopulateVariableLists: early return. update required = false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Xfer::Process: Opcode=90, len=20480, type=PlotInfoAttributes
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Xfer::Process: Opcode=41, len=183, type=AnnotationObjectList
+Telling viewer to close.
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+RemoteProcess::WaitForTermination: Waiting for process to quit

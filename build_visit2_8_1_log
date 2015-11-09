@@ -1,0 +1,44 @@
+Configuring VisIt . . .
+Building VisIt . . . (~50 minutes)
+VisIt build failed.  Giving up
+Unable to build or install VisIt.  Bailing out.
+Error in build process.  See build_visit2_8_1_log for more information. If the error is unclear, please include build_visit2_8_1_log in a  message to the visit-users@ornl.gov list.  You will probably  need to compress the build_visit2_8_1_log using a program like gzip  so it will fit within the size limits for email attachments.
+Configuring VisIt . . .
+Configuring VisIt . . .
+Building VisIt . . . (~50 minutes)
+All indications are that VisIt successfully built.
+Finished building VisIt.
+
+You many now try to run VisIt by cd'ing into the
+visit2.8.1/src/bin directory and invoking "visit"
+
+To create a binary distribution tarball from this build, cd to
+/export/ahota/visit/visitOSPRay/visit2.8.1/src
+then enter: "make package"
+
+This will produce a tarball called visitVERSION.ARCH.tar.gz, where
+VERSION is the version number, and ARCH is the OS architecure.
+
+To install the above tarball in a directory called "INSTALL_DIR_PATH"
+enter: svn_bin/visit-install VERSION ARCH INSTALL_DIR_PATH
+
+If you run into problems, contact visit-users@ornl.gov.
+Configuring VisIt . . .
+Building VisIt . . . (~50 minutes)
+All indications are that VisIt successfully built.
+Finished building VisIt.
+
+You many now try to run VisIt by cd'ing into the
+visit2.8.1/src/bin directory and invoking "visit"
+
+To create a binary distribution tarball from this build, cd to
+/export/ahota/visit/visitOSPRay/visit2.8.1/src
+then enter: "make package"
+
+This will produce a tarball called visitVERSION.ARCH.tar.gz, where
+VERSION is the version number, and ARCH is the OS architecure.
+
+To install the above tarball in a directory called "INSTALL_DIR_PATH"
+enter: svn_bin/visit-install VERSION ARCH INSTALL_DIR_PATH
+
+If you run into problems, contact visit-users@ornl.gov.

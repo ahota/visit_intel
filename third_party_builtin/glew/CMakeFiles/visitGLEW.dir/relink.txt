@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -m64 -fPIC -fvisibility=hidden -O3 -DNDEBUG   -shared -Wl,-soname,libvisitGLEW.so -o CMakeFiles/CMakeRelink.dir/libvisitGLEW.so CMakeFiles/visitGLEW.dir/glew/src/glew.c.o  -L/export/ahota/visit/visitOSPRay/visit/manta/2540/linux-x86_64_icc/lib -lGL 

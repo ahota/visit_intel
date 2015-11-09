@@ -1,0 +1,768 @@
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key ba536ba7652d52ad1716 
+ViewerConfigManager::ProcessConfigSettings
+	AppearanceAttributes setting from node
+	PluginManagerAttributes setting from node
+Viewer using font: Helvetica,12,-1,5,50,0,0,0,0,0
+Trying to load translator file: /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/translationsvisit_en_US
+Could not load translation.
+GetAppearance: Default System Style is: cleanlooks
+GetAppearance: Default system font is:Sans Serif,9,-1,5,50,0,0,0,0,0
+GetAppearance: Default background color is:#efebe7
+GetAppearance: Default foreground color is:#000000
+GetAppearance: Default orientation:0
+GetAppearance: Default System Style is: cleanlooks
+GetAppearance: Default system font is:Sans Serif,9,-1,5,50,0,0,0,0,0
+GetAppearance: Default background color is:#efebe7
+GetAppearance: Default foreground color is:#000000
+GetAppearance: Default orientation:0
+Handling ConnectToMetaDataServerRPC RPC.
+ViewerSubject::ConnectToMetaDataServer: start
+ViewerSubject::ConnectToMetaDataServer: Telling mdserver on host localhost to connect to another client.
+Arguments:
+	visit
+	-v
+	2.8
+	-mdserver
+	-host
+	blackrock.engr.utk.edu
+	-port
+	5600
+	-key
+	ba536ba7652d52ad1716
+ViewerFileServer::StartServer: start
+ViewerFileServer::StartServer: Creating on localhost
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::AcceptSocket: Setting socket options.
+Executing GetDirectoryRPC RPC
+Xfer: Number of objects: 30
+Object[0] = QuitRPC
+Object[1] = NonBlockingRPC::CompletionData (from QuitRPC)
+Object[2] = KeepAliveRPC
+Object[3] = VisItRPC::RPCReply (from KeepAliveRPC)
+Object[4] = GetDirectoryRPC
+Object[5] = GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Object[6] = ChangeDirectoryRPC
+Object[7] = VisItRPC::RPCReply (from ChangeDirectoryRPC)
+Object[8] = GetFileListRPC
+Object[9] = GetFileListRPC::FileList (from GetFileListRPC)
+Object[10] = GetMetaDataRPC
+Object[11] = avtDatabaseMetaData (from GetMetaDataRPC)
+Object[12] = GetSILRPC
+Object[13] = SILAttributes (from GetSILRPC)
+Object[14] = ConnectRPC
+Object[15] = NonBlockingRPC::CompletionData (from ConnectRPC)
+Object[16] = CreateGroupListRPC
+Object[17] = NonBlockingRPC::CompletionData (from CreateGroupListRPC)
+Object[18] = ExpandPathRPC
+Object[19] = ExpandPathRPC::PathName (from ExpandPathRPC)
+Object[20] = CloseDatabaseRPC
+Object[21] = VisItRPC::RPCReply (from CloseDatabaseRPC)
+Object[22] = LoadPluginsRPC
+Object[23] = NonBlockingRPC::CompletionData (from LoadPluginsRPC)
+Object[24] = GetPluginErrorsRPC
+Object[25] = GetPluginErrorsRPC::PluginErrors (from GetPluginErrorsRPC)
+Object[26] = GetDBPluginInfoRPC
+Object[27] = DBPluginInfoAttributes (from GetDBPluginInfoRPC)
+Object[28] = SetMFileOpenOptionsRPC
+Object[29] = VisItRPC::RPCReply (from SetMFileOpenOptionsRPC)
+ViewerFileServer::StartServer: end
+Executing SetMFileOpenOptionsRPC
+Executing GetPluginErrorsRPC RPC
+ViewerSubject::ConnectToMetaDataServer: end
+Done handling ConnectToMetaDataServerRPC RPC.
+Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/plots
+Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/plots
+Successfully loaded info about 21 plot plugins.
+Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/operators
+Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/operators
+Successfully loaded info about 62 operator plugins.
+Loaded full plot plugin Boundary version 1.0
+Loaded full plot plugin Contour version 1.0
+Loaded full plot plugin Curve version 1.0
+Loaded full plot plugin FilledBoundary version 1.0
+Loaded full plot plugin Histogram version 1.0
+Loaded full plot plugin Label version 1.0
+Loaded full plot plugin Mesh version 1.0
+Loaded full plot plugin Molecule version 1.0
+Loaded full plot plugin MultiCurve version 1.0
+Loaded full plot plugin ParallelCoordinates version 1.0
+Loaded full plot plugin Pseudocolor version 1.0
+Loaded full plot plugin Scatter version 1.0
+Loaded full plot plugin Spreadsheet version 1.0
+Loaded full plot plugin Streamline version 1.0
+Loaded full plot plugin Subset version 1.0
+Skipping disabled plot plugin Surface version 1.0
+Loaded full plot plugin Tensor version 1.0
+Loaded full plot plugin Truecolor version 1.0
+Loaded full plot plugin Vector version 1.0
+Generic Warning: In /export/ahota/visit/visitOSPRay/VTK-6.1.0/Rendering/Volume/vtkRayCastImageDisplayHelper.cxx, line 20
+Error: no override found for 'vtkRayCastImageDisplayHelper'.
+
+
+Loaded full plot plugin Volume version 1.1
+Skipping disabled plot plugin WellBore version 1.0
+Loaded full operator plugin AMRStitchCell version 1.0
+Loaded full operator plugin BoundaryOp version 1.0
+Loaded full operator plugin Box version 1.0
+Loaded full operator plugin CartographicProjection version 1.0
+Loaded full operator plugin Clip version 1.0
+Loaded full operator plugin Cone version 1.0
+Loaded full operator plugin ConnectedComponents version 1.0
+Loaded full operator plugin CoordSwap version 1.0
+Skipping disabled operator plugin CracksClipper version 1.0
+Loaded full operator plugin CreateBonds version 1.0
+Loaded full operator plugin Cylinder version 1.0
+Loaded full operator plugin DataBinning version 1.0
+Skipping disabled operator plugin Decimate version 1.0
+Loaded full operator plugin DeferExpression version 1.0
+Skipping disabled operator plugin Delaunay version 1.0
+Loaded full operator plugin Displace version 1.0
+Loaded full operator plugin DualMesh version 1.0
+Loaded full operator plugin Edge version 1.0
+Loaded full operator plugin Elevate version 1.0
+Loaded full operator plugin EllipsoidSlice version 1.0
+Loaded full operator plugin ExternalSurface version 1.0
+Skipping disabled operator plugin ExtractPointFunction2D version 1.0
+Loaded full operator plugin Extrude version 1.0
+Loaded full operator plugin FFT version 1.0
+Skipping disabled operator plugin FiveFoldTetSubdivision version 1.0
+Loaded full operator plugin Flux version 1.0
+Loaded full operator plugin IndexSelect version 1.0
+Loaded full operator plugin IntegralCurve version 1.0
+Loaded full operator plugin InverseGhostZone version 1.0
+Loaded full operator plugin Isosurface version 1.0
+Loaded full operator plugin Isovolume version 1.0
+Loaded full operator plugin LCS version 1.0
+Loaded full operator plugin Lagrangian version 1.0
+Skipping disabled operator plugin LineSampler version 1.0
+Loaded full operator plugin Lineout version 1.0
+Skipping disabled operator plugin Merge version 1.0
+Loaded full operator plugin ModelFit version 1.0
+Loaded full operator plugin MultiresControl version 1.0
+Loaded full operator plugin OnionPeel version 1.0
+Skipping disabled operator plugin PDF version 1.0
+Loaded full operator plugin PersistentParticles version 2.0
+Loaded full operator plugin Poincare version 3.0
+Loaded full operator plugin Project version 1.0
+Loaded full operator plugin RadialResample version 1.0
+Skipping disabled operator plugin RectilinearProject2D version 1.0
+Loaded full operator plugin Reflect version 1.0
+Loaded full operator plugin Replicate version 1.0
+Loaded full operator plugin Resample version 1.0
+Loaded full operator plugin Revolve version 1.0
+Loaded full operator plugin Slice version 1.0
+Loaded full operator plugin Smooth version 1.0
+Loaded full operator plugin SphereSlice version 1.0
+Loaded full operator plugin Stagger version 1.0
+Loaded full operator plugin StatisticalTrends version 1.0
+Loaded full operator plugin SurfaceNormal version 1.0
+Loaded full operator plugin ThreeSlice version 1.0
+Loaded full operator plugin Threshold version 1.0
+Skipping disabled operator plugin ToroidalPoloidalProjection version 1.0
+Loaded full operator plugin Transform version 1.0
+Loaded full operator plugin TriangulateRegularPoints version 1.0
+Loaded full operator plugin Tube version 1.0
+Skipping disabled operator plugin ZoneDump version 1.0
+Xfer: Number of objects: 142
+Object[0] = ViewerRPC
+Object[1] = PostponedAction
+Object[2] = SyncAttributes
+Object[3] = MessageAttributes
+Object[4] = StatusAttributes
+Object[5] = avtDatabaseMetaData
+Object[6] = SILAttributes
+Object[7] = DBPluginInfoAttributes
+Object[8] = ConstructDataBinningAttributes
+Object[9] = ClientMethod
+Object[10] = ClientInformation
+Object[11] = ClientInformationList
+Object[12] = SimulationUIValues
+Object[13] = ExportDBAttributes
+Object[14] = PluginManagerAttributes
+Object[15] = AppearanceAttributes
+Object[16] = GlobalAttributes
+Object[17] = DatabaseCorrelationList
+Object[18] = PlotList
+Object[19] = HostProfileList
+Object[20] = SaveWindowAttributes
+Object[21] = EngineList
+Object[22] = ColorTableAttributes
+Object[23] = ExpressionList
+Object[24] = AnnotationAttributes
+Object[25] = SILRestrictionAttributes
+Object[26] = ViewAxisArrayAttributes
+Object[27] = ViewCurveAttributes
+Object[28] = View2DAttributes
+Object[29] = View3DAttributes
+Object[30] = LightList
+Object[31] = AnimationAttributes
+Object[32] = PickAttributes
+Object[33] = PrinterAttributes
+Object[34] = WindowInformation
+Object[35] = RenderingAttributes
+Object[36] = KeyframeAttributes
+Object[37] = QueryList
+Object[38] = QueryAttributes
+Object[39] = MaterialAttributes
+Object[40] = GlobalLineoutAttributes
+Object[41] = AnnotationObjectList
+Object[42] = QueryOverTimeAttributes
+Object[43] = InteractorAttributes
+Object[44] = ProcessAttributes
+Object[45] = MovieAttributes
+Object[46] = MeshManagementAttributes
+Object[47] = ViewerRPC
+Object[48] = FileOpenOptions
+Object[49] = SelectionProperties
+Object[50] = SelectionList
+Object[51] = ViewerClientAttributes
+Object[52] = ViewerClientInformation
+Object[53] = BoundaryAttributes
+Object[54] = PlotInfoAttributes
+Object[55] = ContourAttributes
+Object[56] = PlotInfoAttributes
+Object[57] = CurveAttributes
+Object[58] = PlotInfoAttributes
+Object[59] = FilledBoundaryAttributes
+Object[60] = PlotInfoAttributes
+Object[61] = HistogramAttributes
+Object[62] = PlotInfoAttributes
+Object[63] = LabelAttributes
+Object[64] = PlotInfoAttributes
+Object[65] = MeshAttributes
+Object[66] = PlotInfoAttributes
+Object[67] = MoleculeAttributes
+Object[68] = PlotInfoAttributes
+Object[69] = MultiCurveAttributes
+Object[70] = PlotInfoAttributes
+Object[71] = ParallelCoordinatesAttributes
+Object[72] = PlotInfoAttributes
+Object[73] = PseudocolorAttributes
+Object[74] = PlotInfoAttributes
+Object[75] = ScatterAttributes
+Object[76] = PlotInfoAttributes
+Object[77] = SpreadsheetAttributes
+Object[78] = PlotInfoAttributes
+Object[79] = StreamlineAttributes
+Object[80] = PlotInfoAttributes
+Object[81] = SubsetAttributes
+Object[82] = PlotInfoAttributes
+Object[83] = TensorAttributes
+Object[84] = PlotInfoAttributes
+Object[85] = TruecolorAttributes
+Object[86] = PlotInfoAttributes
+Object[87] = VectorAttributes
+Object[88] = PlotInfoAttributes
+Object[89] = VolumeAttributes
+Object[90] = PlotInfoAttributes
+Object[91] = AMRStitchCellAttributes
+Object[92] = BoundaryOpAttributes
+Object[93] = BoxAttributes
+Object[94] = CartographicProjectionAttributes
+Object[95] = ClipAttributes
+Object[96] = ConeAttributes
+Object[97] = ConnectedComponentsAttributes
+Object[98] = CoordSwapAttributes
+Object[99] = CreateBondsAttributes
+Object[100] = CylinderAttributes
+Object[101] = DataBinningAttributes
+Object[102] = DeferExpressionAttributes
+Object[103] = DisplaceAttributes
+Object[104] = DualMeshAttributes
+Object[105] = EdgeAttributes
+Object[106] = ElevateAttributes
+Object[107] = EllipsoidSliceAttributes
+Object[108] = ExternalSurfaceAttributes
+Object[109] = ExtrudeAttributes
+Object[110] = FFTAttributes
+Object[111] = FluxAttributes
+Object[112] = IndexSelectAttributes
+Object[113] = IntegralCurveAttributes
+Object[114] = InverseGhostZoneAttributes
+Object[115] = IsosurfaceAttributes
+Object[116] = IsovolumeAttributes
+Object[117] = LCSAttributes
+Object[118] = LagrangianAttributes
+Object[119] = LineoutAttributes
+Object[120] = ModelFitAtts
+Object[121] = MultiresControlAttributes
+Object[122] = OnionPeelAttributes
+Object[123] = PersistentParticlesAttributes
+Object[124] = PoincareAttributes
+Object[125] = ProjectAttributes
+Object[126] = RadialResampleAttributes
+Object[127] = ReflectAttributes
+Object[128] = ReplicateAttributes
+Object[129] = ResampleAttributes
+Object[130] = RevolveAttributes
+Object[131] = SliceAttributes
+Object[132] = SmoothOperatorAttributes
+Object[133] = SphereSliceAttributes
+Object[134] = StaggerAttributes
+Object[135] = StatisticalTrendsAttributes
+Object[136] = SurfaceNormalAttributes
+Object[137] = ThreeSliceAttributes
+Object[138] = ThresholdAttributes
+Object[139] = TransformAttributes
+Object[140] = TriangulateRegularPointsAttributes
+Object[141] = TubeAttributes
+ViewerConfigManager::ProcessConfigSettings
+	GlobalAttributes setting from node
+	SaveWindowAttributes setting from node
+	ColorTableAttributes setting from node
+	ExpressionList setting from node
+	AnimationAttributes setting from node
+	AnnotationAttributes setting from node
+	ViewCurveAttributes setting from node
+	View2DAttributes setting from node
+	View3DAttributes setting from node
+	LightList setting from node
+	ViewerWindowManagerAttributes setting from node
+	WindowInformation setting from node
+	PrinterAttributes setting from node
+	RenderingAttributes setting from node
+	MaterialAttributes setting from node
+	MeshManagementAttributes setting from node
+	AnnotationObjectList setting from node
+	PickAttributes setting from node
+	QueryOverTimeAttributes setting from node
+	InteractorAttributes setting from node
+	MovieAttributes setting from node
+	FileOpenOptions setting from node
+	BoundaryAttributes setting from node
+	ContourAttributes setting from node
+	CurveAttributes setting from node
+	FilledBoundaryAttributes setting from node
+	HistogramAttributes setting from node
+	LabelAttributes setting from node
+	MeshAttributes setting from node
+	MoleculeAttributes setting from node
+	MultiCurveAttributes setting from node
+	ParallelCoordinatesAttributes setting from node
+	PseudocolorAttributes setting from node
+	ScatterAttributes setting from node
+	SpreadsheetAttributes setting from node
+	StreamlineAttributes setting from node
+	SubsetAttributes setting from node
+	TensorAttributes setting from node
+	TruecolorAttributes setting from node
+	VectorAttributes setting from node
+	VolumeAttributes setting from node
+	AMRStitchCellAttributes setting from node
+	BoundaryOpAttributes setting from node
+	BoxAttributes setting from node
+	CartographicProjectionAttributes setting from node
+	ClipAttributes setting from node
+	ConeAttributes setting from node
+	ConnectedComponentsAttributes setting from node
+	CoordSwapAttributes setting from node
+	CreateBondsAttributes setting from node
+	CylinderAttributes setting from node
+	DataBinningAttributes setting from node
+	DeferExpressionAttributes setting from node
+	DisplaceAttributes setting from node
+	DualMeshAttributes setting from node
+	EdgeAttributes setting from node
+	ElevateAttributes setting from node
+	EllipsoidSliceAttributes setting from node
+	ExternalSurfaceAttributes setting from node
+	ExtrudeAttributes setting from node
+	FFTAttributes setting from node
+	FluxAttributes setting from node
+	IndexSelectAttributes setting from node
+	IntegralCurveAttributes setting from node
+	InverseGhostZoneAttributes setting from node
+	IsosurfaceAttributes setting from node
+	IsovolumeAttributes setting from node
+	LCSAttributes setting from node
+	LagrangianAttributes setting from node
+	LineoutAttributes setting from node
+	ModelFitAtts setting from node
+	MultiresControlAttributes setting from node
+	OnionPeelAttributes setting from node
+	PersistentParticlesAttributes setting from node
+	PoincareAttributes setting from node
+	ProjectAttributes setting from node
+	RadialResampleAttributes setting from node
+	ReflectAttributes setting from node
+	ReplicateAttributes setting from node
+	ResampleAttributes setting from node
+	RevolveAttributes setting from node
+	SliceAttributes setting from node
+	SmoothOperatorAttributes setting from node
+	SphereSliceAttributes setting from node
+	StaggerAttributes setting from node
+	StatisticalTrendsAttributes setting from node
+	SurfaceNormalAttributes setting from node
+	ThreeSliceAttributes setting from node
+	ThresholdAttributes setting from node
+	TransformAttributes setting from node
+	TriangulateRegularPointsAttributes setting from node
+	TubeAttributes setting from node
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/PiYG.ct as PiYG
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Purples.ct as Purples
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Set1.ct as Set1
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/YlGn.ct as YlGn
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Greys.ct as Greys
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/YlOrRd.ct as YlOrRd
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/PuBu.ct as PuBu
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Greens.ct as Greens
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/RdYlBu.ct as RdYlBu
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Reds.ct as Reds
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/PRGn.ct as PRGn
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Accent.ct as Accent
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/PuRd.ct as PuRd
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/BuPu.ct as BuPu
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/PuBuGn.ct as PuBuGn
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/YlGnBu.ct as YlGnBu
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Pastel2.ct as Pastel2
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/RdBu.ct as RdBu
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/OrRd.ct as OrRd
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/YlOrBr.ct as YlOrBr
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/RdYlGn.ct as RdYlGn
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Spectral.ct as Spectral
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/RdGy.ct as RdGy
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Oranges.ct as Oranges
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/BrBG.ct as BrBG
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/GnBu.ct as GnBu
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/RdPu.ct as RdPu
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Dark2.ct as Dark2
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Blues.ct as Blues
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/BuGn.ct as BuGn
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Pastel1.ct as Pastel1
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Paired.ct as Paired
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Set2.ct as Set2
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/Set3.ct as Set3
+Imported color table /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/colortables/PuOr.ct as PuOr
+ViewerConfigManager::Notify()
+	GlobalAttributes sending to client
+	SaveWindowAttributes sending to client
+	ColorTableAttributes sending to client
+	ExpressionList sending to client
+	AnimationAttributes sending to client
+	AnnotationAttributes sending to client
+	ViewCurveAttributes sending to client
+	View2DAttributes sending to client
+	View3DAttributes sending to client
+	LightList sending to client
+	ViewerWindowManagerAttributes sending to client
+	WindowInformation sending to client
+	PrinterAttributes sending to client
+	RenderingAttributes sending to client
+	MaterialAttributes sending to client
+	MeshManagementAttributes sending to client
+	AnnotationObjectList sending to client
+	PickAttributes sending to client
+	QueryOverTimeAttributes sending to client
+	InteractorAttributes sending to client
+	MovieAttributes sending to client
+	FileOpenOptions sending to client
+	BoundaryAttributes sending to client
+	ContourAttributes sending to client
+	CurveAttributes sending to client
+	FilledBoundaryAttributes sending to client
+	HistogramAttributes sending to client
+	LabelAttributes sending to client
+	MeshAttributes sending to client
+	MoleculeAttributes sending to client
+	MultiCurveAttributes sending to client
+	ParallelCoordinatesAttributes sending to client
+	PseudocolorAttributes sending to client
+	ScatterAttributes sending to client
+	SpreadsheetAttributes sending to client
+	StreamlineAttributes sending to client
+	SubsetAttributes sending to client
+	TensorAttributes sending to client
+	TruecolorAttributes sending to client
+	VectorAttributes sending to client
+	VolumeAttributes sending to client
+	AMRStitchCellAttributes sending to client
+	BoundaryOpAttributes sending to client
+	BoxAttributes sending to client
+	CartographicProjectionAttributes sending to client
+	ClipAttributes sending to client
+	ConeAttributes sending to client
+	ConnectedComponentsAttributes sending to client
+	CoordSwapAttributes sending to client
+	CreateBondsAttributes sending to client
+	CylinderAttributes sending to client
+	DataBinningAttributes sending to client
+	DeferExpressionAttributes sending to client
+	DisplaceAttributes sending to client
+	DualMeshAttributes sending to client
+	EdgeAttributes sending to client
+	ElevateAttributes sending to client
+	EllipsoidSliceAttributes sending to client
+	ExternalSurfaceAttributes sending to client
+	ExtrudeAttributes sending to client
+	FFTAttributes sending to client
+	FluxAttributes sending to client
+	IndexSelectAttributes sending to client
+	IntegralCurveAttributes sending to client
+	InverseGhostZoneAttributes sending to client
+	IsosurfaceAttributes sending to client
+	IsovolumeAttributes sending to client
+	LCSAttributes sending to client
+	LagrangianAttributes sending to client
+	LineoutAttributes sending to client
+	ModelFitAtts sending to client
+	MultiresControlAttributes sending to client
+	OnionPeelAttributes sending to client
+	PersistentParticlesAttributes sending to client
+	PoincareAttributes sending to client
+	ProjectAttributes sending to client
+	RadialResampleAttributes sending to client
+	ReflectAttributes sending to client
+	ReplicateAttributes sending to client
+	ResampleAttributes sending to client
+	RevolveAttributes sending to client
+	SliceAttributes sending to client
+	SmoothOperatorAttributes sending to client
+	SphereSliceAttributes sending to client
+	StaggerAttributes sending to client
+	StatisticalTrendsAttributes sending to client
+	SurfaceNormalAttributes sending to client
+	ThreeSliceAttributes sending to client
+	ThresholdAttributes sending to client
+	TransformAttributes sending to client
+	TriangulateRegularPointsAttributes sending to client
+	TubeAttributes sending to client
+Executing SetMFileOpenOptionsRPC
+Adding SetWindowModeRPC to the general toolbar
+Adding EnableToolRPC to the general toolbar
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling UpdateDBPluginInfoRPC RPC.
+Done handling UpdateDBPluginInfoRPC RPC.
+Clearing all stored metadata, SILs, and correlations.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+DiscoverClientInformation: clear the client information list and send _QueryClientInformation to all clients. 
+Handling SetWindowAreaRPC RPC.
+Done handling SetWindowAreaRPC RPC.
+Handling ShowAllWindowsRPC RPC.
+Forcing GL context initialization...
+Unknown if transparencies exist; recalculating (this requires global communication).
+Done handling ShowAllWindowsRPC RPC.
+Handling SetWindowLayoutRPC RPC.
+Done handling SetWindowLayoutRPC RPC.
+client[0] = gui
+methods:
+	Quit()
+	DeIconify()
+	Hide()
+	Iconify()
+	Show()
+	MessageBoxYesNo(s)
+	MessageBoxOkCancel(s)
+	MessageBoxOk(s)
+	MovieProgress(sii)
+	MovieProgressEnd()
+	AcceptRecordedMacro(s)
+	AddMacroButton(s)
+	ClearMacroButtons()
+
+Handling ConnectToMetaDataServerRPC RPC.
+ViewerSubject::ConnectToMetaDataServer: start
+ViewerSubject::ConnectToMetaDataServer: Telling mdserver on host blackrock.engr.utk.edu to connect to another client.
+Arguments:
+	visit
+	-v
+	2.8
+	-mdserver
+	-host
+	blackrock.engr.utk.edu
+	-port
+	5600
+	-key
+	a52b9974770de8c1d17f
+ViewerFileServer::StartServer: start
+ViewerFileServer::StartServer: Creating on localhost
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::AcceptSocket: Setting socket options.
+Executing GetDirectoryRPC RPC
+Xfer: Number of objects: 30
+Object[0] = QuitRPC
+Object[1] = NonBlockingRPC::CompletionData (from QuitRPC)
+Object[2] = KeepAliveRPC
+Object[3] = VisItRPC::RPCReply (from KeepAliveRPC)
+Object[4] = GetDirectoryRPC
+Object[5] = GetDirectoryRPC::DirectoryName (from GetDirectoryRPC)
+Object[6] = ChangeDirectoryRPC
+Object[7] = VisItRPC::RPCReply (from ChangeDirectoryRPC)
+Object[8] = GetFileListRPC
+Object[9] = GetFileListRPC::FileList (from GetFileListRPC)
+Object[10] = GetMetaDataRPC
+Object[11] = avtDatabaseMetaData (from GetMetaDataRPC)
+Object[12] = GetSILRPC
+Object[13] = SILAttributes (from GetSILRPC)
+Object[14] = ConnectRPC
+Object[15] = NonBlockingRPC::CompletionData (from ConnectRPC)
+Object[16] = CreateGroupListRPC
+Object[17] = NonBlockingRPC::CompletionData (from CreateGroupListRPC)
+Object[18] = ExpandPathRPC
+Object[19] = ExpandPathRPC::PathName (from ExpandPathRPC)
+Object[20] = CloseDatabaseRPC
+Object[21] = VisItRPC::RPCReply (from CloseDatabaseRPC)
+Object[22] = LoadPluginsRPC
+Object[23] = NonBlockingRPC::CompletionData (from LoadPluginsRPC)
+Object[24] = GetPluginErrorsRPC
+Object[25] = GetPluginErrorsRPC::PluginErrors (from GetPluginErrorsRPC)
+Object[26] = GetDBPluginInfoRPC
+Object[27] = DBPluginInfoAttributes (from GetDBPluginInfoRPC)
+Object[28] = SetMFileOpenOptionsRPC
+Object[29] = VisItRPC::RPCReply (from SetMFileOpenOptionsRPC)
+ViewerFileServer::StartServer: end
+Executing SetMFileOpenOptionsRPC
+Executing GetPluginErrorsRPC RPC
+ViewerSubject::ConnectToMetaDataServer: end
+Done handling ConnectToMetaDataServerRPC RPC.
+Handling OpenDatabaseRPC RPC.
+ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk, timeState=0, addDefaultPlots=true, updateWindowInfo=true, forcedFileType=""
+ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk) -> host=blackrock.engr.utk.edu, db=/export/ahota/vol/vtk/dataset2.vtk
+ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
+Executing GetMetaData RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x466ac60
+ViewerHostProfileSelectorWithWin::SelectProfile
+   Got a machine profile for host 'blackrock.engr.utk.edu'
+     It has 4 launch profiles
+        launch profile #0 has parallel=false
+        launch profile #1 has parallel=false
+        launch profile #2 has parallel=false
+        launch profile #3 has parallel=false
+   Presenting a choice to the user.
+ViewerEngineManager::CreateEngineEx: Creating new engine proxy.
+ViewerEngineManager::CreateEngineEx: Adding arguments.
+ViewerEngineManager::CreateEngineEx: Launching a local engine
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::AcceptSocket: Setting socket options.
+Xfer: Number of objects: 70
+Object[0] = QuitRPC
+Object[1] = NonBlockingRPC::CompletionData (from QuitRPC)
+Object[2] = KeepAliveRPC
+Object[3] = VisItRPC::RPCReply (from KeepAliveRPC)
+Object[4] = ReadRPC
+Object[5] = VisItRPC::RPCReply (from ReadRPC)
+Object[6] = ApplyOperatorRPC
+Object[7] = PrepareOperatorRPC
+Object[8] = VisItRPC::RPCReply (from PrepareOperatorRPC)
+Object[9] = VisItRPC::RPCReply (from ApplyOperatorRPC)
+Object[10] = MakePlotRPC
+Object[11] = PreparePlotRPC
+Object[12] = VisItRPC::RPCReply (from PreparePlotRPC)
+Object[13] = MakePlotRPC::NetworkID (from MakePlotRPC)
+Object[14] = UseNetworkRPC
+Object[15] = VisItRPC::RPCReply (from UseNetworkRPC)
+Object[16] = UpdatePlotAttsRPC
+Object[17] = PrepareUpdatePlotAttsRPC
+Object[18] = VisItRPC::RPCReply (from PrepareUpdatePlotAttsRPC)
+Object[19] = VisItRPC::RPCReply (from UpdatePlotAttsRPC)
+Object[20] = PickRPC
+Object[21] = PickAttributes (from PickRPC)
+Object[22] = StartPickRPC
+Object[23] = VisItRPC::RPCReply (from StartPickRPC)
+Object[24] = StartQueryRPC
+Object[25] = VisItRPC::RPCReply (from StartQueryRPC)
+Object[26] = ExecuteRPC
+Object[27] = NonBlockingRPC::CompletionData (from ExecuteRPC)
+Object[28] = ClearCacheRPC
+Object[29] = VisItRPC::RPCReply (from ClearCacheRPC)
+Object[30] = QueryRPC
+Object[31] = NonBlockingRPC::CompletionData (from QueryRPC)
+Object[32] = QueryParametersRPC
+Object[33] = QueryParametersRPC::MapNodeString (from QueryParametersRPC)
+Object[34] = ReleaseDataRPC
+Object[35] = VisItRPC::RPCReply (from ReleaseDataRPC)
+Object[36] = OpenDatabaseRPC
+Object[37] = NonBlockingRPC::CompletionData (from OpenDatabaseRPC)
+Object[38] = DefineVirtualDatabaseRPC
+Object[39] = NonBlockingRPC::CompletionData (from DefineVirtualDatabaseRPC)
+Object[40] = RenderRPC
+Object[41] = NonBlockingRPC::CompletionData (from RenderRPC)
+Object[42] = SetWinAnnotAttsRPC
+Object[43] = VisItRPC::RPCReply (from SetWinAnnotAttsRPC)
+Object[44] = CloneNetworkRPC
+Object[45] = VisItRPC::RPCReply (from CloneNetworkRPC)
+Object[46] = ProcInfoRPC
+Object[47] = NonBlockingRPC::CompletionData (from ProcInfoRPC)
+Object[48] = SimulationCommandRPC
+Object[49] = NonBlockingRPC::CompletionData (from SimulationCommandRPC)
+Object[50] = ExportDatabaseRPC
+Object[51] = VisItRPC::RPCReply (from ExportDatabaseRPC)
+Object[52] = ConstructDataBinningRPC
+Object[53] = VisItRPC::RPCReply (from ConstructDataBinningRPC)
+Object[54] = NamedSelectionRPC
+Object[55] = NonBlockingRPC::CompletionData (from NamedSelectionRPC)
+Object[56] = SetEFileOpenOptionsRPC
+Object[57] = VisItRPC::RPCReply (from SetEFileOpenOptionsRPC)
+Object[58] = SetPrecisionTypeRPC
+Object[59] = VisItRPC::RPCReply (from SetPrecisionTypeRPC)
+Object[60] = SetBackendTypeRPC
+Object[61] = VisItRPC::RPCReply (from SetBackendTypeRPC)
+Object[62] = EnginePropertiesRPC
+Object[63] = NonBlockingRPC::CompletionData (from EnginePropertiesRPC)
+Object[64] = LaunchRPC
+Object[65] = VisItRPC::RPCReply (from LaunchRPC)
+Object[66] = ExpressionList
+Object[67] = avtDatabaseMetaData
+Object[68] = SILAttributes
+Object[69] = SimulationCommand
+ViewerEngineManager::CreateEngineEx: Send keep alive and engine properties rpc
+Sending KeepAlive RPC to compute engine.
+Executing keep alive RPC
+	 value='1'
+Executing SetEFileOpenOptionsRPC
+Executing SetPrecisionTypeRPC
+ViewerEngineManager::CreateEngineEx: end
+Calling OpenDatabase RPC on blackrock.engr.utk.edu's engine.
+Executing GetPluginErrorsRPC RPC
+Executing GetSIL RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate = -1
+AddPlotAction::Update: Either the host or the database 
+changed so we need to update the variable menu!
+	host=blackrock.engr.utk.edu
+	db=/export/ahota/vol/vtk/dataset2.vtk
+Done handling OpenDatabaseRPC RPC.
+Handling AddPlotRPC RPC.
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0000".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0000
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling AddPlotRPC RPC.
+	plot 0 was not added to the window because it has no actor for cache index 0, which is the index that should be shown for the plot.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling DrawPlotsRPC RPC.
+	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk
+Calling SetWinAnnotAtts RPC on blackrock.engr.utk.edu's engine.
+Executing read RPC
+	 file format='VTK_1.0'
+	 file='/export/ahota/vol/vtk/dataset2.vtk'
+	 var ='data'
+	 time='0'
+	 treatAllDBsAsTimeVarying ='0'
+	 ignoreExtents ='0'
+	 selName=''
+	 windowID='0'
+Calling MakePlot RPC on blackrock.engr.utk.edu's engine.
+Executing ExecuteRPC
+avtPlot::Execute Receiving Polygon Data
+No guide function registered with the originating sink, doing normal Update.
+	 plot 0 was added to the window.
+Unknown if transparencies exist; recalculating (this requires global communication).
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling DrawPlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling CloseRPC RPC.
+Starting to close the viewer.
+Closing metadata server on blackrock.engr.utk.edu.
+Executing quit RPC
+	 quit='1'
+Closing metadata server on localhost.
+Executing quit RPC
+	 quit='1'
+Closing compute engine on host blackrock.engr.utk.edu.
+Executing quit RPC
+	 quit='1'
+Done handling CloseRPC RPC.

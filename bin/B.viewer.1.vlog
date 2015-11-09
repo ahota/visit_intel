@@ -1,0 +1,156 @@
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key b321575a656386079f35 
+Viewer using font: Helvetica,12,-1,5,50,0,0,0,0,0
+Trying to load translator file: /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/translationsvisit_en_US
+Could not load translation.
+GetAppearance: Default System Style is: cleanlooks
+GetAppearance: Default system font is:Sans Serif,9,-1,5,50,0,0,0,0,0
+GetAppearance: Default background color is:#efebe7
+GetAppearance: Default foreground color is:#000000
+GetAppearance: Default orientation:0
+GetAppearance: Default System Style is: cleanlooks
+GetAppearance: Default system font is:Sans Serif,9,-1,5,50,0,0,0,0,0
+GetAppearance: Default background color is:#efebe7
+GetAppearance: Default foreground color is:#000000
+GetAppearance: Default orientation:0
+ViewerSubject::ConnectToMetaDataServer: start
+ViewerSubject::ConnectToMetaDataServer: Telling mdserver on host localhost to connect to another client.
+Arguments:
+	visit
+	-v
+	2.8
+	-mdserver
+	-host
+	blackrock.engr.utk.edu
+	-port
+	5600
+	-key
+	b321575a656386079f35
+ViewerFileServer::StartServer: Creating on localhost
+ViewerSubject::ConnectToMetaDataServer: end
+Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/plots
+Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/plots
+Successfully loaded info about 21 plot plugins.
+Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/operators
+Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/operators
+Successfully loaded info about 62 operator plugins.
+Loaded full plot plugin Boundary version 1.0
+Loaded full plot plugin Contour version 1.0
+Loaded full plot plugin Curve version 1.0
+Loaded full plot plugin FilledBoundary version 1.0
+Loaded full plot plugin Histogram version 1.0
+Loaded full plot plugin Label version 1.0
+Loaded full plot plugin Mesh version 1.0
+Loaded full plot plugin Molecule version 1.0
+Loaded full plot plugin MultiCurve version 1.0
+Loaded full plot plugin ParallelCoordinates version 1.0
+Loaded full plot plugin Pseudocolor version 1.0
+Loaded full plot plugin Scatter version 1.0
+Loaded full plot plugin Spreadsheet version 1.0
+Loaded full plot plugin Streamline version 1.0
+Loaded full plot plugin Subset version 1.0
+Skipping disabled plot plugin Surface version 1.0
+Loaded full plot plugin Tensor version 1.0
+Loaded full plot plugin Truecolor version 1.0
+Loaded full plot plugin Vector version 1.0
+Generic Warning: In /export/ahota/visit/visitOSPRay/VTK-6.1.0/Rendering/Volume/vtkRayCastImageDisplayHelper.cxx, line 20
+Error: no override found for 'vtkRayCastImageDisplayHelper'.
+
+
+Loaded full plot plugin Volume version 1.1
+Skipping disabled plot plugin WellBore version 1.0
+Loaded full operator plugin AMRStitchCell version 1.0
+Loaded full operator plugin BoundaryOp version 1.0
+Loaded full operator plugin Box version 1.0
+Loaded full operator plugin CartographicProjection version 1.0
+Loaded full operator plugin Clip version 1.0
+Loaded full operator plugin Cone version 1.0
+Loaded full operator plugin ConnectedComponents version 1.0
+Loaded full operator plugin CoordSwap version 1.0
+Skipping disabled operator plugin CracksClipper version 1.0
+Loaded full operator plugin CreateBonds version 1.0
+Loaded full operator plugin Cylinder version 1.0
+Loaded full operator plugin DataBinning version 1.0
+Skipping disabled operator plugin Decimate version 1.0
+Loaded full operator plugin DeferExpression version 1.0
+Skipping disabled operator plugin Delaunay version 1.0
+Loaded full operator plugin Displace version 1.0
+Loaded full operator plugin DualMesh version 1.0
+Loaded full operator plugin Edge version 1.0
+Loaded full operator plugin Elevate version 1.0
+Loaded full operator plugin EllipsoidSlice version 1.0
+Loaded full operator plugin ExternalSurface version 1.0
+Skipping disabled operator plugin ExtractPointFunction2D version 1.0
+Loaded full operator plugin Extrude version 1.0
+Loaded full operator plugin FFT version 1.0
+Skipping disabled operator plugin FiveFoldTetSubdivision version 1.0
+Loaded full operator plugin Flux version 1.0
+Loaded full operator plugin IndexSelect version 1.0
+Loaded full operator plugin IntegralCurve version 1.0
+Loaded full operator plugin InverseGhostZone version 1.0
+Loaded full operator plugin Isosurface version 1.0
+Loaded full operator plugin Isovolume version 1.0
+Loaded full operator plugin LCS version 1.0
+Loaded full operator plugin Lagrangian version 1.0
+Skipping disabled operator plugin LineSampler version 1.0
+Loaded full operator plugin Lineout version 1.0
+Skipping disabled operator plugin Merge version 1.0
+Loaded full operator plugin ModelFit version 1.0
+Loaded full operator plugin MultiresControl version 1.0
+Loaded full operator plugin OnionPeel version 1.0
+Skipping disabled operator plugin PDF version 1.0
+Loaded full operator plugin PersistentParticles version 2.0
+Loaded full operator plugin Poincare version 3.0
+Loaded full operator plugin Project version 1.0
+Loaded full operator plugin RadialResample version 1.0
+Skipping disabled operator plugin RectilinearProject2D version 1.0
+Loaded full operator plugin Reflect version 1.0
+Loaded full operator plugin Replicate version 1.0
+Loaded full operator plugin Resample version 1.0
+Loaded full operator plugin Revolve version 1.0
+Loaded full operator plugin Slice version 1.0
+Loaded full operator plugin Smooth version 1.0
+Loaded full operator plugin SphereSlice version 1.0
+Loaded full operator plugin Stagger version 1.0
+Loaded full operator plugin StatisticalTrends version 1.0
+Loaded full operator plugin SurfaceNormal version 1.0
+Loaded full operator plugin ThreeSlice version 1.0
+Loaded full operator plugin Threshold version 1.0
+Skipping disabled operator plugin ToroidalPoloidalProjection version 1.0
+Loaded full operator plugin Transform version 1.0
+Loaded full operator plugin TriangulateRegularPoints version 1.0
+Loaded full operator plugin Tube version 1.0
+Skipping disabled operator plugin ZoneDump version 1.0
+Adding SetWindowModeRPC to the general toolbar
+Adding EnableToolRPC to the general toolbar
+DiscoverClientInformation: clear the client information list and send _QueryClientInformation to all clients. 
+ViewerSubject::ConnectToMetaDataServer: start
+ViewerSubject::ConnectToMetaDataServer: Telling mdserver on host blackrock.engr.utk.edu to connect to another client.
+Arguments:
+	visit
+	-v
+	2.8
+	-mdserver
+	-host
+	blackrock.engr.utk.edu
+	-port
+	5600
+	-key
+	897652022480a9b8c699
+ViewerFileServer::StartServer: Creating on localhost
+ViewerSubject::ConnectToMetaDataServer: end
+ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk, timeState=0, addDefaultPlots=true, updateWindowInfo=true, forcedFileType=""
+ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk) -> host=blackrock.engr.utk.edu, db=/export/ahota/vol/vtk/dataset2.vtk
+ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
+ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x3e6b850
+ViewerEngineManager::CreateEngineEx: Creating new engine proxy.
+ViewerEngineManager::CreateEngineEx: Adding arguments.
+ViewerEngineManager::CreateEngineEx: Launching a local engine
+ViewerEngineManager::CreateEngineEx: Send keep alive and engine properties rpc
+ViewerEngineManager::CreateEngineEx: end
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0000".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0000
+Starting to close the viewer.
+Closing metadata server on blackrock.engr.utk.edu.
+Closing metadata server on localhost.
+Closing compute engine on host blackrock.engr.utk.edu.

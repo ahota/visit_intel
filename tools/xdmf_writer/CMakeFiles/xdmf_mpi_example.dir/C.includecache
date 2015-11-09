@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/work/01336/carson/VisIt/VisItDave/visit2.8.1/src/tools/xdmf_writer/xdmf_mpi_example.c
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+mpi.h
+-
+xdmf_writer.h
+-
+
+tools/xdmf_writer/xdmf_writer.h
+

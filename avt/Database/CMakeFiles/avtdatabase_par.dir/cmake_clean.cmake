@@ -1,0 +1,41 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/avtdatabase_par.dir/Database/avtDatabase.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtDatabaseFactory.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtDatasetCollection.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtDatasetDatabase.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtFileDescriptorManager.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtGenericDatabase.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtIOInformation.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtSILGenerator.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtSourceFromDatabase.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtVariableCache.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtTransformManager.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtPolygonToTrianglesTesselator.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Database/avtPolyhedralSplit.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtFileFormat.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtFileFormatInterface.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtMTSDFileFormat.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtMTSDFileFormatInterface.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtMTMDFileFormat.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtMTMDFileFormatInterface.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtSTMDFileFormat.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtSTMDFileFormatInterface.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtSTSDFileFormat.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Formats/avtSTSDFileFormatInterface.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/StructuredBoundary.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/avtDomainBoundaries.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/avtIsenburgSGG.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/avtStreamingGhostGenerator.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/avtStructuredDomainBoundaries.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/avtUnstructuredDomainBoundaries.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/avtNekDomainBoundaries.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/avtStructuredDomainNesting.C.o"
+  "CMakeFiles/avtdatabase_par.dir/Ghost/avtUnstructuredPointBoundaries.C.o"
+  "../../lib/libavtdatabase_par.pdb"
+  "../../lib/libavtdatabase_par.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/avtdatabase_par.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

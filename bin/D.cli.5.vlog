@@ -1,0 +1,879 @@
+cli -debug 5 
+Launch: 0
+Launch: 1: visit
+Added method: AnimationAttributes
+Added method: AnnotationAttributes
+Added method: ColorAttribute
+Added method: ColorAttributeList
+Added method: ColorControlPoint
+Added method: ColorControlPointList
+Added method: ConstructDataBinningAttributes
+Added method: EngineProperties
+Added method: ExportDBAttributes
+Added method: Expression
+Added method: ExpressionList
+Added method: GaussianControlPoint
+Added method: GaussianControlPointList
+Added method: GlobalAttributes
+Added method: KeyframeAttributes
+Added method: LaunchProfile
+Added method: MeshManagementAttributes
+Added method: MachineProfile
+Added method: MaterialAttributes
+Added method: PrinterAttributes
+Added method: ProcessAttributes
+Added method: RenderingAttributes
+Added method: SaveWindowAttributes
+Added method: SelectionProperties
+Added method: SILRestriction
+Added method: ViewAttributes
+Added method: ViewAxisArrayAttributes
+Added method: ViewCurveAttributes
+Added method: View2DAttributes
+Added method: View3DAttributes
+Added method: WindowInformation
+Added method: LightAttributes
+Added method: Axes2D
+Added method: Axes3D
+Added method: AxisAttributes
+Added method: AxisLabels
+Added method: AxisTickMarks
+Added method: AxisTitles
+Added method: FontAttributes
+Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/plots
+Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/plots
+Successfully loaded info about 21 plot plugins.
+Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/operators
+Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/operators
+Successfully loaded info about 62 operator plugins.
+RemoteProcess::Open: Called with (profile, numRead=1, numWrite=1, createAsThoughLocal=false) where profile is:
+hostNickName=localhost
+host=localhost
+username=notset
+hostAliases=localhost
+directory=
+shareOneBatchJob=false
+tunnelSSH=false
+sshPortSpecified=false
+sshPort=22
+sshCommandSpecified=false
+sshCommand={ssh}
+useGateway=false
+gatewayHost=
+clientHostDetermination=MachineName
+manualClientHostName=
+maximumNodesValid=false
+maximumNodes=1
+maximumProcessorsValid=false
+maximumProcessors=1
+Using localhost for host
+RemoteProcess::StartMakingConnection: Called with args (numRead=1, numWrite=1)
+RemoteProcess::StartMakingConnection: Looking up the name of the local host: blackrock.engr.utk.edu
+RemoteProcess::StartMakingConnection: Looking up the host using gethostbyname("blackrock.engr.utk.edu"): blackrock.engr.utk.edu
+RemoteProcess::StartMakingConnection: Get the local user's login name: ahota
+RemoteProcess::StartMakingConnection: Calling GetSocketAndPort
+RemoteProcess::GetSocketAndPort: Opened listen socket: 9
+RemoteProcess::GetSocketAndPort: Looking for available port starting with: 5600
+RemoteProcess::GetSocketAndPort: Bind socket to port: 5600
+RemoteProcess::StartMakingConnection: Start listening for connections.
+RemoteProcess::Open: The command line to use: (
+	visit
+	-v
+	2.8
+	-viewer
+	-noint
+	-debug
+	5
+	-manta
+	-host
+	blackrock.engr.utk.edu
+	-port
+	5600
+	-key
+	0a633b37b53d223d6726
+)
+RemoteProcess::Open: Calling LaunchLocal
+RemoteProcess::LaunchLocal: Starting child process using fork
+RemoteProcess::Open: Calling FinishMakingConnection
+RemoteProcess::FinishMakingConnection: Called with (1, 1)
+RemoteProcess::FinishMakingConnection: Call the progress callback(0)
+RemoteProcess::FinishMakingConnection: Creating read connections
+RemoteProcess::AcceptSocket: 0: Calling SingleThreadedAcceptSocket.
+RemoteProcess::SingleThreadedAcceptSocket: waiting for accept() to return
+RemoteProcess::SingleThreadedAcceptSocket: accept returned descriptor: 10
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::FinishMakingConnection: Creating write connections
+RemoteProcess::AcceptSocket: 0: Calling SingleThreadedAcceptSocket.
+RemoteProcess::SingleThreadedAcceptSocket: waiting for accept() to return
+RemoteProcess::SingleThreadedAcceptSocket: accept returned descriptor: 11
+RemoteProcess::AcceptSocket: Setting socket options.
+RemoteProcess::FinishMakingConnection: Exchanging type representations
+RemoteProcess::FinishMakingConnection: Call the progress callback(2)
+RemoteProcess::CloseListenSocket: closing listen socket
+RemoteProcess::Open: Returning true
+Xfer: Number of objects: 53
+Object[0] = ViewerRPC
+Object[1] = PostponedAction
+Object[2] = SyncAttributes
+Object[3] = MessageAttributes
+Object[4] = StatusAttributes
+Object[5] = avtDatabaseMetaData
+Object[6] = SILAttributes
+Object[7] = DBPluginInfoAttributes
+Object[8] = ConstructDataBinningAttributes
+Object[9] = ClientMethod
+Object[10] = ClientInformation
+Object[11] = ClientInformationList
+Object[12] = SimulationUIValues
+Object[13] = ExportDBAttributes
+Object[14] = PluginManagerAttributes
+Object[15] = AppearanceAttributes
+Object[16] = GlobalAttributes
+Object[17] = DatabaseCorrelationList
+Object[18] = PlotList
+Object[19] = HostProfileList
+Object[20] = SaveWindowAttributes
+Object[21] = EngineList
+Object[22] = ColorTableAttributes
+Object[23] = ExpressionList
+Object[24] = AnnotationAttributes
+Object[25] = SILRestrictionAttributes
+Object[26] = ViewAxisArrayAttributes
+Object[27] = ViewCurveAttributes
+Object[28] = View2DAttributes
+Object[29] = View3DAttributes
+Object[30] = LightList
+Object[31] = AnimationAttributes
+Object[32] = PickAttributes
+Object[33] = PrinterAttributes
+Object[34] = WindowInformation
+Object[35] = RenderingAttributes
+Object[36] = KeyframeAttributes
+Object[37] = QueryList
+Object[38] = QueryAttributes
+Object[39] = MaterialAttributes
+Object[40] = GlobalLineoutAttributes
+Object[41] = AnnotationObjectList
+Object[42] = QueryOverTimeAttributes
+Object[43] = InteractorAttributes
+Object[44] = ProcessAttributes
+Object[45] = MovieAttributes
+Object[46] = MeshManagementAttributes
+Object[47] = ViewerRPC
+Object[48] = FileOpenOptions
+Object[49] = SelectionProperties
+Object[50] = SelectionList
+Object[51] = ViewerClientAttributes
+Object[52] = ViewerClientInformation
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+Launch: 2
+Launch: 3
+DelayedLoadPlugins: start
+Xfer::Process: Opcode=14, len=4159, type=PluginManagerAttributes
+Loaded full plot plugin Boundary version 1.0
+Loaded full plot plugin Contour version 1.0
+Loaded full plot plugin Curve version 1.0
+Loaded full plot plugin FilledBoundary version 1.0
+Loaded full plot plugin Histogram version 1.0
+Loaded full plot plugin Label version 1.0
+Loaded full plot plugin Mesh version 1.0
+Loaded full plot plugin Molecule version 1.0
+Loaded full plot plugin MultiCurve version 1.0
+Loaded full plot plugin ParallelCoordinates version 1.0
+Loaded full plot plugin Pseudocolor version 1.0
+Loaded full plot plugin Scatter version 1.0
+Loaded full plot plugin Spreadsheet version 1.0
+Loaded full plot plugin Streamline version 1.0
+Loaded full plot plugin Subset version 1.0
+Skipping disabled plot plugin Surface version 1.0
+Loaded full plot plugin Tensor version 1.0
+Loaded full plot plugin Truecolor version 1.0
+Loaded full plot plugin Vector version 1.0
+Loaded full plot plugin Volume version 1.1
+Skipping disabled plot plugin WellBore version 1.0
+Loaded full operator plugin AMRStitchCell version 1.0
+Loaded full operator plugin BoundaryOp version 1.0
+Loaded full operator plugin Box version 1.0
+Loaded full operator plugin CartographicProjection version 1.0
+Loaded full operator plugin Clip version 1.0
+Loaded full operator plugin Cone version 1.0
+Loaded full operator plugin ConnectedComponents version 1.0
+Loaded full operator plugin CoordSwap version 1.0
+Skipping disabled operator plugin CracksClipper version 1.0
+Loaded full operator plugin CreateBonds version 1.0
+Loaded full operator plugin Cylinder version 1.0
+Loaded full operator plugin DataBinning version 1.0
+Skipping disabled operator plugin Decimate version 1.0
+Loaded full operator plugin DeferExpression version 1.0
+Skipping disabled operator plugin Delaunay version 1.0
+Loaded full operator plugin Displace version 1.0
+Loaded full operator plugin DualMesh version 1.0
+Loaded full operator plugin Edge version 1.0
+Loaded full operator plugin Elevate version 1.0
+Loaded full operator plugin EllipsoidSlice version 1.0
+Loaded full operator plugin ExternalSurface version 1.0
+Skipping disabled operator plugin ExtractPointFunction2D version 1.0
+Loaded full operator plugin Extrude version 1.0
+Loaded full operator plugin FFT version 1.0
+Skipping disabled operator plugin FiveFoldTetSubdivision version 1.0
+Loaded full operator plugin Flux version 1.0
+Loaded full operator plugin IndexSelect version 1.0
+Loaded full operator plugin IntegralCurve version 1.0
+Loaded full operator plugin InverseGhostZone version 1.0
+Loaded full operator plugin Isosurface version 1.0
+Loaded full operator plugin Isovolume version 1.0
+Loaded full operator plugin LCS version 1.0
+Loaded full operator plugin Lagrangian version 1.0
+Skipping disabled operator plugin LineSampler version 1.0
+Loaded full operator plugin Lineout version 1.0
+Skipping disabled operator plugin Merge version 1.0
+Loaded full operator plugin ModelFit version 1.0
+Loaded full operator plugin MultiresControl version 1.0
+Loaded full operator plugin OnionPeel version 1.0
+Skipping disabled operator plugin PDF version 1.0
+Loaded full operator plugin PersistentParticles version 2.0
+Loaded full operator plugin Poincare version 3.0
+Loaded full operator plugin Project version 1.0
+Loaded full operator plugin RadialResample version 1.0
+Skipping disabled operator plugin RectilinearProject2D version 1.0
+Loaded full operator plugin Reflect version 1.0
+Loaded full operator plugin Replicate version 1.0
+Loaded full operator plugin Resample version 1.0
+Loaded full operator plugin Revolve version 1.0
+Loaded full operator plugin Slice version 1.0
+Loaded full operator plugin Smooth version 1.0
+Loaded full operator plugin SphereSlice version 1.0
+Loaded full operator plugin Stagger version 1.0
+Loaded full operator plugin StatisticalTrends version 1.0
+Loaded full operator plugin SurfaceNormal version 1.0
+Loaded full operator plugin ThreeSlice version 1.0
+Loaded full operator plugin Threshold version 1.0
+Skipping disabled operator plugin ToroidalPoloidalProjection version 1.0
+Loaded full operator plugin Transform version 1.0
+Loaded full operator plugin TriangulateRegularPoints version 1.0
+Loaded full operator plugin Tube version 1.0
+Skipping disabled operator plugin ZoneDump version 1.0
+Xfer: Number of objects: 142
+Object[0] = ViewerRPC
+Object[1] = PostponedAction
+Object[2] = SyncAttributes
+Object[3] = MessageAttributes
+Object[4] = StatusAttributes
+Object[5] = avtDatabaseMetaData
+Object[6] = SILAttributes
+Object[7] = DBPluginInfoAttributes
+Object[8] = ConstructDataBinningAttributes
+Object[9] = ClientMethod
+Object[10] = ClientInformation
+Object[11] = ClientInformationList
+Object[12] = SimulationUIValues
+Object[13] = ExportDBAttributes
+Object[14] = PluginManagerAttributes
+Object[15] = AppearanceAttributes
+Object[16] = GlobalAttributes
+Object[17] = DatabaseCorrelationList
+Object[18] = PlotList
+Object[19] = HostProfileList
+Object[20] = SaveWindowAttributes
+Object[21] = EngineList
+Object[22] = ColorTableAttributes
+Object[23] = ExpressionList
+Object[24] = AnnotationAttributes
+Object[25] = SILRestrictionAttributes
+Object[26] = ViewAxisArrayAttributes
+Object[27] = ViewCurveAttributes
+Object[28] = View2DAttributes
+Object[29] = View3DAttributes
+Object[30] = LightList
+Object[31] = AnimationAttributes
+Object[32] = PickAttributes
+Object[33] = PrinterAttributes
+Object[34] = WindowInformation
+Object[35] = RenderingAttributes
+Object[36] = KeyframeAttributes
+Object[37] = QueryList
+Object[38] = QueryAttributes
+Object[39] = MaterialAttributes
+Object[40] = GlobalLineoutAttributes
+Object[41] = AnnotationObjectList
+Object[42] = QueryOverTimeAttributes
+Object[43] = InteractorAttributes
+Object[44] = ProcessAttributes
+Object[45] = MovieAttributes
+Object[46] = MeshManagementAttributes
+Object[47] = ViewerRPC
+Object[48] = FileOpenOptions
+Object[49] = SelectionProperties
+Object[50] = SelectionList
+Object[51] = ViewerClientAttributes
+Object[52] = ViewerClientInformation
+Object[53] = BoundaryAttributes
+Object[54] = PlotInfoAttributes
+Object[55] = ContourAttributes
+Object[56] = PlotInfoAttributes
+Object[57] = CurveAttributes
+Object[58] = PlotInfoAttributes
+Object[59] = FilledBoundaryAttributes
+Object[60] = PlotInfoAttributes
+Object[61] = HistogramAttributes
+Object[62] = PlotInfoAttributes
+Object[63] = LabelAttributes
+Object[64] = PlotInfoAttributes
+Object[65] = MeshAttributes
+Object[66] = PlotInfoAttributes
+Object[67] = MoleculeAttributes
+Object[68] = PlotInfoAttributes
+Object[69] = MultiCurveAttributes
+Object[70] = PlotInfoAttributes
+Object[71] = ParallelCoordinatesAttributes
+Object[72] = PlotInfoAttributes
+Object[73] = PseudocolorAttributes
+Object[74] = PlotInfoAttributes
+Object[75] = ScatterAttributes
+Object[76] = PlotInfoAttributes
+Object[77] = SpreadsheetAttributes
+Object[78] = PlotInfoAttributes
+Object[79] = StreamlineAttributes
+Object[80] = PlotInfoAttributes
+Object[81] = SubsetAttributes
+Object[82] = PlotInfoAttributes
+Object[83] = TensorAttributes
+Object[84] = PlotInfoAttributes
+Object[85] = TruecolorAttributes
+Object[86] = PlotInfoAttributes
+Object[87] = VectorAttributes
+Object[88] = PlotInfoAttributes
+Object[89] = VolumeAttributes
+Object[90] = PlotInfoAttributes
+Object[91] = AMRStitchCellAttributes
+Object[92] = BoundaryOpAttributes
+Object[93] = BoxAttributes
+Object[94] = CartographicProjectionAttributes
+Object[95] = ClipAttributes
+Object[96] = ConeAttributes
+Object[97] = ConnectedComponentsAttributes
+Object[98] = CoordSwapAttributes
+Object[99] = CreateBondsAttributes
+Object[100] = CylinderAttributes
+Object[101] = DataBinningAttributes
+Object[102] = DeferExpressionAttributes
+Object[103] = DisplaceAttributes
+Object[104] = DualMeshAttributes
+Object[105] = EdgeAttributes
+Object[106] = ElevateAttributes
+Object[107] = EllipsoidSliceAttributes
+Object[108] = ExternalSurfaceAttributes
+Object[109] = ExtrudeAttributes
+Object[110] = FFTAttributes
+Object[111] = FluxAttributes
+Object[112] = IndexSelectAttributes
+Object[113] = IntegralCurveAttributes
+Object[114] = InverseGhostZoneAttributes
+Object[115] = IsosurfaceAttributes
+Object[116] = IsovolumeAttributes
+Object[117] = LCSAttributes
+Object[118] = LagrangianAttributes
+Object[119] = LineoutAttributes
+Object[120] = ModelFitAtts
+Object[121] = MultiresControlAttributes
+Object[122] = OnionPeelAttributes
+Object[123] = PersistentParticlesAttributes
+Object[124] = PoincareAttributes
+Object[125] = ProjectAttributes
+Object[126] = RadialResampleAttributes
+Object[127] = ReflectAttributes
+Object[128] = ReplicateAttributes
+Object[129] = ResampleAttributes
+Object[130] = RevolveAttributes
+Object[131] = SliceAttributes
+Object[132] = SmoothOperatorAttributes
+Object[133] = SphereSliceAttributes
+Object[134] = StaggerAttributes
+Object[135] = StatisticalTrendsAttributes
+Object[136] = SurfaceNormalAttributes
+Object[137] = ThreeSliceAttributes
+Object[138] = ThresholdAttributes
+Object[139] = TransformAttributes
+Object[140] = TriangulateRegularPointsAttributes
+Object[141] = TubeAttributes
+DelayedLoadPlugins: end
+Launch: 4
+Launch: 5
+Xfer::Update: Sending: opcode=2, name=SyncAttributes
+Xfer::Process: Opcode=16, len=73, type=GlobalAttributes
+Xfer::Process: Opcode=20, len=767, type=SaveWindowAttributes
+Xfer::Process: Opcode=22, len=12126, type=ColorTableAttributes
+Xfer::Process: Opcode=23, len=7613, type=ExpressionList
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=27, len=38, type=ViewCurveAttributes
+Xfer::Process: Opcode=28, len=75, type=View2DAttributes
+Xfer::Process: Opcode=29, len=146, type=View3DAttributes
+Xfer::Process: Opcode=34, len=163, type=WindowInformation
+Xfer::Process: Opcode=33, len=46, type=PrinterAttributes
+Xfer::Process: Opcode=35, len=17, type=RenderingAttributes
+Xfer::Process: Opcode=45, len=84, type=MovieAttributes
+Xfer::Process: Opcode=48, len=10372, type=FileOpenOptions
+Xfer::Process: Opcode=19, len=763, type=HostProfileList
+Xfer::Process: Opcode=39, len=43, type=MaterialAttributes
+Xfer::Process: Opcode=32, len=375, type=PickAttributes
+Xfer::Process: Opcode=42, len=478, type=QueryOverTimeAttributes
+Xfer::Process: Opcode=37, len=3533, type=QueryList
+Xfer::Process: Opcode=46, len=54, type=MeshManagementAttributes
+Xfer::Process: Opcode=16, len=25, type=GlobalAttributes
+Xfer::Process: Opcode=18, len=6, type=PlotList
+Xfer::Process: Opcode=53, len=105, type=BoundaryAttributes
+Xfer::Process: Opcode=55, len=679, type=ContourAttributes
+Xfer::Process: Opcode=57, len=156, type=CurveAttributes
+Xfer::Process: Opcode=59, len=120, type=FilledBoundaryAttributes
+Xfer::Process: Opcode=61, len=104, type=HistogramAttributes
+Xfer::Process: Opcode=63, len=84, type=LabelAttributes
+Xfer::Process: Opcode=65, len=109, type=MeshAttributes
+Xfer::Process: Opcode=67, len=135, type=MoleculeAttributes
+Xfer::Process: Opcode=69, len=730, type=MultiCurveAttributes
+Xfer::Process: Opcode=71, len=76, type=ParallelCoordinatesAttributes
+Xfer::Process: Opcode=73, len=244, type=PseudocolorAttributes
+Xfer::Process: Opcode=75, len=251, type=ScatterAttributes
+Xfer::Process: Opcode=77, len=107, type=SpreadsheetAttributes
+Xfer::Process: Opcode=79, len=916, type=StreamlineAttributes
+Xfer::Process: Opcode=81, len=107, type=SubsetAttributes
+Xfer::Process: Opcode=83, len=52, type=TensorAttributes
+Xfer::Process: Opcode=85, len=12, type=TruecolorAttributes
+Xfer::Process: Opcode=87, len=136, type=VectorAttributes
+Xfer::Process: Opcode=89, len=545, type=VolumeAttributes
+Xfer::Process: Opcode=54, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=56, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=58, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=60, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=62, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=64, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=66, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=68, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=70, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=72, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=74, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=76, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=78, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=80, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=82, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=84, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=86, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=88, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=90, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=91, len=6, type=AMRStitchCellAttributes
+Xfer::Process: Opcode=92, len=6, type=BoundaryOpAttributes
+Xfer::Process: Opcode=93, len=62, type=BoxAttributes
+Xfer::Process: Opcode=94, len=15, type=CartographicProjectionAttributes
+Xfer::Process: Opcode=95, len=238, type=ClipAttributes
+Xfer::Process: Opcode=96, len=113, type=ConeAttributes
+Xfer::Process: Opcode=97, len=3, type=ConnectedComponentsAttributes
+Xfer::Process: Opcode=98, len=16, type=CoordSwapAttributes
+Xfer::Process: Opcode=99, len=180, type=CreateBondsAttributes
+Xfer::Process: Opcode=100, len=70, type=CylinderAttributes
+Xfer::Process: Opcode=101, len=158, type=DataBinningAttributes
+Xfer::Process: Opcode=102, len=6, type=DeferExpressionAttributes
+Xfer::Process: Opcode=103, len=19, type=DisplaceAttributes
+Xfer::Process: Opcode=104, len=6, type=DualMeshAttributes
+Xfer::Process: Opcode=105, len=3, type=EdgeAttributes
+Xfer::Process: Opcode=106, len=55, type=ElevateAttributes
+Xfer::Process: Opcode=107, len=88, type=EllipsoidSliceAttributes
+Xfer::Process: Opcode=108, len=5, type=ExternalSurfaceAttributes
+Xfer::Process: Opcode=109, len=46, type=ExtrudeAttributes
+Xfer::Process: Opcode=110, len=6, type=FFTAttributes
+Xfer::Process: Opcode=111, len=21, type=FluxAttributes
+Xfer::Process: Opcode=112, len=93, type=IndexSelectAttributes
+Xfer::Process: Opcode=113, len=675, type=IntegralCurveAttributes
+Xfer::Process: Opcode=114, len=15, type=InverseGhostZoneAttributes
+Xfer::Process: Opcode=115, len=57, type=IsosurfaceAttributes
+Xfer::Process: Opcode=116, len=28, type=IsovolumeAttributes
+Xfer::Process: Opcode=117, len=315, type=LCSAttributes
+Xfer::Process: Opcode=118, len=54, type=LagrangianAttributes
+Xfer::Process: Opcode=119, len=74, type=LineoutAttributes
+Xfer::Process: Opcode=120, len=56, type=ModelFitAtts
+Xfer::Process: Opcode=121, len=13, type=MultiresControlAttributes
+Xfer::Process: Opcode=122, len=45, type=OnionPeelAttributes
+Xfer::Process: Opcode=123, len=66, type=PersistentParticlesAttributes
+Xfer::Process: Opcode=124, len=489, type=PoincareAttributes
+Xfer::Process: Opcode=125, len=11, type=ProjectAttributes
+Xfer::Process: Opcode=126, len=62, type=RadialResampleAttributes
+Xfer::Process: Opcode=127, len=76, type=ReflectAttributes
+Xfer::Process: Opcode=128, len=140, type=ReplicateAttributes
+Xfer::Process: Opcode=129, len=101, type=ResampleAttributes
+Xfer::Process: Opcode=130, len=60, type=RevolveAttributes
+Xfer::Process: Opcode=131, len=169, type=SliceAttributes
+Xfer::Process: Opcode=132, len=46, type=SmoothOperatorAttributes
+Xfer::Process: Opcode=133, len=39, type=SphereSliceAttributes
+Xfer::Process: Opcode=134, len=28, type=StaggerAttributes
+Xfer::Process: Opcode=135, len=41, type=StatisticalTrendsAttributes
+Xfer::Process: Opcode=136, len=6, type=SurfaceNormalAttributes
+Xfer::Process: Opcode=137, len=30, type=ThreeSliceAttributes
+Xfer::Process: Opcode=138, len=45, type=ThresholdAttributes
+Xfer::Process: Opcode=139, len=332, type=TransformAttributes
+Xfer::Process: Opcode=140, len=23, type=TriangulateRegularPointsAttributes
+Xfer::Process: Opcode=141, len=42, type=TubeAttributes
+Xfer::Process: Opcode=25, len=73, type=SILRestrictionAttributes
+Xfer::Process: Opcode=23, len=6, type=ExpressionList
+Xfer::Process: Opcode=36, len=10, type=KeyframeAttributes
+Xfer::Process: Opcode=41, len=6, type=AnnotationObjectList
+Xfer::Process: Opcode=27, len=90, type=ViewCurveAttributes
+Xfer::Process: Opcode=28, len=101, type=View2DAttributes
+Xfer::Process: Opcode=29, len=258, type=View3DAttributes
+Xfer::Process: Opcode=26, len=80, type=ViewAxisArrayAttributes
+Xfer::Process: Opcode=34, len=11, type=WindowInformation
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=24, len=1100, type=AnnotationAttributes
+Xfer::Process: Opcode=43, len=19, type=InteractorAttributes
+Xfer::Process: Opcode=30, len=481, type=LightList
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=34, len=160, type=WindowInformation
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=6, type=WindowInformation
+Xfer::Process: Opcode=35, len=137, type=RenderingAttributes
+Xfer::Process: Opcode=17, len=18, type=DatabaseCorrelationList
+Xfer::Process: Opcode=50, len=13, type=SelectionList
+Xfer::Process: Opcode=18, len=6, type=PlotList
+Xfer::Process: Opcode=16, len=25, type=GlobalAttributes
+Xfer::Process: Opcode=18, len=6, type=PlotList
+Xfer::Process: Opcode=53, len=105, type=BoundaryAttributes
+Xfer::Process: Opcode=55, len=679, type=ContourAttributes
+Xfer::Process: Opcode=57, len=156, type=CurveAttributes
+Xfer::Process: Opcode=59, len=120, type=FilledBoundaryAttributes
+Xfer::Process: Opcode=61, len=104, type=HistogramAttributes
+Xfer::Process: Opcode=63, len=84, type=LabelAttributes
+Xfer::Process: Opcode=65, len=109, type=MeshAttributes
+Xfer::Process: Opcode=67, len=135, type=MoleculeAttributes
+Xfer::Process: Opcode=69, len=730, type=MultiCurveAttributes
+Xfer::Process: Opcode=71, len=76, type=ParallelCoordinatesAttributes
+Xfer::Process: Opcode=73, len=244, type=PseudocolorAttributes
+Xfer::Process: Opcode=75, len=251, type=ScatterAttributes
+Xfer::Process: Opcode=77, len=107, type=SpreadsheetAttributes
+Xfer::Process: Opcode=79, len=916, type=StreamlineAttributes
+Xfer::Process: Opcode=81, len=107, type=SubsetAttributes
+Xfer::Process: Opcode=83, len=52, type=TensorAttributes
+Xfer::Process: Opcode=85, len=12, type=TruecolorAttributes
+Xfer::Process: Opcode=87, len=136, type=VectorAttributes
+Xfer::Process: Opcode=89, len=545, type=VolumeAttributes
+Xfer::Process: Opcode=54, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=56, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=58, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=60, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=62, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=64, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=66, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=68, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=70, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=72, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=74, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=76, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=78, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=80, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=82, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=84, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=86, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=88, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=90, len=10, type=PlotInfoAttributes
+Xfer::Process: Opcode=91, len=6, type=AMRStitchCellAttributes
+Xfer::Process: Opcode=92, len=6, type=BoundaryOpAttributes
+Xfer::Process: Opcode=93, len=62, type=BoxAttributes
+Xfer::Process: Opcode=94, len=15, type=CartographicProjectionAttributes
+Xfer::Process: Opcode=95, len=238, type=ClipAttributes
+Xfer::Process: Opcode=96, len=113, type=ConeAttributes
+Xfer::Process: Opcode=97, len=3, type=ConnectedComponentsAttributes
+Xfer::Process: Opcode=98, len=16, type=CoordSwapAttributes
+Xfer::Process: Opcode=99, len=180, type=CreateBondsAttributes
+Xfer::Process: Opcode=100, len=70, type=CylinderAttributes
+Xfer::Process: Opcode=101, len=158, type=DataBinningAttributes
+Xfer::Process: Opcode=102, len=6, type=DeferExpressionAttributes
+Xfer::Process: Opcode=103, len=19, type=DisplaceAttributes
+Xfer::Process: Opcode=104, len=6, type=DualMeshAttributes
+Xfer::Process: Opcode=105, len=3, type=EdgeAttributes
+Xfer::Process: Opcode=106, len=55, type=ElevateAttributes
+Xfer::Process: Opcode=107, len=88, type=EllipsoidSliceAttributes
+Xfer::Process: Opcode=108, len=5, type=ExternalSurfaceAttributes
+Xfer::Process: Opcode=109, len=46, type=ExtrudeAttributes
+Xfer::Process: Opcode=110, len=6, type=FFTAttributes
+Xfer::Process: Opcode=111, len=21, type=FluxAttributes
+Xfer::Process: Opcode=112, len=93, type=IndexSelectAttributes
+Xfer::Process: Opcode=113, len=675, type=IntegralCurveAttributes
+Xfer::Process: Opcode=114, len=15, type=InverseGhostZoneAttributes
+Xfer::Process: Opcode=115, len=57, type=IsosurfaceAttributes
+Xfer::Process: Opcode=116, len=28, type=IsovolumeAttributes
+Xfer::Process: Opcode=117, len=315, type=LCSAttributes
+Xfer::Process: Opcode=118, len=54, type=LagrangianAttributes
+Xfer::Process: Opcode=119, len=74, type=LineoutAttributes
+Xfer::Process: Opcode=120, len=56, type=ModelFitAtts
+Xfer::Process: Opcode=121, len=13, type=MultiresControlAttributes
+Xfer::Process: Opcode=122, len=45, type=OnionPeelAttributes
+Xfer::Process: Opcode=123, len=66, type=PersistentParticlesAttributes
+Xfer::Process: Opcode=124, len=489, type=PoincareAttributes
+Xfer::Process: Opcode=125, len=11, type=ProjectAttributes
+Xfer::Process: Opcode=126, len=62, type=RadialResampleAttributes
+Xfer::Process: Opcode=127, len=76, type=ReflectAttributes
+Xfer::Process: Opcode=128, len=140, type=ReplicateAttributes
+Xfer::Process: Opcode=129, len=101, type=ResampleAttributes
+Xfer::Process: Opcode=130, len=60, type=RevolveAttributes
+Xfer::Process: Opcode=131, len=169, type=SliceAttributes
+Xfer::Process: Opcode=132, len=46, type=SmoothOperatorAttributes
+Xfer::Process: Opcode=133, len=39, type=SphereSliceAttributes
+Xfer::Process: Opcode=134, len=28, type=StaggerAttributes
+Xfer::Process: Opcode=135, len=41, type=StatisticalTrendsAttributes
+Xfer::Process: Opcode=136, len=6, type=SurfaceNormalAttributes
+Xfer::Process: Opcode=137, len=30, type=ThreeSliceAttributes
+Xfer::Process: Opcode=138, len=45, type=ThresholdAttributes
+Xfer::Process: Opcode=139, len=332, type=TransformAttributes
+Xfer::Process: Opcode=140, len=23, type=TriangulateRegularPointsAttributes
+Xfer::Process: Opcode=141, len=42, type=TubeAttributes
+Xfer::Process: Opcode=25, len=73, type=SILRestrictionAttributes
+Xfer::Process: Opcode=36, len=10, type=KeyframeAttributes
+Xfer::Process: Opcode=41, len=6, type=AnnotationObjectList
+Xfer::Process: Opcode=27, len=90, type=ViewCurveAttributes
+Xfer::Process: Opcode=28, len=101, type=View2DAttributes
+Xfer::Process: Opcode=29, len=258, type=View3DAttributes
+Xfer::Process: Opcode=26, len=80, type=ViewAxisArrayAttributes
+Xfer::Process: Opcode=34, len=11, type=WindowInformation
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=24, len=1100, type=AnnotationAttributes
+Xfer::Process: Opcode=43, len=19, type=InteractorAttributes
+Xfer::Process: Opcode=30, len=481, type=LightList
+Xfer::Process: Opcode=31, len=23, type=AnimationAttributes
+Xfer::Process: Opcode=34, len=160, type=WindowInformation
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=6, type=WindowInformation
+Xfer::Process: Opcode=35, len=137, type=RenderingAttributes
+Xfer::Process: Opcode=39, len=43, type=MaterialAttributes
+Xfer::Process: Opcode=46, len=54, type=MeshManagementAttributes
+Xfer::Process: Opcode=13, len=85, type=ExportDBAttributes
+Xfer::Process: Opcode=41, len=6, type=AnnotationObjectList
+Xfer::Process: Opcode=9, len=41, type=ClientMethod
+Received a _QueryClientInformation client method. Save it for later.
+Xfer::Process: Opcode=47, len=167, type=ViewerRPC
+Logging: SetStateLoggingRPC
+Xfer::Process: Opcode=47, len=167, type=ViewerRPC
+Logging: ShowAllWindowsRPC
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=34, len=92, type=WindowInformation
+Xfer::Process: Opcode=47, len=8, type=ViewerRPC
+Logging: SetStateLoggingRPC
+Xfer::Process: Opcode=2, len=6, type=SyncAttributes
+Launch: 6
+Launch: 7
+Initializing Boundary plot plugin.
+	Added "BoundaryAttributes"  to the local python dictionary.
+	Added "BoundaryAttributes" method to the visitmodule dictionary.
+Initializing Contour plot plugin.
+	Added "ContourAttributes"  to the local python dictionary.
+	Added "ContourAttributes" method to the visitmodule dictionary.
+Initializing Curve plot plugin.
+	Added "CurveAttributes"  to the local python dictionary.
+	Added "CurveAttributes" method to the visitmodule dictionary.
+Initializing FilledBoundary plot plugin.
+	Added "FilledBoundaryAttributes"  to the local python dictionary.
+	Added "FilledBoundaryAttributes" method to the visitmodule dictionary.
+Initializing Histogram plot plugin.
+	Added "HistogramAttributes"  to the local python dictionary.
+	Added "HistogramAttributes" method to the visitmodule dictionary.
+Initializing Label plot plugin.
+	Added "LabelAttributes"  to the local python dictionary.
+	Added "LabelAttributes" method to the visitmodule dictionary.
+Initializing Mesh plot plugin.
+	Added "MeshAttributes"  to the local python dictionary.
+	Added "MeshAttributes" method to the visitmodule dictionary.
+Initializing Molecule plot plugin.
+	Added "MoleculeAttributes"  to the local python dictionary.
+	Added "MoleculeAttributes" method to the visitmodule dictionary.
+Initializing MultiCurve plot plugin.
+	Added "MultiCurveAttributes"  to the local python dictionary.
+	Added "MultiCurveAttributes" method to the visitmodule dictionary.
+Initializing ParallelCoordinates plot plugin.
+	Added "ParallelCoordinatesAttributes"  to the local python dictionary.
+	Added "ParallelCoordinatesAttributes" method to the visitmodule dictionary.
+Initializing Pseudocolor plot plugin.
+	Added "PseudocolorAttributes"  to the local python dictionary.
+	Added "PseudocolorAttributes" method to the visitmodule dictionary.
+Initializing Scatter plot plugin.
+	Added "ScatterAttributes"  to the local python dictionary.
+	Added "ScatterAttributes" method to the visitmodule dictionary.
+Initializing Spreadsheet plot plugin.
+	Added "SpreadsheetAttributes"  to the local python dictionary.
+	Added "SpreadsheetAttributes" method to the visitmodule dictionary.
+Initializing Streamline plot plugin.
+	Added "StreamlineAttributes"  to the local python dictionary.
+	Added "StreamlineAttributes" method to the visitmodule dictionary.
+Initializing Subset plot plugin.
+	Added "SubsetAttributes"  to the local python dictionary.
+	Added "SubsetAttributes" method to the visitmodule dictionary.
+Initializing Tensor plot plugin.
+	Added "TensorAttributes"  to the local python dictionary.
+	Added "TensorAttributes" method to the visitmodule dictionary.
+Initializing Truecolor plot plugin.
+	Added "TruecolorAttributes"  to the local python dictionary.
+	Added "TruecolorAttributes" method to the visitmodule dictionary.
+Initializing Vector plot plugin.
+	Added "VectorAttributes"  to the local python dictionary.
+	Added "VectorAttributes" method to the visitmodule dictionary.
+Initializing Volume plot plugin.
+	Added "VolumeAttributes"  to the local python dictionary.
+	Added "VolumeAttributes" method to the visitmodule dictionary.
+Initializing AMRStitchCell operator plugin.
+	Added "AMRStitchCellAttributes"  to the local python dictionary.
+	Added "AMRStitchCellAttributes" method to the visitmodule dictionary.
+Initializing BoundaryOp operator plugin.
+	Added "BoundaryOpAttributes"  to the local python dictionary.
+	Added "BoundaryOpAttributes" method to the visitmodule dictionary.
+Initializing Box operator plugin.
+	Added "BoxAttributes"  to the local python dictionary.
+	Added "BoxAttributes" method to the visitmodule dictionary.
+Initializing CartographicProjection operator plugin.
+	Added "CartographicProjectionAttributes"  to the local python dictionary.
+	Added "CartographicProjectionAttributes" method to the visitmodule dictionary.
+Initializing Clip operator plugin.
+	Added "ClipAttributes"  to the local python dictionary.
+	Added "ClipAttributes" method to the visitmodule dictionary.
+Initializing Cone operator plugin.
+	Added "ConeAttributes"  to the local python dictionary.
+	Added "ConeAttributes" method to the visitmodule dictionary.
+Initializing ConnectedComponents operator plugin.
+	Added "ConnectedComponentsAttributes"  to the local python dictionary.
+	Added "ConnectedComponentsAttributes" method to the visitmodule dictionary.
+Initializing CoordSwap operator plugin.
+	Added "CoordSwapAttributes"  to the local python dictionary.
+	Added "CoordSwapAttributes" method to the visitmodule dictionary.
+Initializing CreateBonds operator plugin.
+	Added "CreateBondsAttributes"  to the local python dictionary.
+	Added "CreateBondsAttributes" method to the visitmodule dictionary.
+Initializing Cylinder operator plugin.
+	Added "CylinderAttributes"  to the local python dictionary.
+	Added "CylinderAttributes" method to the visitmodule dictionary.
+Initializing DataBinning operator plugin.
+	Added "DataBinningAttributes"  to the local python dictionary.
+	Added "DataBinningAttributes" method to the visitmodule dictionary.
+Initializing DeferExpression operator plugin.
+	Added "DeferExpressionAttributes"  to the local python dictionary.
+	Added "DeferExpressionAttributes" method to the visitmodule dictionary.
+Initializing Displace operator plugin.
+	Added "DisplaceAttributes"  to the local python dictionary.
+	Added "DisplaceAttributes" method to the visitmodule dictionary.
+Initializing DualMesh operator plugin.
+	Added "DualMeshAttributes"  to the local python dictionary.
+	Added "DualMeshAttributes" method to the visitmodule dictionary.
+Initializing Edge operator plugin.
+	Added "EdgeAttributes"  to the local python dictionary.
+	Added "EdgeAttributes" method to the visitmodule dictionary.
+Initializing Elevate operator plugin.
+	Added "ElevateAttributes"  to the local python dictionary.
+	Added "ElevateAttributes" method to the visitmodule dictionary.
+Initializing EllipsoidSlice operator plugin.
+	Added "EllipsoidSliceAttributes"  to the local python dictionary.
+	Added "EllipsoidSliceAttributes" method to the visitmodule dictionary.
+Initializing ExternalSurface operator plugin.
+	Added "ExternalSurfaceAttributes"  to the local python dictionary.
+	Added "ExternalSurfaceAttributes" method to the visitmodule dictionary.
+Initializing Extrude operator plugin.
+	Added "ExtrudeAttributes"  to the local python dictionary.
+	Added "ExtrudeAttributes" method to the visitmodule dictionary.
+Initializing FFT operator plugin.
+	Added "FFTAttributes"  to the local python dictionary.
+	Added "FFTAttributes" method to the visitmodule dictionary.
+Initializing Flux operator plugin.
+	Added "FluxAttributes"  to the local python dictionary.
+	Added "FluxAttributes" method to the visitmodule dictionary.
+Initializing IndexSelect operator plugin.
+	Added "IndexSelectAttributes"  to the local python dictionary.
+	Added "IndexSelectAttributes" method to the visitmodule dictionary.
+Initializing IntegralCurve operator plugin.
+	Added "IntegralCurveAttributes"  to the local python dictionary.
+	Added "IntegralCurveAttributes" method to the visitmodule dictionary.
+Initializing InverseGhostZone operator plugin.
+	Added "InverseGhostZoneAttributes"  to the local python dictionary.
+	Added "InverseGhostZoneAttributes" method to the visitmodule dictionary.
+Initializing Isosurface operator plugin.
+	Added "IsosurfaceAttributes"  to the local python dictionary.
+	Added "IsosurfaceAttributes" method to the visitmodule dictionary.
+Initializing Isovolume operator plugin.
+	Added "IsovolumeAttributes"  to the local python dictionary.
+	Added "IsovolumeAttributes" method to the visitmodule dictionary.
+Initializing LCS operator plugin.
+	Added "LCSAttributes"  to the local python dictionary.
+	Added "LCSAttributes" method to the visitmodule dictionary.
+Initializing Lagrangian operator plugin.
+	Added "LagrangianAttributes"  to the local python dictionary.
+	Added "LagrangianAttributes" method to the visitmodule dictionary.
+Initializing Lineout operator plugin.
+	Added "LineoutAttributes"  to the local python dictionary.
+	Added "LineoutAttributes" method to the visitmodule dictionary.
+Initializing ModelFit operator plugin.
+	Added "ModelFitAtts"  to the local python dictionary.
+	Added "ModelFitAtts" method to the visitmodule dictionary.
+Initializing MultiresControl operator plugin.
+	Added "MultiresControlAttributes"  to the local python dictionary.
+	Added "MultiresControlAttributes" method to the visitmodule dictionary.
+Initializing OnionPeel operator plugin.
+	Added "OnionPeelAttributes"  to the local python dictionary.
+	Added "OnionPeelAttributes" method to the visitmodule dictionary.
+Initializing PersistentParticles operator plugin.
+	Added "PersistentParticlesAttributes"  to the local python dictionary.
+	Added "PersistentParticlesAttributes" method to the visitmodule dictionary.
+Initializing Poincare operator plugin.
+	Added "PoincareAttributes"  to the local python dictionary.
+	Added "PoincareAttributes" method to the visitmodule dictionary.
+Initializing Project operator plugin.
+	Added "ProjectAttributes"  to the local python dictionary.
+	Added "ProjectAttributes" method to the visitmodule dictionary.
+Initializing RadialResample operator plugin.
+	Added "RadialResampleAttributes"  to the local python dictionary.
+	Added "RadialResampleAttributes" method to the visitmodule dictionary.
+Initializing Reflect operator plugin.
+	Added "ReflectAttributes"  to the local python dictionary.
+	Added "ReflectAttributes" method to the visitmodule dictionary.
+Initializing Replicate operator plugin.
+	Added "ReplicateAttributes"  to the local python dictionary.
+	Added "ReplicateAttributes" method to the visitmodule dictionary.
+Initializing Resample operator plugin.
+	Added "ResampleAttributes"  to the local python dictionary.
+	Added "ResampleAttributes" method to the visitmodule dictionary.
+Initializing Revolve operator plugin.
+	Added "RevolveAttributes"  to the local python dictionary.
+	Added "RevolveAttributes" method to the visitmodule dictionary.
+Initializing Slice operator plugin.
+	Added "SliceAttributes"  to the local python dictionary.
+	Added "SliceAttributes" method to the visitmodule dictionary.
+Initializing Smooth operator plugin.
+	Added "SmoothOperatorAttributes"  to the local python dictionary.
+	Added "SmoothOperatorAttributes" method to the visitmodule dictionary.
+Initializing SphereSlice operator plugin.
+	Added "SphereSliceAttributes"  to the local python dictionary.
+	Added "SphereSliceAttributes" method to the visitmodule dictionary.
+Initializing Stagger operator plugin.
+	Added "StaggerAttributes"  to the local python dictionary.
+	Added "StaggerAttributes" method to the visitmodule dictionary.
+Initializing StatisticalTrends operator plugin.
+	Added "StatisticalTrendsAttributes"  to the local python dictionary.
+	Added "StatisticalTrendsAttributes" method to the visitmodule dictionary.
+Initializing SurfaceNormal operator plugin.
+	Added "SurfaceNormalAttributes"  to the local python dictionary.
+	Added "SurfaceNormalAttributes" method to the visitmodule dictionary.
+Initializing ThreeSlice operator plugin.
+	Added "ThreeSliceAttributes"  to the local python dictionary.
+	Added "ThreeSliceAttributes" method to the visitmodule dictionary.
+Initializing Threshold operator plugin.
+	Added "ThresholdAttributes"  to the local python dictionary.
+	Added "ThresholdAttributes" method to the visitmodule dictionary.
+Initializing Transform operator plugin.
+	Added "TransformAttributes"  to the local python dictionary.
+	Added "TransformAttributes" method to the visitmodule dictionary.
+Initializing TriangulateRegularPoints operator plugin.
+	Added "TriangulateRegularPointsAttributes"  to the local python dictionary.
+	Added "TriangulateRegularPointsAttributes" method to the visitmodule dictionary.
+Initializing Tube operator plugin.
+	Added "TubeAttributes"  to the local python dictionary.
+	Added "TubeAttributes" method to the visitmodule dictionary.
+Launch: 8
+Launch: 8, executing cached client methEoxdcse.p
+tion: (LostConnectionException) /export/ahota/visit/visitOSPRay/visit2.8.1/src/common/comm/SocketConnection.C, line 253: <The reason for the exception was not described>
+catch(LostConnectionException) /export/ahota/visit/visitOSPRay/visit2.8.1/src/visitpy/common/visitmodule.C:18812
+ExecuteClientMethod: _QueryClientInformation
+Xfer::Update: Sending: opcode=10, name=ClientInformation
+Launch, end
+Closing the extensions.
+Telling the viewer to close.
+Xfer::Update: Sending: opcode=0, name=ViewerRPC
+The viewer closed.

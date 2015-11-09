@@ -1,0 +1,1184 @@
+The system is: Linux - 2.6.32-504.23.4.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/intel/bin/icc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Intel, found in "/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/intel/bin/icpc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Intel, found in "/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1129962327/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1129962327.dir/build.make CMakeFiles/cmTryCompileExec1129962327.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1129962327.dir/testCCompiler.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1129962327.dir/testCCompiler.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1129962327
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1129962327.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1129962327.dir/testCCompiler.c.o  -o cmTryCompileExec1129962327 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3767624415/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3767624415.dir/build.make CMakeFiles/cmTryCompileExec3767624415.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3767624415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3767624415.dir/link.txt --verbose=1
+/opt/intel/bin/icc     -v CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3767624415 -rdynamic  
+icc version 15.0.3 (gcc version 4.4.7 compatibility)
+/opt/intel/composer_xe_2015.3.187/bin/intel64/mcpcom    -mP1OPT_version=15.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=447 "-mGLOB_options_string=-v -o cmTryCompileExec3767624415 -rdynamic" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel/composer_xe_2015.3.187/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/iccsMyMyMas_.s -mIPOPT_activate -mGLOB_em64t -mGLOB_product_id_code=0x22006d91 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icc01020589741702klCHd -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel/composer_xe_2015.3.187/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/iccslisyL1qUA -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/iccscript9aT6ME "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTryCompileExec3767624415" "-L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_iccdiLtCd.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarchapmRGp -mGLOB_linker_version=2.20.51.0.2 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icctempfileX1D7Ct -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_iccdiLtCd.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/iccaliseQpMnl -mIPOPT_generated_tempfiles=/tmp/iccelise78qgp -mIPOPT_embedded_object_base_name=/tmp/icceobjPF858s -mIPOPT_cmdline_link_new_name=/tmp/iccllis6jrL1w
+ld    /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTryCompileExec3767624415 -L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/ -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3767624415/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3767624415.dir/build.make CMakeFiles/cmTryCompileExec3767624415.dir/build]
+  ignore line: [gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3767624415]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3767624415.dir/link.txt --verbose=1]
+  ignore line: [/opt/intel/bin/icc     -v CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3767624415 -rdynamic  ]
+  ignore line: [icc version 15.0.3 (gcc version 4.4.7 compatibility)]
+  ignore line: [/opt/intel/composer_xe_2015.3.187/bin/intel64/mcpcom    -mP1OPT_version=15.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=447 "-mGLOB_options_string=-v -o cmTryCompileExec3767624415 -rdynamic" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel/composer_xe_2015.3.187/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/iccsMyMyMas_.s -mIPOPT_activate -mGLOB_em64t -mGLOB_product_id_code=0x22006d91 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icc01020589741702klCHd -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel/composer_xe_2015.3.187/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/iccslisyL1qUA -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/iccscript9aT6ME "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTryCompileExec3767624415" "-L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_iccdiLtCd.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarchapmRGp -mGLOB_linker_version=2.20.51.0.2 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icctempfileX1D7Ct -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_iccdiLtCd.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/iccaliseQpMnl -mIPOPT_generated_tempfiles=/tmp/iccelise78qgp -mIPOPT_embedded_object_base_name=/tmp/icceobjPF858s -mIPOPT_cmdline_link_new_name=/tmp/iccllis6jrL1w]
+  link line: [ld    /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTryCompileExec3767624415 -L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/ -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3767624415] ==> ignore
+    arg [-L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec3767624415.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [--as-needed] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [--no-as-needed] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../] ==> [/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [imf;svml;irng;m;ipgo;decimal;cilkrts;stdc++;irc;svml;c;irc_s;dl;c]
+  implicit dirs: [/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64;/usr/lib/gcc/x86_64-redhat-linux/4.4.7;/usr/lib64;/lib64;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2989806320/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2989806320.dir/build.make CMakeFiles/cmTryCompileExec2989806320.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2989806320.dir/testCXXCompiler.cxx.o
+/opt/intel/bin/icpc     -o CMakeFiles/cmTryCompileExec2989806320.dir/testCXXCompiler.cxx.o -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2989806320
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2989806320.dir/link.txt --verbose=1
+/opt/intel/bin/icpc        CMakeFiles/cmTryCompileExec2989806320.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2989806320 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3944061998/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3944061998.dir/build.make CMakeFiles/cmTryCompileExec3944061998.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o
+/opt/intel/bin/icpc     -o CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3944061998
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3944061998.dir/link.txt --verbose=1
+/opt/intel/bin/icpc      -v CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3944061998 -rdynamic  
+icpc version 15.0.3 (gcc version 4.4.7 compatibility)
+/opt/intel/composer_xe_2015.3.187/bin/intel64/mcpcom    -mP1OPT_version=15.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=447 "-mGLOB_options_string=-v -o cmTryCompileExec3944061998 -rdynamic" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel/composer_xe_2015.3.187/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icpckc2IWzas_.s -mIPOPT_activate -mGLOB_em64t -mGLOB_product_id_code=0x22006d8e -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icpc010466685710hOkydB -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel/composer_xe_2015.3.187/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/icpcslistOKBKd -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/icpcscriptsmBc9k "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTryCompileExec3944061998" "-L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_icpceqS8mv.o -mIPOPT_whole_archive_fixup_file_name=/tmp/icpcwarchonN7dM -mGLOB_linker_version=2.20.51.0.2 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icpctempfileFAGjGT -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_icpceqS8mv.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/icpcalis5JlhaK -mIPOPT_generated_tempfiles=/tmp/icpcelisYQ0QyR -mIPOPT_embedded_object_base_name=/tmp/icpceobjY4WqXY -mIPOPT_cmdline_link_new_name=/tmp/icpcllisegb1l6
+ld    /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTryCompileExec3944061998 -L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/ -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3944061998/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3944061998.dir/build.make CMakeFiles/cmTryCompileExec3944061998.dir/build]
+  ignore line: [gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/intel/bin/icpc     -o CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3944061998]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3944061998.dir/link.txt --verbose=1]
+  ignore line: [/opt/intel/bin/icpc      -v CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3944061998 -rdynamic  ]
+  ignore line: [icpc version 15.0.3 (gcc version 4.4.7 compatibility)]
+  ignore line: [/opt/intel/composer_xe_2015.3.187/bin/intel64/mcpcom    -mP1OPT_version=15.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=447 "-mGLOB_options_string=-v -o cmTryCompileExec3944061998 -rdynamic" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/opt/intel/composer_xe_2015.3.187/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icpckc2IWzas_.s -mIPOPT_activate -mGLOB_em64t -mGLOB_product_id_code=0x22006d8e -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icpc010466685710hOkydB -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/opt/intel/composer_xe_2015.3.187/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/icpcslistOKBKd -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/icpcscriptsmBc9k "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTryCompileExec3944061998" "-L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o" "/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_icpceqS8mv.o -mIPOPT_whole_archive_fixup_file_name=/tmp/icpcwarchonN7dM -mGLOB_linker_version=2.20.51.0.2 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icpctempfileFAGjGT -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_icpceqS8mv.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/icpcalis5JlhaK -mIPOPT_generated_tempfiles=/tmp/icpcelisYQ0QyR -mIPOPT_embedded_object_base_name=/tmp/icpceobjY4WqXY -mIPOPT_cmdline_link_new_name=/tmp/icpcllisegb1l6]
+  link line: [ld    /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTryCompileExec3944061998 -L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/ -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3944061998] ==> ignore
+    arg [-L/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec3944061998.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [--as-needed] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [--no-as-needed] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../] ==> [/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [imf;svml;irng;m;ipgo;decimal;cilkrts;stdc++;irc;svml;c;irc_s;dl;c]
+  implicit dirs: [/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64;/usr/lib/gcc/x86_64-redhat-linux/4.4.7;/usr/lib64;/lib64;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3473983865/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3473983865.dir/build.make CMakeFiles/cmTryCompileExec3473983865.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3473983865.dir/CheckIncludeFile.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3473983865.dir/CheckIncludeFile.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3473983865
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3473983865.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3473983865.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3473983865 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3245853229/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3245853229.dir/build.make CMakeFiles/cmTryCompileExec3245853229.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3245853229.dir/CheckIncludeFile.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3245853229.dir/CheckIncludeFile.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3245853229
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3245853229.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3245853229.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3245853229 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2551661769/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2551661769.dir/build.make CMakeFiles/cmTryCompileExec2551661769.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2551661769.dir/CheckIncludeFile.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec2551661769.dir/CheckIncludeFile.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2551661769
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2551661769.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec2551661769.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2551661769 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3234160021/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3234160021.dir/build.make CMakeFiles/cmTryCompileExec3234160021.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3234160021.dir/CMAKE_SIZEOF_INT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3234160021.dir/CMAKE_SIZEOF_INT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_INT.c
+Linking C executable cmTryCompileExec3234160021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3234160021.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3234160021.dir/CMAKE_SIZEOF_INT.c.o  -o cmTryCompileExec3234160021 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1663617196/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1663617196.dir/build.make CMakeFiles/cmTryCompileExec1663617196.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1663617196.dir/CMAKE_SIZEOF_LONG.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1663617196.dir/CMAKE_SIZEOF_LONG.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_LONG.c
+Linking C executable cmTryCompileExec1663617196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1663617196.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1663617196.dir/CMAKE_SIZEOF_LONG.c.o  -o cmTryCompileExec1663617196 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec788103326/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec788103326.dir/build.make CMakeFiles/cmTryCompileExec788103326.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec788103326.dir/CMAKE_SIZEOF_VOID_P.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec788103326.dir/CMAKE_SIZEOF_VOID_P.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_VOID_P.c
+Linking C executable cmTryCompileExec788103326
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec788103326.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec788103326.dir/CMAKE_SIZEOF_VOID_P.c.o  -o cmTryCompileExec788103326 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of char passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec671231053/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec671231053.dir/build.make CMakeFiles/cmTryCompileExec671231053.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec671231053.dir/CMAKE_SIZEOF_CHAR.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec671231053.dir/CMAKE_SIZEOF_CHAR.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_CHAR.c
+Linking C executable cmTryCompileExec671231053
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec671231053.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec671231053.dir/CMAKE_SIZEOF_CHAR.c.o  -o cmTryCompileExec671231053 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec971501114/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec971501114.dir/build.make CMakeFiles/cmTryCompileExec971501114.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec971501114.dir/CMAKE_SIZEOF_SHORT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec971501114.dir/CMAKE_SIZEOF_SHORT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_SHORT.c
+Linking C executable cmTryCompileExec971501114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec971501114.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec971501114.dir/CMAKE_SIZEOF_SHORT.c.o  -o cmTryCompileExec971501114 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of float passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3837917338/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3837917338.dir/build.make CMakeFiles/cmTryCompileExec3837917338.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3837917338.dir/CMAKE_SIZEOF_FLOAT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3837917338.dir/CMAKE_SIZEOF_FLOAT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_FLOAT.c
+Linking C executable cmTryCompileExec3837917338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3837917338.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3837917338.dir/CMAKE_SIZEOF_FLOAT.c.o  -o cmTryCompileExec3837917338 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of double passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1446321382/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1446321382.dir/build.make CMakeFiles/cmTryCompileExec1446321382.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1446321382.dir/CMAKE_SIZEOF_DOUBLE.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1446321382.dir/CMAKE_SIZEOF_DOUBLE.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_DOUBLE.c
+Linking C executable cmTryCompileExec1446321382
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1446321382.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1446321382.dir/CMAKE_SIZEOF_DOUBLE.c.o  -o cmTryCompileExec1446321382 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3901590824/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3901590824.dir/build.make CMakeFiles/cmTryCompileExec3901590824.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3901590824.dir/CheckIncludeFile.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3901590824.dir/CheckIncludeFile.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3901590824
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3901590824.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3901590824.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3901590824 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2780932230/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2780932230.dir/build.make CMakeFiles/cmTryCompileExec2780932230.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2780932230.dir/CheckIncludeFile.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec2780932230.dir/CheckIncludeFile.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2780932230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2780932230.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec2780932230.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2780932230 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1657459624/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1657459624.dir/build.make CMakeFiles/cmTryCompileExec1657459624.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1657459624.dir/CheckIncludeFile.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1657459624.dir/CheckIncludeFile.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1657459624
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1657459624.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1657459624.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1657459624 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;sys/prctl.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec128725847/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec128725847.dir/build.make CMakeFiles/cmTryCompileExec128725847.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec128725847.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec128725847.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec128725847
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec128725847.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec128725847.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec128725847 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec916412566/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec916412566.dir/build.make CMakeFiles/cmTryCompileExec916412566.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec916412566.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec916412566.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec916412566
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec916412566.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec916412566.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec916412566 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3994307584/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3994307584.dir/build.make CMakeFiles/cmTryCompileExec3994307584.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3994307584.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3994307584.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3994307584
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3994307584.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3994307584.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3994307584 -rdynamic -lX11 -lXext 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec650158273/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec650158273.dir/build.make CMakeFiles/cmTryCompileExec650158273.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec650158273.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec650158273.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec650158273
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec650158273.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec650158273.dir/CheckFunctionExists.c.o  -o cmTryCompileExec650158273 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2666296062/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2666296062.dir/build.make CMakeFiles/cmTryCompileExec2666296062.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2666296062.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2666296062.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2666296062
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2666296062.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec2666296062.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2666296062 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3139816500/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3139816500.dir/build.make CMakeFiles/cmTryCompileExec3139816500.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3139816500.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3139816500.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3139816500
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3139816500.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3139816500.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3139816500 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3801607167/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3801607167.dir/build.make CMakeFiles/cmTryCompileExec3801607167.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3801607167.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec3801607167.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3801607167
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3801607167.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec3801607167.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3801607167 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec124204369/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec124204369.dir/build.make CMakeFiles/cmTryCompileExec124204369.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec124204369.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec124204369.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec124204369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec124204369.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec124204369.dir/CheckFunctionExists.c.o  -o cmTryCompileExec124204369 -rdynamic -lICE 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec609497346/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec609497346.dir/build.make CMakeFiles/cmTryCompileExec609497346.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec609497346.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec609497346.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec609497346
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec609497346.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec609497346.dir/CheckFunctionExists.c.o  -o cmTryCompileExec609497346 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec239469689/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec239469689.dir/build.make CMakeFiles/cmTryCompileExec239469689.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec239469689.dir/CheckIncludeFile.cxx.o
+/opt/intel/bin/icpc     -o CMakeFiles/cmTryCompileExec239469689.dir/CheckIncludeFile.cxx.o -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec239469689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec239469689.dir/link.txt --verbose=1
+/opt/intel/bin/icpc         CMakeFiles/cmTryCompileExec239469689.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec239469689 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler has std namespace passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1410723039/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1410723039.dir/build.make CMakeFiles/cmTryCompileExec1410723039.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1410723039.dir/TestForSTDNamespace.cxx.o
+/opt/intel/bin/icpc     -o CMakeFiles/cmTryCompileExec1410723039.dir/TestForSTDNamespace.cxx.o -c /usr/share/cmake/Modules/TestForSTDNamespace.cxx
+Linking CXX executable cmTryCompileExec1410723039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1410723039.dir/link.txt --verbose=1
+/opt/intel/bin/icpc         CMakeFiles/cmTryCompileExec1410723039.dir/TestForSTDNamespace.cxx.o  -o cmTryCompileExec1410723039 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler understands ansi for scopes passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3125529799/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3125529799.dir/build.make CMakeFiles/cmTryCompileExec3125529799.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3125529799.dir/TestForAnsiForScope.cxx.o
+/opt/intel/bin/icpc     -o CMakeFiles/cmTryCompileExec3125529799.dir/TestForAnsiForScope.cxx.o -c /usr/share/cmake/Modules/TestForAnsiForScope.cxx
+Linking CXX executable cmTryCompileExec3125529799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3125529799.dir/link.txt --verbose=1
+/opt/intel/bin/icpc         CMakeFiles/cmTryCompileExec3125529799.dir/TestForAnsiForScope.cxx.o  -o cmTryCompileExec3125529799 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler has sstream passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3875918942/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3875918942.dir/build.make CMakeFiles/cmTryCompileExec3875918942.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3875918942.dir/TestForSSTREAM.cxx.o
+/opt/intel/bin/icpc     -o CMakeFiles/cmTryCompileExec3875918942.dir/TestForSSTREAM.cxx.o -c /usr/share/cmake/Modules/TestForSSTREAM.cxx
+Linking CXX executable cmTryCompileExec3875918942
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3875918942.dir/link.txt --verbose=1
+/opt/intel/bin/icpc         CMakeFiles/cmTryCompileExec3875918942.dir/TestForSSTREAM.cxx.o  -o cmTryCompileExec3875918942 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4035173988/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4035173988.dir/build.make CMakeFiles/cmTryCompileExec4035173988.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4035173988.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec4035173988.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4035173988
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4035173988.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec4035173988.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4035173988 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3505878051/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3505878051.dir/build.make CMakeFiles/cmTryCompileExec3505878051.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3505878051.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3505878051.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3505878051
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3505878051.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3505878051.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3505878051 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4075153011/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4075153011.dir/build.make CMakeFiles/cmTryCompileExec4075153011.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4075153011.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec4075153011.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4075153011
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4075153011.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec4075153011.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4075153011 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec283108758/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec283108758.dir/build.make CMakeFiles/cmTryCompileExec283108758.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec283108758.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec283108758.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec283108758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec283108758.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec283108758.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec283108758 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3606701392/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3606701392.dir/build.make CMakeFiles/cmTryCompileExec3606701392.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3606701392.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3606701392.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3606701392
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3606701392.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3606701392.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3606701392 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1352488414/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1352488414.dir/build.make CMakeFiles/cmTryCompileExec1352488414.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1352488414.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1352488414.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1352488414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1352488414.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1352488414.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1352488414 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec432578452/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec432578452.dir/build.make CMakeFiles/cmTryCompileExec432578452.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec432578452.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec432578452.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec432578452
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec432578452.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec432578452.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec432578452 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec102666099/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec102666099.dir/build.make CMakeFiles/cmTryCompileExec102666099.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec102666099.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec102666099.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec102666099
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec102666099.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec102666099.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec102666099 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3700257565/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3700257565.dir/build.make CMakeFiles/cmTryCompileExec3700257565.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3700257565.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3700257565.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3700257565
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3700257565.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3700257565.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3700257565 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3539804113/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3539804113.dir/build.make CMakeFiles/cmTryCompileExec3539804113.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3539804113.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3539804113.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3539804113
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3539804113.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3539804113.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3539804113 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3202626675/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3202626675.dir/build.make CMakeFiles/cmTryCompileExec3202626675.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3202626675.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3202626675.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3202626675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3202626675.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3202626675.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3202626675 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files zlib.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3810753184/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3810753184.dir/build.make CMakeFiles/cmTryCompileExec3810753184.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3810753184.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3810753184.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3810753184
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3810753184.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3810753184.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3810753184 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1816217378/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1816217378.dir/build.make CMakeFiles/cmTryCompileExec1816217378.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1816217378.dir/CheckIncludeFiles.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1816217378.dir/CheckIncludeFiles.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1816217378
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1816217378.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1816217378.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1816217378 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec744928607/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec744928607.dir/build.make CMakeFiles/cmTryCompileExec744928607.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec744928607.dir/CheckSymbolExists.cxx.o
+/opt/intel/bin/icpc    -I/export/ahota/visit/visitOSPRay/visit/qt/4.8.3/linux-x86_64_icc/include    -o CMakeFiles/cmTryCompileExec744928607.dir/CheckSymbolExists.cxx.o -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec744928607
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec744928607.dir/link.txt --verbose=1
+/opt/intel/bin/icpc        CMakeFiles/cmTryCompileExec744928607.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec744928607 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+File /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of char passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec910585126/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec910585126.dir/build.make CMakeFiles/cmTryCompileExec910585126.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec910585126.dir/SIZEOF_CHAR.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec910585126.dir/SIZEOF_CHAR.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_CHAR.c
+Linking C executable cmTryCompileExec910585126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec910585126.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec910585126.dir/SIZEOF_CHAR.c.o  -o cmTryCompileExec910585126 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of double passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3679990959/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3679990959.dir/build.make CMakeFiles/cmTryCompileExec3679990959.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3679990959.dir/SIZEOF_DOUBLE.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3679990959.dir/SIZEOF_DOUBLE.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_DOUBLE.c
+Linking C executable cmTryCompileExec3679990959
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3679990959.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3679990959.dir/SIZEOF_DOUBLE.c.o  -o cmTryCompileExec3679990959 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of float passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1566121577/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1566121577.dir/build.make CMakeFiles/cmTryCompileExec1566121577.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1566121577.dir/SIZEOF_FLOAT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1566121577.dir/SIZEOF_FLOAT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_FLOAT.c
+Linking C executable cmTryCompileExec1566121577
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1566121577.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1566121577.dir/SIZEOF_FLOAT.c.o  -o cmTryCompileExec1566121577 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1183868145/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1183868145.dir/build.make CMakeFiles/cmTryCompileExec1183868145.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1183868145.dir/SIZEOF_INT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1183868145.dir/SIZEOF_INT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTryCompileExec1183868145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1183868145.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1183868145.dir/SIZEOF_INT.c.o  -o cmTryCompileExec1183868145 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1162748606/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1162748606.dir/build.make CMakeFiles/cmTryCompileExec1162748606.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1162748606.dir/SIZEOF_LONG.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1162748606.dir/SIZEOF_LONG.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTryCompileExec1162748606
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1162748606.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1162748606.dir/SIZEOF_LONG.c.o  -o cmTryCompileExec1162748606 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of long double passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec664677021/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec664677021.dir/build.make CMakeFiles/cmTryCompileExec664677021.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec664677021.dir/SIZEOF_LONG_DOUBLE.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec664677021.dir/SIZEOF_LONG_DOUBLE.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTryCompileExec664677021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec664677021.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec664677021.dir/SIZEOF_LONG_DOUBLE.c.o  -o cmTryCompileExec664677021 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3665030723/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3665030723.dir/build.make CMakeFiles/cmTryCompileExec3665030723.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3665030723.dir/SIZEOF_LONG_LONG.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3665030723.dir/SIZEOF_LONG_LONG.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTryCompileExec3665030723
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3665030723.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3665030723.dir/SIZEOF_LONG_LONG.c.o  -o cmTryCompileExec3665030723 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec105523147/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec105523147.dir/build.make CMakeFiles/cmTryCompileExec105523147.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec105523147.dir/SIZEOF_SHORT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec105523147.dir/SIZEOF_SHORT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTryCompileExec105523147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec105523147.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec105523147.dir/SIZEOF_SHORT.c.o  -o cmTryCompileExec105523147 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned char passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1126645411/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1126645411.dir/build.make CMakeFiles/cmTryCompileExec1126645411.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1126645411.dir/SIZEOF_UNSIGNED_CHAR.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1126645411.dir/SIZEOF_UNSIGNED_CHAR.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR.c
+Linking C executable cmTryCompileExec1126645411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1126645411.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1126645411.dir/SIZEOF_UNSIGNED_CHAR.c.o  -o cmTryCompileExec1126645411 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2536126114/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2536126114.dir/build.make CMakeFiles/cmTryCompileExec2536126114.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2536126114.dir/SIZEOF_UNSIGNED_INT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec2536126114.dir/SIZEOF_UNSIGNED_INT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTryCompileExec2536126114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2536126114.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec2536126114.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTryCompileExec2536126114 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3836964993/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3836964993.dir/build.make CMakeFiles/cmTryCompileExec3836964993.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3836964993.dir/SIZEOF_UNSIGNED_LONG.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3836964993.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTryCompileExec3836964993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3836964993.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3836964993.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTryCompileExec3836964993 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3637311746/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3637311746.dir/build.make CMakeFiles/cmTryCompileExec3637311746.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3637311746.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec3637311746.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTryCompileExec3637311746
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3637311746.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec3637311746.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTryCompileExec3637311746 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1247843308/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1247843308.dir/build.make CMakeFiles/cmTryCompileExec1247843308.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1247843308.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec1247843308.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec1247843308
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1247843308.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec1247843308.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec1247843308 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec441694396/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec441694396.dir/build.make CMakeFiles/cmTryCompileExec441694396.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec441694396.dir/SIZEOF_VOID_P.c.o
+/opt/intel/bin/icc    -o CMakeFiles/cmTryCompileExec441694396.dir/SIZEOF_VOID_P.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_VOID_P.c
+Linking C executable cmTryCompileExec441694396
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec441694396.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec441694396.dir/SIZEOF_VOID_P.c.o  -o cmTryCompileExec441694396 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2886318833/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2886318833.dir/build.make CMakeFiles/cmTryCompileExec2886318833.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2886318833.dir/SIZEOF_OFF64_T.c.o
+/opt/intel/bin/icc  -D_LARGEFILE64_SOURCE  -o CMakeFiles/cmTryCompileExec2886318833.dir/SIZEOF_OFF64_T.c.o   -c /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CheckTypeSize/SIZEOF_OFF64_T.c
+Linking C executable cmTryCompileExec2886318833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2886318833.dir/link.txt --verbose=1
+/opt/intel/bin/icc       CMakeFiles/cmTryCompileExec2886318833.dir/SIZEOF_OFF64_T.c.o  -o cmTryCompileExec2886318833 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1203227756/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1203227756.dir/build.make CMakeFiles/cmTryCompileExec1203227756.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1203227756.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc  -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTryCompileExec1203227756.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1203227756
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1203227756.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=memmove    CMakeFiles/cmTryCompileExec1203227756.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1203227756 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec12118415/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec12118415.dir/build.make CMakeFiles/cmTryCompileExec12118415.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec12118415.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc  -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTryCompileExec12118415.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec12118415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec12118415.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=setenv    CMakeFiles/cmTryCompileExec12118415.dir/CheckFunctionExists.c.o  -o cmTryCompileExec12118415 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtof exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2556265646/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2556265646.dir/build.make CMakeFiles/cmTryCompileExec2556265646.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2556265646.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc  -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strtof   -o CMakeFiles/cmTryCompileExec2556265646.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2556265646
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2556265646.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=strtof    CMakeFiles/cmTryCompileExec2556265646.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2556265646 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3269602912/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3269602912.dir/build.make CMakeFiles/cmTryCompileExec3269602912.dir/build
+gmake[1]: Entering directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3269602912.dir/CheckFunctionExists.c.o
+/opt/intel/bin/icc  -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTryCompileExec3269602912.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3269602912
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3269602912.dir/link.txt --verbose=1
+/opt/intel/bin/icc   -DCHECK_FUNCTION_EXISTS=select    CMakeFiles/cmTryCompileExec3269602912.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3269602912 -rdynamic 
+gmake[1]: Leaving directory `/export/ahota/visit/visitOSPRay/visit2.8.1/src/CMakeFiles/CMakeTmp'
+
+

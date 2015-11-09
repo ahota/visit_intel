@@ -1,0 +1,1 @@
+/opt/intel/bin/icpc     -g     CMakeFiles/sim_unstructured.dir/unstructured.c.o  -o unstructured  -L/export/ahota/visit/visitOSPRay/visit/manta/2540/linux-x86_64_icc/lib -rdynamic ../../../lib/libsimV2.a -ldl -lm -Wl,-rpath,/export/ahota/visit/visitOSPRay/visit/manta/2540/linux-x86_64_icc/lib 
