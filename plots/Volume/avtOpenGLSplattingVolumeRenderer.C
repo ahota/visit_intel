@@ -808,6 +808,7 @@ avtOSPRayVolumeRenderer::avtOSPRayVolumeRenderer()
 
 avtOSPRayVolumeRenderer::~avtOSPRayVolumeRenderer()
 {
+    
     /*
     ren->Delete();
     mapper->Delete();
@@ -899,34 +900,25 @@ avtOSPRayVolumeRenderer::Render(
         p[i] = da->GetTuple1(i);
     }
 
-    /*
-    for(int i = 0; i < limit; i++)
-        *p++ = i;
-        */
-
-    debug5 << "\tCreating transfer function" << endl;
-    float min = volume.data.min;
-    float max = volume.data.max;
-    float range = max - min;
-    
-    trans_func->AddRGBPoint(min, 0.25, 0.25, 0.75); //purple at min
-    trans_func->AddRGBPoint(min + range/6, 0, 0, 0.5); //deep blue at min + 1/6
-    trans_func->AddRGBPoint(min + range/3, 0, 1, 1); //cyan at min + 1/3
-    trans_func->AddRGBPoint(min + range/2, 0, 0.5, 0); //deep green at min + 1/2
-    trans_func->AddRGBPoint(min + 2*range/3, 1, 1, 0); //yellow at min + 2/3
-    trans_func->AddRGBPoint(min + 5*range/6, 1, 0.25, 0); //orange at min + 5/6
-    trans_func->AddRGBPoint(max, 0.5, 0, 0);
-    prop->SetColor(trans_func);
-
-    //opacity transfer function with strong emphasis on maximum values
-    opacity->AddPoint(min, 0.0);
-    opacity->AddPoint(min + 0.9*range, 0.1);
-    opacity->AddPoint(max, 1.0);
-    prop->SetScalarOpacity(opacity);
-
     //image->Print(cout);
     debug5 << "\tAdding image data" << endl;
     mapper->SetInputData(image);
+
+    debug5 << "\tCreating transfer function" << endl;
+    //getting color/alpha transfer function from VisIt
+    unsigned char rgba[256*4];
+    props.atts.GetTransferFunction(rgba);
+    float min = volume.data.min;
+    float max = volume.data.max;
+    float range = max - min;
+    for(int i = 0; i < 256; i++) {
+        float pos = min + (i/255.f)*range;
+        trans_func->AddRGBPoint(pos, rgba[4*i], rgba[4*i+1], rgba[4*i+2]);
+        opacity->AddPoint(pos, rgba[i*4+3]);
+    }
+
+    prop->SetColor(trans_func);
+    prop->SetScalarOpacity(opacity);
 
     //Create the volume that will go to the render call
     //Give it the mapper - this is how it references the data
