@@ -1,5 +1,5 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key d3c177fa8503a6a7bfd5 
-ENGINE started. pid: 86222
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key 419795c0d339a4cded6b 
+ENGINE started. pid: 23565
 Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/plots
 Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/plots
 Successfully loaded info about 21 plot plugins.
@@ -70,7 +70,7 @@ Executing avtActualExtentsFilter
 Done executing avtActualExtentsFilter
 Filter avtLowerResolutionVolumeFilter releasing its data
 Done Updating avtActualExtentsFilter
-Memory after first execution was: size = 837033984, rss = 106553344
+Memory after first execution was: size = 837033984, rss = 106573824
 Done with iterating Updates on pipeline 1
 Executing QuitRPC
 ENGINE exited.

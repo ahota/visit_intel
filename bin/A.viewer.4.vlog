@@ -1,4 +1,4 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key 6f64a8a06a4e5f366c47 
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key c502ee6e20cc05e482a5 
 ViewerConfigManager::ProcessConfigSettings
 	AppearanceAttributes setting from node
 	PluginManagerAttributes setting from node
@@ -28,7 +28,7 @@ Arguments:
 	-port
 	5600
 	-key
-	6f64a8a06a4e5f366c47
+	c502ee6e20cc05e482a5
 ViewerFileServer::StartServer: start
 ViewerFileServer::StartServer: Creating on localhost
 RemoteProcess::AcceptSocket: Setting socket options.
@@ -575,7 +575,7 @@ Arguments:
 	-port
 	5600
 	-key
-	ed0a56b6c854edacaaad
+	27bc20b8a22657ce249f
 ViewerFileServer::StartServer: start
 ViewerFileServer::StartServer: Creating on localhost
 RemoteProcess::AcceptSocket: Setting socket options.
@@ -618,12 +618,12 @@ Executing GetPluginErrorsRPC RPC
 ViewerSubject::ConnectToMetaDataServer: end
 Done handling ConnectToMetaDataServerRPC RPC.
 Handling OpenDatabaseRPC RPC.
-ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk, timeState=0, addDefaultPlots=true, updateWindowInfo=true, forcedFileType=""
-ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk) -> host=blackrock.engr.utk.edu, db=/export/ahota/vol/vtk/dataset2.vtk
-ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
-Executing GetMetaData RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk, timeState=0, addDefaultPlots=true, updateWindowInfo=true, forcedFileType=""
+ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk) -> host=blackrock.engr.utk.edu, db=/export/ahota/vol/vtk/example.vtk
+ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/example.vtk, 0, )
+Executing GetMetaData RPC on file /export/ahota/vol/vtk/example.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
 ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
-ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x2bc3b60
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x27135f0
 ViewerHostProfileSelectorWithWin::SelectProfile
    Got a machine profile for host 'blackrock.engr.utk.edu'
      It has 4 launch profiles
@@ -718,11 +718,11 @@ Executing SetPrecisionTypeRPC
 ViewerEngineManager::CreateEngineEx: end
 Calling OpenDatabase RPC on blackrock.engr.utk.edu's engine.
 Executing GetPluginErrorsRPC RPC
-Executing GetSIL RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate = -1
+Executing GetSIL RPC on file /export/ahota/vol/vtk/example.vtk, timestate = -1
 AddPlotAction::Update: Either the host or the database 
 changed so we need to update the variable menu!
 	host=blackrock.engr.utk.edu
-	db=/export/ahota/vol/vtk/dataset2.vtk
+	db=/export/ahota/vol/vtk/example.vtk
 Done handling OpenDatabaseRPC RPC.
 Handling AddPlotRPC RPC.
 VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0000".
@@ -734,12 +734,12 @@ ViewerWindowManager::UpdateAnnotationObjectList: delay=true
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 Handling DrawPlotsRPC RPC.
-	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk
+	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk
 Calling SetWinAnnotAtts RPC on blackrock.engr.utk.edu's engine.
 Executing read RPC
 	 file format='VTK_1.0'
-	 file='/export/ahota/vol/vtk/dataset2.vtk'
-	 var ='data'
+	 file='/export/ahota/vol/vtk/example.vtk'
+	 var ='TMP_GDS3_ISBL_span'
 	 time='0'
 	 treatAllDBsAsTimeVarying ='0'
 	 ignoreExtents ='0'
@@ -754,6 +754,340 @@ Unknown if transparencies exist; recalculating (this requires global communicati
 ViewerWindowManager::UpdateAnnotationObjectList: delay=true
 Done handling DrawPlotsRPC RPC.
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling ChangeActivePlotsVarRPC RPC.
+	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk
+Calling SetWinAnnotAtts RPC on blackrock.engr.utk.edu's engine.
+Executing read RPC
+	 file format='VTK_1.0'
+	 file='/export/ahota/vol/vtk/example.vtk'
+	 var ='TMP_GDS3_ISBL'
+	 time='0'
+	 treatAllDBsAsTimeVarying ='0'
+	 ignoreExtents ='0'
+	 selName=''
+	 windowID='0'
+Calling ReleaseData RPC on blackrock.engr.utk.edu's engine.
+Calling MakePlot RPC on blackrock.engr.utk.edu's engine.
+Executing ExecuteRPC
+avtPlot::Execute Receiving Polygon Data
+No guide function registered with the originating sink, doing normal Update.
+	 plot 0 was added to the window.
+Unknown if transparencies exist; recalculating (this requires global communication).
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling ChangeActivePlotsVarRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling DrawPlotsRPC RPC.
+	 plot 0 was added to the window.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling DrawPlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Unknown if transparencies exist; recalculating (this requires global communication).
+Handling DeleteActivePlotsRPC RPC.
+Calling ReleaseData RPC on blackrock.engr.utk.edu's engine.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling DeleteActivePlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling AddPlotRPC RPC.
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0001".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0001
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling AddPlotRPC RPC.
+	plot 0 was not added to the window because it has no actor for cache index 0, which is the index that should be shown for the plot.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling DrawPlotsRPC RPC.
+	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk
+Calling SetWinAnnotAtts RPC on blackrock.engr.utk.edu's engine.
+Executing read RPC
+	 file format='VTK_1.0'
+	 file='/export/ahota/vol/vtk/example.vtk'
+	 var ='TMP_GDS3_ISBL'
+	 time='0'
+	 treatAllDBsAsTimeVarying ='0'
+	 ignoreExtents ='0'
+	 selName=''
+	 windowID='0'
+Calling MakePlot RPC on blackrock.engr.utk.edu's engine.
+Executing ExecuteRPC
+avtPlot::Execute Receiving Polygon Data
+No guide function registered with the originating sink, doing normal Update.
+	 plot 0 was added to the window.
+Unknown if transparencies exist; recalculating (this requires global communication).
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling DrawPlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling AddPlotRPC RPC.
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0002".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0002
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling AddPlotRPC RPC.
+	 plot 0 was added to the window.
+	plot 1 was not added to the window because it has no actor for cache index 0, which is the index that should be shown for the plot.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling SetActivePlotsRPC RPC.
+Done handling SetActivePlotsRPC RPC.
+Handling SetActivePlotsRPC RPC.
+Done handling SetActivePlotsRPC RPC.
+Handling SetActivePlotsRPC RPC.
+Done handling SetActivePlotsRPC RPC.
+Handling SetActivePlotsRPC RPC.
+Done handling SetActivePlotsRPC RPC.
+Handling DeleteActivePlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+	 plot 0 was added to the window.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling DeleteActivePlotsRPC RPC.
+	 plot 0 was added to the window.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling ChangeActivePlotsVarRPC RPC.
+	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk
+Calling SetWinAnnotAtts RPC on blackrock.engr.utk.edu's engine.
+Executing read RPC
+	 file format='VTK_1.0'
+	 file='/export/ahota/vol/vtk/example.vtk'
+	 var ='TMP_GDS3_ISBL_span'
+	 time='0'
+	 treatAllDBsAsTimeVarying ='0'
+	 ignoreExtents ='0'
+	 selName=''
+	 windowID='0'
+Calling ReleaseData RPC on blackrock.engr.utk.edu's engine.
+Calling MakePlot RPC on blackrock.engr.utk.edu's engine.
+Executing ExecuteRPC
+avtPlot::Execute Receiving Polygon Data
+No guide function registered with the originating sink, doing normal Update.
+	 plot 0 was added to the window.
+Unknown if transparencies exist; recalculating (this requires global communication).
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling ChangeActivePlotsVarRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling DeleteActivePlotsRPC RPC.
+Calling ReleaseData RPC on blackrock.engr.utk.edu's engine.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling DeleteActivePlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling AddPlotRPC RPC.
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0003".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0003
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling AddPlotRPC RPC.
+	plot 0 was not added to the window because it has no actor for cache index 0, which is the index that should be shown for the plot.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling DrawPlotsRPC RPC.
+	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk
+Calling SetWinAnnotAtts RPC on blackrock.engr.utk.edu's engine.
+Executing read RPC
+	 file format='VTK_1.0'
+	 file='/export/ahota/vol/vtk/example.vtk'
+	 var ='TMP_GDS3_ISBL_span'
+	 time='0'
+	 treatAllDBsAsTimeVarying ='0'
+	 ignoreExtents ='0'
+	 selName=''
+	 windowID='0'
+Calling MakePlot RPC on blackrock.engr.utk.edu's engine.
+Executing ExecuteRPC
+avtPlot::Execute Receiving Polygon Data
+No guide function registered with the originating sink, doing normal Update.
+	 plot 0 was added to the window.
+Unknown if transparencies exist; recalculating (this requires global communication).
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling DrawPlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling DeleteActivePlotsRPC RPC.
+Calling ReleaseData RPC on blackrock.engr.utk.edu's engine.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Done handling DeleteActivePlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling CloseDatabaseRPC RPC.
+ViewerFileServer::Clearfile
+	Deleted metadata for blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk
+	Deleted SIL for blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk
+Calling ClearCache RPC on blackrock.engr.utk.edu's engine.
+Message - VisIt closed "blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk".
+Done handling CloseDatabaseRPC RPC.
+Handling OpenDatabaseRPC RPC.
+ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timeState=0, addDefaultPlots=true, updateWindowInfo=true, forcedFileType=""
+ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc) -> host=blackrock.engr.utk.edu, db=/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc
+ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, 0, )
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x7d3f9e0
+ViewerEngineManager::CreateEngineEx: Engine exists. Return early.
+Calling OpenDatabase RPC on blackrock.engr.utk.edu's engine.
+Executing GetPluginErrorsRPC RPC
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=-1, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = -1
+AddPlotAction::Update: Either the host or the database 
+changed so we need to update the variable menu!
+	host=blackrock.engr.utk.edu
+	db=/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc
+Done handling OpenDatabaseRPC RPC.
+Handling AddPlotRPC RPC.
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = 0
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Using top set 0
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0004".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0004
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=-1, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = -1
+Done handling AddPlotRPC RPC.
+	plot 0 was not added to the window because it has no actor for cache index 0, which is the index that should be shown for the plot.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=-1, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = -1
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling DrawPlotsRPC RPC.
+	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc
+Calling SetWinAnnotAtts RPC on blackrock.engr.utk.edu's engine.
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing read RPC
+	 file format='NETCDF_1.0'
+	 file='/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc'
+	 var ='TMP_GDS3_ISBL'
+	 time='0'
+	 treatAllDBsAsTimeVarying ='0'
+	 ignoreExtents ='0'
+	 selName=''
+	 windowID='0'
+Calling MakePlot RPC on blackrock.engr.utk.edu's engine.
+Executing ExecuteRPC
+avtPlot::Execute Receiving Polygon Data
+No guide function registered with the originating sink, doing normal Update.
+	 plot 0 was added to the window.
+Unknown if transparencies exist; recalculating (this requires global communication).
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=-1, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = -1
+Done handling DrawPlotsRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling ChangeActivePlotsVarRPC RPC.
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+	Regenerating plot 0 source=blackrock.engr.utk.edu:/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc
+Calling SetWinAnnotAtts RPC on blackrock.engr.utk.edu's engine.
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing read RPC
+	 file format='NETCDF_1.0'
+	 file='/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc'
+	 var ='U_GRD_GDS3_ISBL'
+	 time='0'
+	 treatAllDBsAsTimeVarying ='0'
+	 ignoreExtents ='0'
+	 selName=''
+	 windowID='0'
+Calling ReleaseData RPC on blackrock.engr.utk.edu's engine.
+Calling MakePlot RPC on blackrock.engr.utk.edu's engine.
+Executing ExecuteRPC
+avtPlot::Execute Receiving Polygon Data
+No guide function registered with the originating sink, doing normal Update.
+	 plot 0 was added to the window.
+Unknown if transparencies exist; recalculating (this requires global communication).
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=-1, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = -1
+Done handling ChangeActivePlotsVarRPC RPC.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Sending keep alive signal to mdserver on blackrock.engr.utk.edu
+Executing keep alive RPC
+	 value='1'
+Sending keep alive signal to mdserver on localhost
+Executing keep alive RPC
+	 value='1'
+Sending keep alive signal to compute engine on host blackrock.engr.utk.edu.
+Sending KeepAlive RPC to compute engine.
+Executing keep alive RPC
+	 value='2'
+Handling SetSuppressMessagesRPC RPC.
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=-1, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = -1
+Done handling SetSuppressMessagesRPC RPC.
+Handling ExportEntireStateRPC RPC.
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=-1, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = -1
+Done handling ExportEntireStateRPC RPC.
+Handling SetSuppressMessagesRPC RPC.
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=-1, forceReadAllCyclesAndTimes = 0, forcedFileType = NETCDF_1.0, treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = -1
+Done handling SetSuppressMessagesRPC RPC.
 Handling CloseRPC RPC.
 Starting to close the viewer.
 Closing metadata server on blackrock.engr.utk.edu.
@@ -766,3 +1100,4 @@ Closing compute engine on host blackrock.engr.utk.edu.
 Executing quit RPC
 	 quit='1'
 Done handling CloseRPC RPC.
+Removing crash recovery file: /home/ahota/.visit/crash_recovery.session

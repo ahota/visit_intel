@@ -1,4 +1,4 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key 5899395de3d300c3751c 
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key d7ac50285216873ed48f 
 Viewer using font: Helvetica,12,-1,5,50,0,0,0,0,0
 Trying to load translator file: /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/translationsvisit_en_US
 Could not load translation.
@@ -24,7 +24,7 @@ Arguments:
 	-port
 	5600
 	-key
-	5899395de3d300c3751c
+	d7ac50285216873ed48f
 ViewerFileServer::StartServer: Creating on localhost
 Xfer: Number of objects: 30
 Object[0] = QuitRPC
@@ -299,8 +299,8 @@ Adding EnableToolRPC to the general toolbar
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 ViewerWindowManager::UpdateAnnotationObjectList: delay=true
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
-ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 DiscoverClientInformation: clear the client information list and send _QueryClientInformation to all clients. 
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 ViewerSubject::ConnectToMetaDataServer: start
 ViewerSubject::ConnectToMetaDataServer: Telling mdserver on host blackrock.engr.utk.edu to connect to another client.
 Arguments:
@@ -313,7 +313,7 @@ Arguments:
 	-port
 	5600
 	-key
-	551bc9e427fd1831816f
+	0e17df0bf9310651eb5a
 ViewerFileServer::StartServer: Creating on localhost
 Xfer: Number of objects: 30
 Object[0] = QuitRPC
@@ -351,7 +351,7 @@ ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/expo
 ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk) -> host=blackrock.engr.utk.edu, db=/export/ahota/vol/vtk/dataset2.vtk
 ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
 ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
-ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x4660240
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x2107120
 ViewerHostProfileSelectorWithWin::SelectProfile
    Got a machine profile for host 'blackrock.engr.utk.edu'
      It has 4 launch profiles

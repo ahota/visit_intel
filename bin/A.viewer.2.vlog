@@ -1,4 +1,4 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key 6f64a8a06a4e5f366c47 
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key c502ee6e20cc05e482a5 
 Viewer using font: Helvetica,12,-1,5,50,0,0,0,0,0
 Trying to load translator file: /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/translationsvisit_en_US
 Could not load translation.
@@ -24,7 +24,7 @@ Arguments:
 	-port
 	5600
 	-key
-	6f64a8a06a4e5f366c47
+	c502ee6e20cc05e482a5
 ViewerFileServer::StartServer: Creating on localhost
 Xfer: Number of objects: 30
 Object[0] = QuitRPC
@@ -313,7 +313,7 @@ Arguments:
 	-port
 	5600
 	-key
-	ed0a56b6c854edacaaad
+	27bc20b8a22657ce249f
 ViewerFileServer::StartServer: Creating on localhost
 Xfer: Number of objects: 30
 Object[0] = QuitRPC
@@ -347,11 +347,11 @@ Object[27] = DBPluginInfoAttributes (from GetDBPluginInfoRPC)
 Object[28] = SetMFileOpenOptionsRPC
 Object[29] = VisItRPC::RPCReply (from SetMFileOpenOptionsRPC)
 ViewerSubject::ConnectToMetaDataServer: end
-ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk, timeState=0, addDefaultPlots=true, updateWindowInfo=true, forcedFileType=""
-ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk) -> host=blackrock.engr.utk.edu, db=/export/ahota/vol/vtk/dataset2.vtk
-ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
+ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk, timeState=0, addDefaultPlots=true, updateWindowInfo=true, forcedFileType=""
+ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk) -> host=blackrock.engr.utk.edu, db=/export/ahota/vol/vtk/example.vtk
+ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/example.vtk, 0, )
 ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
-ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x2bc3b60
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x27135f0
 ViewerHostProfileSelectorWithWin::SelectProfile
    Got a machine profile for host 'blackrock.engr.utk.edu'
      It has 4 launch profiles
@@ -445,7 +445,83 @@ ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 avtPlot::Execute Receiving Polygon Data
 ViewerWindowManager::UpdateAnnotationObjectList: delay=true
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+avtPlot::Execute Receiving Polygon Data
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0001".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0001
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+avtPlot::Execute Receiving Polygon Data
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0002".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0002
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+avtPlot::Execute Receiving Polygon Data
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0003".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0003
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+avtPlot::Execute Receiving Polygon Data
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Message - VisIt closed "blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk".
+ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timeState=0, addDefaultPlots=true, updateWindowInfo=true, forcedFileType=""
+ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc) -> host=blackrock.engr.utk.edu, db=/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc
+ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, 0, )
+ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x7d3f9e0
+ViewerEngineManager::CreateEngineEx: Engine exists. Return early.
+Using top set 0
+VisWinAnnotations::AddAnnotationObject: New Legend object created. It is called "Plot0004".
+ViewerPlotList::SimpleAddPlot: Added legend annotation object for plot Plot0004
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+avtPlot::Execute Receiving Polygon Data
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+avtPlot::Execute Receiving Polygon Data
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Sending keep alive signal to mdserver on blackrock.engr.utk.edu
+Sending keep alive signal to mdserver on localhost
+Sending keep alive signal to compute engine on host blackrock.engr.utk.edu.
 Starting to close the viewer.
 Closing metadata server on blackrock.engr.utk.edu.
 Closing metadata server on localhost.
 Closing compute engine on host blackrock.engr.utk.edu.
+Removing crash recovery file: /home/ahota/.visit/crash_recovery.session

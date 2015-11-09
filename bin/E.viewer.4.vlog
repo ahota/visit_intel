@@ -1,4 +1,4 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5601 -key 31fe3aca4c8811006e21 
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key f6df07136179aed9d322 
 ViewerConfigManager::ProcessConfigSettings
 	AppearanceAttributes setting from node
 	PluginManagerAttributes setting from node
@@ -26,9 +26,9 @@ Arguments:
 	-host
 	blackrock.engr.utk.edu
 	-port
-	5601
+	5600
 	-key
-	31fe3aca4c8811006e21
+	f6df07136179aed9d322
 ViewerFileServer::StartServer: start
 ViewerFileServer::StartServer: Creating on localhost
 RemoteProcess::AcceptSocket: Setting socket options.
@@ -531,12 +531,12 @@ Executing SetMFileOpenOptionsRPC
 Adding SetWindowModeRPC to the general toolbar
 Adding EnableToolRPC to the general toolbar
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+Handling UpdateDBPluginInfoRPC RPC.
+Done handling UpdateDBPluginInfoRPC RPC.
 Clearing all stored metadata, SILs, and correlations.
 ViewerWindowManager::UpdateAnnotationObjectList: delay=true
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
-Handling UpdateDBPluginInfoRPC RPC.
-Done handling UpdateDBPluginInfoRPC RPC.
 DiscoverClientInformation: clear the client information list and send _QueryClientInformation to all clients. 
 Handling SetWindowAreaRPC RPC.
 Done handling SetWindowAreaRPC RPC.
@@ -575,7 +575,7 @@ Arguments:
 	-port
 	5600
 	-key
-	c3f1e7aa75331657af05
+	9fd458909abe0f269cb7
 ViewerFileServer::StartServer: start
 ViewerFileServer::StartServer: Creating on localhost
 RemoteProcess::AcceptSocket: Setting socket options.
@@ -623,7 +623,7 @@ ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/ex
 ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
 Executing GetMetaData RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
 ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
-ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x3fa60d0
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x3ff2760
 ViewerHostProfileSelectorWithWin::SelectProfile
    Got a machine profile for host 'blackrock.engr.utk.edu'
      It has 4 launch profiles

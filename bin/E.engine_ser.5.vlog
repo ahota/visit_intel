@@ -1,10 +1,10 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key d3c177fa8503a6a7bfd5 
-ENGINE started. pid: 86222
-ParentProcess::Connect: Called with (numRead=1, numWrite=2, argc=10, argv={/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser, -idle-timeout, 480, -dv, -host, 127.0.0.1, -port, 5600, -key, d3c177fa8503a6a7bfd5})
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key 419795c0d339a4cded6b 
+ENGINE started. pid: 23565
+ParentProcess::Connect: Called with (numRead=1, numWrite=2, argc=10, argv={/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser, -idle-timeout, 480, -dv, -host, 127.0.0.1, -port, 5600, -key, 419795c0d339a4cded6b})
 ParentProcess::Connect: hostName = 127.0.0.1
 ParentProcess::GetHostInfo: Calling gethostbyname("127.0.0.1")
 ParentProcess::Connect: port = 5600
-ParentProcess::Connect: securityKey = d3c177fa8503a6a7bfd5
+ParentProcess::Connect: securityKey = 419795c0d339a4cded6b
 ParentProcess::Connect: Creating sockets
 ParentProcess::Connect: Creating read sockets
 ParentProcess::GetClientSocketDescriptor: Set up using port 5600
@@ -60,6 +60,12 @@ Resetting execution timeout to 30 minutes.
 Xfer::Process: Opcode=62, len=1, type=EnginePropertiesRPC
 Executing EnginePropertiesRPC: 
 Xfer::Update: Sending: opcode=63, name=NonBlockingRPC::CompletionData (from EnginePropertiesRPC)
+Resetting idle timeout to 480 minutes.
+Resetting idle timeout to 480 minutes.
+Resetting execution timeout to 30 minutes.
+Resetting idle timeout to 480 minutes.
+Resetting idle timeout to 480 minutes.
+Resetting execution timeout to 30 minutes.
 Resetting idle timeout to 480 minutes.
 Resetting idle timeout to 480 minutes.
 Resetting execution timeout to 30 minutes.
@@ -164,9 +170,6 @@ Resetting execution timeout to 30 minutes.
 Resetting idle timeout to 480 minutes.
 Resetting idle timeout to 480 minutes.
 Resetting execution timeout to 30 minutes.
-Resetting idle timeout to 480 minutes.
-Resetting idle timeout to 480 minutes.
-Resetting execution timeout to 30 minutes.
 Xfer::Process: Opcode=42, len=14812, type=SetWinAnnotAttsRPC
 Executing SetWinAnnotAttsRPC 953x885
 Creating new VisWindow for id=0
@@ -194,9 +197,9 @@ Resetting idle timeout to 480 minutes.
 Resetting execution timeout to 30 minutes.
 Xfer::Process: Opcode=11, len=23, type=PreparePlotRPC
 Executing PreparePlotRPC: Volume_1.1
-ALOK: vtkOSPRayRenderer constructor, renderer 0x254fc10
-ALOK: vtkOSPRayManager constructor, manager 0x2550270
-ALOK: vtkOSPRayManager constructor inside if, manager 0x2550270
+ALOK: vtkOSPRayRenderer constructor, renderer 0x15deeb0
+ALOK: vtkOSPRayManager constructor, manager 0x15df4f0
+ALOK: vtkOSPRayManager constructor inside if, manager 0x15df4f0
 Generic Warning: In /export/ahota/visit/visitOSPRay/VTK-6.1.0/Rendering/Volume/vtkRayCastImageDisplayHelper.cxx, line 20
 Error: no override found for 'vtkRayCastImageDisplayHelper'.
 
@@ -286,7 +289,7 @@ Xfer::Update: Sending: opcode=27, name=NonBlockingRPC::CompletionData (from Exec
 Done executing avtActualExtentsFilter
 Filter avtLowerResolutionVolumeFilter releasing its data
 Done Updating avtActualExtentsFilter
-Memory after first execution was: size = 837033984, rss = 106553344
+Memory after first execution was: size = 837033984, rss = 106573824
 Done with iterating Updates on pipeline 1
 Xfer::Update: Sending: opcode=27, name=NonBlockingRPC::CompletionData (from ExecuteRPC)
 Xfer::Update: Sending: opcode=27, name=NonBlockingRPC::CompletionData (from ExecuteRPC)

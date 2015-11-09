@@ -403,13 +403,13 @@ QvisGUIApplication::FinalInitialization: initStage=8
 QvisGUIApplication::FinalInitialization: initStage=9
 QvisGUIApplication::FinalInitialization: initStage=10
 QvisGUIApplication::FinalInitialization: initStage=11
-QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
-QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisGUIApplication::FinalInitialization: initStage=12
 QvisGUIApplication::FinalInitialization: initStage=13
 Starting crash recovery file timer.
 QvisGUIApplication::FinalInitialization: initStage=14
 QvisGUIApplication::FinalInitialization: initStage=15
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 OpenFileInFileServer: no active source. Closing file in file server list. 
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
@@ -460,9 +460,9 @@ Executing ChangeDirectory RPC
 Executing GetDirectoryRPC RPC
 Executing GetFileList(*false, false, ) RPC
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
-Executing GetMetaData RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
-Caching metadata with key "blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk"
-Database: /export/ahota/vol/vtk/dataset2.vtk
+Executing GetMetaData RPC on file /export/ahota/vol/vtk/example.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Caching metadata with key "blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk"
+Database: /export/ahota/vol/vtk/example.vtk
 Simulation: No
 Database comment: 
 File format: VTK_1.0
@@ -472,11 +472,10 @@ useCatchAllMesh: 0
 Format  cannot do its own domain decomposition
 The temporal extents are not set.
 All Times are ***NOT*** Accurate
-Times: 
-	0
-All Cycles are Accurate
+Times: Are identical to cycles
+All Cycles are ***NOT*** Accurate
 Cycles: 
-	2
+	0
 Meshes: 
 	Name = mesh
 	Number of blocks = 1
@@ -491,7 +490,7 @@ Meshes:
 	Title for individual piece in group hierarchy is group
 	Mesh type is Rectilinear Mesh.
 	Spatial Dimension = 3
-	Spatial extents are: ((0, 63), (0, 63), (0, 63))
+	Spatial extents are: ((0, 253), (0, 253), (0, 36))
 	Topological Dimension = 3
 	The logical nodal bounds are not set.
 	The number of cells is not set.
@@ -510,14 +509,20 @@ Meshes:
 	Rectilinear grids do not have an implicit transform.
 
 Scalars: 
-	Name = "data"
+	Name = "TMP_GDS3_ISBL"
 	Mesh is = "mesh"
 	Centering = node centered.
 	The extents are not set.
 	This variable does not contain enumerated values.
 
-Executing GetSIL RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate = 0
-Caching SIL with key "blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk"
+	Name = "TMP_GDS3_ISBL_span"
+	Mesh is = "mesh"
+	Centering = node centered.
+	The extents are not set.
+	This variable does not contain enumerated values.
+
+Executing GetSIL RPC on file /export/ahota/vol/vtk/example.vtk, timestate = 0
+Caching SIL with key "blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk"
 Set0 
 	Set name = mesh, identifier = -1
 		Maps out 0, 
@@ -533,4 +538,219 @@ QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+OpenFileInFileServer: no active source. Closing file in file server list. 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Message: VisIt closed "blackrock.engr.utk.edu:/export/ahota/vol/vtk/example.vtk".
+Executing ChangeDirectory RPC
+	 directory='/export/ahota/vol/vtk'
+Executing GetDirectoryRPC RPC
+Executing GetFileList(*false, false, ) RPC
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Executing ChangeDirectory RPC
+	 directory='/export/share/superstorm'
+Executing GetDirectoryRPC RPC
+Executing GetFileList(*false, false, ) RPC
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Executing ChangeDirectory RPC
+	 directory='/export/share/superstorm/run1'
+Executing GetDirectoryRPC RPC
+Executing GetFileList(*false, false, ) RPC
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Executing GetMetaData RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
+Caching metadata with key "blackrock.engr.utk.edu:/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc"
+Database: /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc
+Simulation: No
+Database comment: Read using Basic NETCDF ST reader
+
+File format: NETCDF_1.0
+Num Time States: 1
+MetaData is NOT repopulated on state changes
+useCatchAllMesh: 0
+Format  can do its own domain decomposition
+The temporal extents are not set.
+All Times are ***NOT*** Accurate
+Times: Are identical to cycles
+All Cycles are Accurate
+Cycles: 
+	0
+Meshes: 
+	Name = as_zonal/mesh254x254x37
+	Number of blocks = 1
+	Block origin = 1
+	Cell origin = 1 (origin within one block of the cells).
+	Node origin = 0 (origin within one block of the nodes).
+	Group origin = 0
+	Title for domain hierarchy is domains
+	Title for individual piece in domain hierarchy is domain
+	Number of groups = 0
+	Title for group hierarchy is groups
+	Title for individual piece in group hierarchy is group
+	Mesh type is Rectilinear Mesh.
+	Spatial Dimension = 3
+	The spatial extents are not set.
+	Topological Dimension = 3
+	The logical nodal bounds are not set.
+	The number of cells is not set.
+	There are no names set with the blocks.
+	Disjoint elements false
+	Contains ghost zones 3
+	Contains original cells 0
+	Contains original nodes 0
+	Units =  x: "", y: "", z: "".
+	Labels =  x: "y", y: "x", z: "z".
+	Mesh coord type is XY
+	Mesh is primarily cell-based
+	Unit cell vector #0 is 1 0 0
+	Unit cell vector #1 is 0 1 0
+	Unit cell vector #2 is 0 0 1
+	Rectilinear grids do not have an implicit transform.
+
+	Name = mesh254x254x37
+	Number of blocks = 1
+	Block origin = 1
+	Cell origin = 1 (origin within one block of the cells).
+	Node origin = 0 (origin within one block of the nodes).
+	Group origin = 0
+	Title for domain hierarchy is domains
+	Title for individual piece in domain hierarchy is domain
+	Number of groups = 0
+	Title for group hierarchy is groups
+	Title for individual piece in group hierarchy is group
+	Mesh type is Rectilinear Mesh.
+	Spatial Dimension = 3
+	The spatial extents are not set.
+	Topological Dimension = 3
+	The logical nodal bounds are not set.
+	The number of cells is not set.
+	There are no names set with the blocks.
+	Disjoint elements false
+	Contains ghost zones 3
+	Contains original cells 0
+	Contains original nodes 0
+	Units =  x: "", y: "", z: "".
+	Labels =  x: "y", y: "x", z: "z".
+	Mesh coord type is XY
+	Mesh is primarily cell-based
+	Unit cell vector #0 is 1 0 0
+	Unit cell vector #1 is 0 1 0
+	Unit cell vector #2 is 0 0 1
+	Rectilinear grids do not have an implicit transform.
+
+Scalars: 
+	Name = "as_zonal/U_GRD_GDS3_ISBL"
+	Mesh is = "as_zonal/mesh254x254x37"
+	Centering = zone centered.
+	The extents are not set.
+	This variable does not contain enumerated values.
+
+	Name = "U_GRD_GDS3_ISBL"
+	Mesh is = "mesh254x254x37"
+	Centering = node centered.
+	The extents are not set.
+	This variable does not contain enumerated values.
+
+	Name = "as_zonal/V_GRD_GDS3_ISBL"
+	Mesh is = "as_zonal/mesh254x254x37"
+	Centering = zone centered.
+	The extents are not set.
+	This variable does not contain enumerated values.
+
+	Name = "V_GRD_GDS3_ISBL"
+	Mesh is = "mesh254x254x37"
+	Centering = node centered.
+	The extents are not set.
+	This variable does not contain enumerated values.
+
+	Name = "as_zonal/TMP_GDS3_ISBL"
+	Mesh is = "as_zonal/mesh254x254x37"
+	Centering = zone centered.
+	The extents are not set.
+	This variable does not contain enumerated values.
+
+	Name = "TMP_GDS3_ISBL"
+	Mesh is = "mesh254x254x37"
+	Centering = node centered.
+	The extents are not set.
+	This variable does not contain enumerated values.
+
+Executing GetSIL RPC on file /export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc, timestate = 0
+Caching SIL with key "blackrock.engr.utk.edu:/export/share/superstorm/run1/wrfprs_1993-03-13_10:00:00.nc"
+Set0 
+	Set name = as_zonal/mesh254x254x37, identifier = -1
+		Maps out 0, 
+Array 0 of size 1
+Array starting at 1 going through 1
+Printing out first set as example: 
+	Set name = domain1, identifier = 0
+		Maps in 0, 
+Set1 
+	Set name = mesh254x254x37, identifier = -1
+		Maps out 1, 
+Array 1 of size 1
+Array starting at 1 going through 1
+Printing out first set as example: 
+	Set name = domain1, identifier = 0
+		Maps in 1, 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: true
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+Sending keep alive signal to mdserver on blackrock.engr.utk.edu
+Executing keep alive RPC
+	 value='1'
+Sending keep alive signal to mdserver on localhost
+Executing keep alive RPC
+	 value='1'
+Saving crash recovery file: /home/ahota/.visit/crash_recovery.session
+Removing crash recovery gui file: /home/ahota/.visit/crash_recovery.session.gui
 Telling viewer to close.

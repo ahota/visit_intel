@@ -761,7 +761,7 @@ void setup() {
         << endl;
     debug5 << "ALOK: n points in color tf: " << trans_func->GetSize() << endl;
     prop->SetColor(trans_func);
-    debug5 << "opacity index " << opacity->AddPoint(0.0, 1.0) << endl;
+    debug5 << "opacity index " << opacity->AddPoint(0.0, 0.0) << endl;
     debug5 << "opacity index " << opacity->AddPoint(255.0, 1.0) << endl;
     debug5 << "ALOK: n points in opac tf: " << opacity->GetSize() << endl;
     prop->SetScalarOpacity(opacity);

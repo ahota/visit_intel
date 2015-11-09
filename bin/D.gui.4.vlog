@@ -401,8 +401,6 @@ QvisGUIApplication::FinalInitialization: initStage=7
 Reading from the viewer's socket is currently not allowed!
 QvisGUIApplication::FinalInitialization: initStage=8
 QvisGUIApplication::FinalInitialization: initStage=9
-QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
-QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisGUIApplication::FinalInitialization: initStage=10
 QvisGUIApplication::FinalInitialization: initStage=11
 QvisGUIApplication::FinalInitialization: initStage=12
@@ -410,6 +408,8 @@ QvisGUIApplication::FinalInitialization: initStage=13
 Starting crash recovery file timer.
 QvisGUIApplication::FinalInitialization: initStage=14
 QvisGUIApplication::FinalInitialization: initStage=15
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 OpenFileInFileServer: no active source. Closing file in file server list. 
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false

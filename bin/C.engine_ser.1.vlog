@@ -1,5 +1,5 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key d3f8ac540e22a32a505b 
-ENGINE started. pid: 115318
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key 38f919bdc333e023557c 
+ENGINE started. pid: 76414
 Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/plots
 Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/plots
 Successfully loaded info about 21 plot plugins.

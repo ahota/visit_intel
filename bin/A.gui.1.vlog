@@ -128,4 +128,6 @@ Reading from the viewer's socket is currently not allowed!
 Reading from the viewer's socket is currently not allowed!
 Reading from the viewer's socket is currently not allowed!
 Starting crash recovery file timer.
+Saving crash recovery file: /home/ahota/.visit/crash_recovery.session
+Removing crash recovery gui file: /home/ahota/.visit/crash_recovery.session.gui
 Telling viewer to close.

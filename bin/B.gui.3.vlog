@@ -346,7 +346,6 @@ Object[140] = TriangulateRegularPointsAttributes
 Object[141] = TubeAttributes
 OpenFileInFileServer: no active source. Closing file in file server list. 
 OpenFileInFileServer: no active source. Closing file in file server list. 
-OpenFileInFileServer: no active source. Closing file in file server list. 
 QvisGUIApplication::CalculateViewerArea: Using saved geometry. Putting viewer windows to the right of the GUI windows at: 1402x980+518+50
 Initializing the "Information" window because it was in the config file.
 Initializing the "Output" window because it was in the config file.
@@ -364,6 +363,7 @@ Reading from the viewer's socket is currently not allowed!
 Reading from the viewer's socket is currently not allowed!
 Reading from the viewer's socket is currently not allowed!
 Starting crash recovery file timer.
+OpenFileInFileServer: no active source. Closing file in file server list. 
 Executing ChangeDirectory RPC
 	 directory='/export/ahota/visit/visitOSPRay/visit2.8.1/src/bin'
 Executing GetDirectoryRPC RPC

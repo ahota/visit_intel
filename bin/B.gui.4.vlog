@@ -375,11 +375,6 @@ QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 OpenFileInFileServer: no active source. Closing file in file server list. 
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
-QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
-QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
-OpenFileInFileServer: no active source. Closing file in file server list. 
-QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
-QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisGUIApplication::FinalInitialization: initStage=0
 QvisGUIApplication::CalculateViewerArea: Using saved geometry. Putting viewer windows to the right of the GUI windows at: 1402x980+518+50
 QvisGUIApplication::FinalInitialization: initStage=1
@@ -406,6 +401,8 @@ QvisGUIApplication::FinalInitialization: initStage=7
 Reading from the viewer's socket is currently not allowed!
 QvisGUIApplication::FinalInitialization: initStage=8
 QvisGUIApplication::FinalInitialization: initStage=9
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 QvisGUIApplication::FinalInitialization: initStage=10
 QvisGUIApplication::FinalInitialization: initStage=11
 QvisGUIApplication::FinalInitialization: initStage=12
@@ -413,6 +410,9 @@ QvisGUIApplication::FinalInitialization: initStage=13
 Starting crash recovery file timer.
 QvisGUIApplication::FinalInitialization: initStage=14
 QvisGUIApplication::FinalInitialization: initStage=15
+OpenFileInFileServer: no active source. Closing file in file server list. 
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
+QvisPlotManagerWidget::UpdatePlotVariableMenu: Need to update menus: false
 Executing ChangeDirectory RPC
 	 directory='/export/ahota/visit/visitOSPRay/visit2.8.1/src/bin'
 Executing GetDirectoryRPC RPC

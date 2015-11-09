@@ -1,5 +1,5 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key e91f7d88fb410c1595f3 
-ENGINE started. pid: 91317
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key ccfdcd619777d4076900 
+ENGINE started. pid: 50427
 Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/plots
 Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/plots
 Successfully loaded info about 21 plot plugins.
@@ -16,7 +16,7 @@ Loaded full database plugin VTK version 1.0
 Loading new database
 avtDatabaseFactory: specifically told to use VTK_1.0
 Skipping already loaded database plugin VTK version 1.0
-Executing SetWinAnnotAttsRPC 953x885
+Executing SetWinAnnotAttsRPC 954x886
 Creating new VisWindow for id=0
 Forcing GL context initialization...
 Unknown if transparencies exist; recalculating (this requires global communication).
@@ -57,6 +57,6 @@ Executing avtActualExtentsFilter
 Done executing avtActualExtentsFilter
 Filter avtLowerResolutionVolumeFilter releasing its data
 Done Updating avtActualExtentsFilter
-Memory after first execution was: size = 837033984, rss = 110743552
+Memory after first execution was: size = 837050368, rss = 106565632
 Executing QuitRPC
 ENGINE exited.

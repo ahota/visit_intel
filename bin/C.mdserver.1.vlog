@@ -1,4 +1,4 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/mdserver -idle-timeout 480 -ospray -dv -host 127.0.0.1 -port 5601 -key 897652022480a9b8c699 
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/mdserver -idle-timeout 480 -ospray -dv -host 127.0.0.1 -port 5601 -key 9214ce0534866d625e88 
 MDSERVER started.
 Adding plugin search path: /home/ahota/.visit/2.8.1/linux-x86_64/plugins/databases
 Adding plugin search path: /export/ahota/visit/visitOSPRay/visit2.8.1/src/plugins/databases

@@ -1,4 +1,4 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key b321575a656386079f35 
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key 419795c0d339a4cded6b 
 Viewer using font: Helvetica,12,-1,5,50,0,0,0,0,0
 Trying to load translator file: /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/translationsvisit_en_US
 Could not load translation.
@@ -24,7 +24,7 @@ Arguments:
 	-port
 	5600
 	-key
-	b321575a656386079f35
+	419795c0d339a4cded6b
 ViewerFileServer::StartServer: Creating on localhost
 Xfer: Number of objects: 30
 Object[0] = QuitRPC
@@ -313,7 +313,7 @@ Arguments:
 	-port
 	5600
 	-key
-	897652022480a9b8c699
+	9214ce0534866d625e88
 ViewerFileServer::StartServer: Creating on localhost
 Xfer: Number of objects: 30
 Object[0] = QuitRPC
@@ -351,7 +351,7 @@ ViewerSubject::OpenDatabaseHelper: Opening database blackrock.engr.utk.edu:/expo
 ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/export/ahota/vol/vtk/dataset2.vtk) -> host=blackrock.engr.utk.edu, db=/export/ahota/vol/vtk/dataset2.vtk
 ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
 ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
-ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x3e6b850
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x2e289f0
 ViewerHostProfileSelectorWithWin::SelectProfile
    Got a machine profile for host 'blackrock.engr.utk.edu'
      It has 4 launch profiles

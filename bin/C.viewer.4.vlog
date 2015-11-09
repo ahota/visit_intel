@@ -1,4 +1,4 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key 5899395de3d300c3751c 
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key d7ac50285216873ed48f 
 ViewerConfigManager::ProcessConfigSettings
 	AppearanceAttributes setting from node
 	PluginManagerAttributes setting from node
@@ -28,7 +28,7 @@ Arguments:
 	-port
 	5600
 	-key
-	5899395de3d300c3751c
+	d7ac50285216873ed48f
 ViewerFileServer::StartServer: start
 ViewerFileServer::StartServer: Creating on localhost
 RemoteProcess::AcceptSocket: Setting socket options.
@@ -533,10 +533,6 @@ Adding EnableToolRPC to the general toolbar
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 Handling UpdateDBPluginInfoRPC RPC.
 Done handling UpdateDBPluginInfoRPC RPC.
-Clearing all stored metadata, SILs, and correlations.
-ViewerWindowManager::UpdateAnnotationObjectList: delay=true
-ViewerWindowManager::UpdateAnnotationObjectList: delay=false
-ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 Handling SetWindowAreaRPC RPC.
 Done handling SetWindowAreaRPC RPC.
 Handling ShowAllWindowsRPC RPC.
@@ -545,7 +541,11 @@ Unknown if transparencies exist; recalculating (this requires global communicati
 Done handling ShowAllWindowsRPC RPC.
 Handling SetWindowLayoutRPC RPC.
 Done handling SetWindowLayoutRPC RPC.
+Clearing all stored metadata, SILs, and correlations.
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 DiscoverClientInformation: clear the client information list and send _QueryClientInformation to all clients. 
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 client[0] = gui
 methods:
 	Quit()
@@ -575,7 +575,7 @@ Arguments:
 	-port
 	5600
 	-key
-	551bc9e427fd1831816f
+	0e17df0bf9310651eb5a
 ViewerFileServer::StartServer: start
 ViewerFileServer::StartServer: Creating on localhost
 RemoteProcess::AcceptSocket: Setting socket options.
@@ -623,7 +623,7 @@ ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/ex
 ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
 Executing GetMetaData RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
 ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
-ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x4660240
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x2107120
 ViewerHostProfileSelectorWithWin::SelectProfile
    Got a machine profile for host 'blackrock.engr.utk.edu'
      It has 4 launch profiles

@@ -1,10 +1,10 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key b321575a656386079f35 
-ENGINE started. pid: 139030
-ParentProcess::Connect: Called with (numRead=1, numWrite=2, argc=10, argv={/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser, -idle-timeout, 480, -dv, -host, 127.0.0.1, -port, 5600, -key, b321575a656386079f35})
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser -idle-timeout 480 -dv -host 127.0.0.1 -port 5600 -key 402a2c0bc2fcabc8cc5e 
+ENGINE started. pid: 91187
+ParentProcess::Connect: Called with (numRead=1, numWrite=2, argc=10, argv={/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/engine_ser, -idle-timeout, 480, -dv, -host, 127.0.0.1, -port, 5600, -key, 402a2c0bc2fcabc8cc5e})
 ParentProcess::Connect: hostName = 127.0.0.1
 ParentProcess::GetHostInfo: Calling gethostbyname("127.0.0.1")
 ParentProcess::Connect: port = 5600
-ParentProcess::Connect: securityKey = b321575a656386079f35
+ParentProcess::Connect: securityKey = 402a2c0bc2fcabc8cc5e
 ParentProcess::Connect: Creating sockets
 ParentProcess::Connect: Creating read sockets
 ParentProcess::GetClientSocketDescriptor: Set up using port 5600
@@ -194,10 +194,10 @@ Resetting idle timeout to 480 minutes.
 Resetting execution timeout to 30 minutes.
 Xfer::Process: Opcode=11, len=23, type=PreparePlotRPC
 Executing PreparePlotRPC: Volume_1.1
-ALOK: vtkOSPRayRenderer constructor, renderer 0x2480c10
-ALOK: vtkOSPRayManager constructor, manager 0x2481270
+ALOK: vtkOSPRayRenderer constructor, renderer 0x2b66c10
+ALOK: vtkOSPRayManager constructor, manager 0x2b67270
 vtkOSPRayManager::alokPrint()--------------------------------------------------
-	this: 0x2481270
+	this: 0x2b67270
 	OSPRayModel: 0
 	OSPRayRenderer: 0
 	OSPRayCamera: 0
@@ -205,9 +205,9 @@ vtkOSPRayManager::alokPrint()--------------------------------------------------
 	OSPRayVolumeModel: 0
 	OSPRayVolumeRenderer: 0
 -------------------------------------------------------------------------------
-ALOK: vtkOSPRayManager constructor inside if, manager 0x2481270
+ALOK: vtkOSPRayManager constructor inside if, manager 0x2b67270
 vtkOSPRayManager::alokPrint()--------------------------------------------------
-	this: 0x2481270
+	this: 0x2b67270
 	OSPRayModel: 0
 	OSPRayRenderer: 0
 	OSPRayCamera: 0
@@ -304,7 +304,7 @@ Xfer::Update: Sending: opcode=27, name=NonBlockingRPC::CompletionData (from Exec
 Done executing avtActualExtentsFilter
 Filter avtLowerResolutionVolumeFilter releasing its data
 Done Updating avtActualExtentsFilter
-Memory after first execution was: size = 837033984, rss = 110743552
+Memory after first execution was: size = 837033984, rss = 106565632
 Done with iterating Updates on pipeline 1
 Xfer::Update: Sending: opcode=27, name=NonBlockingRPC::CompletionData (from ExecuteRPC)
 Xfer::Update: Sending: opcode=27, name=NonBlockingRPC::CompletionData (from ExecuteRPC)

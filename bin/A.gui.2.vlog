@@ -387,4 +387,8 @@ Object[26] = GetDBPluginInfoRPC
 Object[27] = DBPluginInfoAttributes (from GetDBPluginInfoRPC)
 Object[28] = SetMFileOpenOptionsRPC
 Object[29] = VisItRPC::RPCReply (from SetMFileOpenOptionsRPC)
+Sending keep alive signal to mdserver on blackrock.engr.utk.edu
+Sending keep alive signal to mdserver on localhost
+Saving crash recovery file: /home/ahota/.visit/crash_recovery.session
+Removing crash recovery gui file: /home/ahota/.visit/crash_recovery.session.gui
 Telling viewer to close.

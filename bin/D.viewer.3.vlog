@@ -1,4 +1,4 @@
-/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key ba536ba7652d52ad1716 
+/export/ahota/visit/visitOSPRay/visit2.8.1/src/exe/viewer -debug 5 -manta -geometry 1402x980+518+50 -borders 23,4,2,2 -shift 2,25 -preshift 0,-2 -defer -dv -host 127.0.0.1 -port 5600 -key dd3ac666b8845d5c9add 
 Viewer using font: Helvetica,12,-1,5,50,0,0,0,0,0
 Trying to load translator file: /export/ahota/visit/visitOSPRay/visit2.8.1/src//resources/translationsvisit_en_US
 Could not load translation.
@@ -24,7 +24,7 @@ Arguments:
 	-port
 	5600
 	-key
-	ba536ba7652d52ad1716
+	dd3ac666b8845d5c9add
 ViewerFileServer::StartServer: Creating on localhost
 Executing GetDirectoryRPC RPC
 Xfer: Number of objects: 30
@@ -301,12 +301,12 @@ Executing SetMFileOpenOptionsRPC
 Adding SetWindowModeRPC to the general toolbar
 Adding EnableToolRPC to the general toolbar
 ViewerWindowManager::UpdateAnnotationObjectList: delay=false
-ViewerWindowManager::UpdateAnnotationObjectList: delay=true
-ViewerWindowManager::UpdateAnnotationObjectList: delay=false
-ViewerWindowManager::UpdateAnnotationObjectList: delay=false
-DiscoverClientInformation: clear the client information list and send _QueryClientInformation to all clients. 
 Forcing GL context initialization...
 Unknown if transparencies exist; recalculating (this requires global communication).
+ViewerWindowManager::UpdateAnnotationObjectList: delay=true
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
+DiscoverClientInformation: clear the client information list and send _QueryClientInformation to all clients. 
+ViewerWindowManager::UpdateAnnotationObjectList: delay=false
 client[0] = gui
 methods:
 	Quit()
@@ -335,7 +335,7 @@ Arguments:
 	-port
 	5600
 	-key
-	a52b9974770de8c1d17f
+	7b495fc2ad0b0eef675d
 ViewerFileServer::StartServer: Creating on localhost
 Executing GetDirectoryRPC RPC
 Xfer: Number of objects: 30
@@ -377,7 +377,7 @@ ViewerSubject::OpenDatabaseHelper: ExpandDatabaseName(blackrock.engr.utk.edu:/ex
 ViewerSubject::OpenDatabaseHelper: Calling GetMetaDataForState(blackrock.engr.utk.edu, /export/ahota/vol/vtk/dataset2.vtk, 0, )
 Executing GetMetaData RPC on file /export/ahota/vol/vtk/dataset2.vtk, timestate=0, forceReadAllCyclesAndTimes = 0, forcedFileType = , treatAllDBsAsTimeVarying = 0, createMeshQualityExpressions = 1, createTimeDerivativeExpressions = 1, createVectorMagnitudeExpressions = 1
 ViewerSubject::OpenDatabaseHelper: Creating engine key from host=blackrock.engr.utk.edu, sim=
-ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x466ac60
+ViewerEngineManager::CreateEngineEx: ek=blackrock.engr.utk.edu, args={}, skipChooser=false, numRestarts_=2, reverseLaunch=false, dialog=0x1d6d8e0
 ViewerHostProfileSelectorWithWin::SelectProfile
    Got a machine profile for host 'blackrock.engr.utk.edu'
      It has 4 launch profiles
