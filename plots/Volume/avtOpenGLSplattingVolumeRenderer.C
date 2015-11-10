@@ -738,8 +738,8 @@ avtOpenGLSplattingVolumeRenderer::Render(
 
 vtkOSPRayRenderer *ren = vtkOSPRayRenderer::New();
 vtkOSPRayVolumeRayCastMapper *mapper = vtkOSPRayVolumeRayCastMapper::New();
-vtkColorTransferFunction *trans_func = vtkColorTransferFunction::New();
-vtkPiecewiseFunction *opacity = vtkPiecewiseFunction::New();
+vtkColorTransferFunction *trans_func = NULL;
+vtkPiecewiseFunction *opacity = NULL;
 vtkVolumeProperty *prop = vtkVolumeProperty::New();
 
 void setup() {
@@ -808,7 +808,7 @@ avtOSPRayVolumeRenderer::avtOSPRayVolumeRenderer()
 
 avtOSPRayVolumeRenderer::~avtOSPRayVolumeRenderer()
 {
-    
+    debug5 << "ALOK: avtOSPRayVolumeRenderer destructor" << endl;
     /*
     ren->Delete();
     mapper->Delete();
@@ -911,6 +911,8 @@ avtOSPRayVolumeRenderer::Render(
     float min = volume.data.min;
     float max = volume.data.max;
     float range = max - min;
+    trans_func = vtkColorTransferFunction::New();
+    opacity = vtkPiecewiseFunction::New();
     for(int i = 0; i < 256; i++) {
         float pos = min + (i/255.f)*range;
         trans_func->AddRGBPoint(pos, rgba[4*i], rgba[4*i+1], rgba[4*i+2]);
@@ -945,7 +947,10 @@ avtOSPRayVolumeRenderer::Render(
     //ren->LayerRender();
 
     debug5 << "\tRemoving volume" << endl;
-    //ren->RemoveVolume(vol);
+    ren->RemoveVolume(vol);
+
+    trans_func->Delete();
+    opacity->Delete();
     
 }
 #endif
